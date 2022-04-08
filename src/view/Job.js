@@ -54,7 +54,7 @@ const Job = () => {
 
             </Helmet>
 
-
+            {status ?
             <div className="jobs-offered full-w">
                 <div className="container py-20">
                     <div className="row">
@@ -152,6 +152,7 @@ const Job = () => {
                 </div>
 
             </div>
+            : <img src={fun} className="w-screen" alt="careerera-loader-image" />}
         </>
     )
 }
