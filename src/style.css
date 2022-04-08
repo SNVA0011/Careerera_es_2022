@@ -326,7 +326,7 @@ hr.w-20.hr.hrcer-cr{opacity:1;background:#3e3f43;border-radius:50px;height:5px !
 .application_process_sec .tt-iconbox-customimg img{margin:auto;display:inline;}
 .application_process_sec .col-12:hover{box-shadow:rgb(91 132 193 / 10%) 0px 15px 50px;background-color:#fff;}
 .sepfoll-hr{background:#084f99;opacity:1;border-radius:30px;width:70px;position:relative;overflow:visible;height:2px !important;}
-.sepfoll-hr::before{content:"";width:12px;height:12px;background:#ffffff;position:absolute;bottom:-4px;box-shadow:0 0 0 3px #fff;left:50%;transition:all 700ms ease 0s;border:2px dotted #00acee;margin-left:-6px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}
+.sepfoll-hr::before{content:"";width:12px;height:12px;background:#ffffff;position:absolute;bottom:-4px;box-shadow:0 0 0 3px #fff;left:50%;transition:all 700ms ease 0s;border:3px groove #00acee;margin-left:-6px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}
 .staffingsol .training-room .why-datasciencesuf .sepfoll-hr::before{box-shadow:0 0 0 3px #376595;border-color:#275585;}
 .testimonials-areamock.whyobject-sc.exc .why-datasciencesuf.whatwe .sepfoll-hr::before,
 .training-room .why-datasciencesuf .sepfoll-hr::before{     box-shadow: 0 0 0 0 #315f8f;
@@ -615,6 +615,10 @@ img.dotstp{margin-bottom:-50px;position:relative;left:-34px;}
 .indexhome .media-prtslider .owl-carousel .owl-dots{margin-top:10px;}
 .indexhome .media-prtslider .owl-carousel .owl-dots{position:relative;z-index:5;}
 .certification-courseslight .sepfoll-hr::before{box-shadow:0 0 0 3px #eff2f9;}
+.master-progsection .certification-courseslight .sepfoll-hr::before {
+    box-shadow: 0 0 0 3px #e6e8f7;
+    background: #e6e8f7;
+}
 .mockprocess{overflow:hidden;}
 .mocktest-page .disclaimer-bx.background_contactus_mocktest{    background-attachment: initial;
     background-size: cover;}
@@ -845,8 +849,25 @@ body .our_faq_sec.custom_locationall .accordion-header button{font-weight:600;}
 .curriculum-masterid .panel-collapse ul{padding-left:1.1rem;list-style-type:disc;margin-bottom:0;}
 .curriculum-masterid .panel-collapse ul li{margin-bottom:6px;}
 .curriculum-masterid .panel-collapse ul li:last-child ul,.curriculum-masterid .panel-collapse ul li:last-child{margin-bottom:0;}
-.curriculum-masterid .panel-heading{box-shadow:0px 9px 14px 0px rgb(0 0 0 / 4%), 0px -1px 14px 0px rgb(0 0 0 / 3%);font-weight:700;background:rgb(255,255,255);background:-moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(244,244,244,1) 100%);background:-webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(244,244,244,1) 100%);background:linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(244,244,244,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4',GradientType=0 );padding-top:18px;padding-bottom:18px;border-radius:12px;border-bottom:solid 3px #fafafa;font-size:18px;}
-.curriculum-masterid .panel.panel-default{box-shadow:0px 9px 14px 0px rgb(0 0 0 / 4%), 0px -1px 14px 0px rgb(0 0 0 / 3%);background:#ffffff;margin-bottom:30px;border-radius:12px;}
+.curriculum-masterid .panel-heading{box-shadow:0px 9px 14px 0px rgb(0 0 0 / 4%), 0px -1px 14px 0px rgb(0 0 0 / 3%);font-weight:700;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(238,243,248,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,243,248,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(238,243,248,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eef3f8',GradientType=0 );
+    padding-top:18px;padding-bottom:18px;border-radius:12px;
+    border-bottom:solid 3px rgb(8 79 153 / 12%);
+    text-shadow: 2px 2px 0 rgb(2 40 93 / 10%);
+    color: #07519f;
+    font-size:18px;}
+    #FAQ .accordion-body ul {
+        list-style: disc;
+        padding-left: 21px;
+    }
+    #FAQ .accordion-body ul p:last-child {
+        margin-bottom: 4px;
+    }
+    .curriculum-masterid .panel.panel-default{box-shadow:0px 9px 14px 0px rgb(0 0 0 / 4%), 0px -1px 14px 0px rgb(0 0 0 / 3%);background:#ffffff;margin-bottom:30px;border-radius:12px;}
 .curriculum-masterid .panel.panel-default:last-child{margin-bottom:15px;}
 .curriculum-masterid .panel-heading h4{font-weight:700;}
 .curriculum-masterid .panel-heading h4 a{pointer-events:none;}

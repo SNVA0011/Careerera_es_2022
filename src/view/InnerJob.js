@@ -5,7 +5,6 @@ import { Helmet } from 'react-helmet'
 import Hero from "../Atoms/Hero";
 import fun from "../Images/fun4.gif"
 
-
 const InnerJob = () => {
     const job = useParams();
     console.log("jobid", job)

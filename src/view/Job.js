@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Hero from "../Atoms/Hero";
 import { Helmet } from 'react-helmet'
 import { CurrencyContxt } from "../Atoms/Contextcurrency";
+import fun from "../Images/fun4.gif"
 
 
 const Job = () => {
