@@ -43,7 +43,7 @@ const Explore = () => {
     return (
         <div className="full-w explore-our-data" id="explore">
             <div className="container pt-16 pb-12">
-                <h1 className='text-4xl font-bold text-gray-800'>Explore nuestros datos <span className="text-blue-500"> Cursos de ciencia </span></h1>
+                <h1 className='text-4xl font-bold text-gray-800'>Explore nuestros datos <span className="text-blue-500 sitblu-clrsite"> Cursos de ciencia </span></h1>
                 <p className='text-lg font-semibold text-gray-600'>Vea qué beneficios puede obtener al unirse a este programa.</p>
 
                 <div className='hidden md:block'>

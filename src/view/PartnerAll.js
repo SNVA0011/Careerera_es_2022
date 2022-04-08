@@ -29,7 +29,7 @@ const PartnerAll = () => {
                     <div className="row">
 
                         <div className="col-lg-10 col-xl-8 mx-auto col-12 text-center">
-                            <h1 className="text-center text-gray-700 font-bold text-3xl md:text-4xl uppercase">Nuestro <span className="text-blue-500">Compañera</span></h1>
+                            <h1 className="text-center text-gray-700 font-bold text-3xl md:text-4xl uppercase">Nuestro <span className="text-blue-500 sitblu-clrsite">Compañera</span></h1>
                             <h3 className='text-gray-500 text-base md:text-lg fw-medium '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h3>
                             <hr className="w-20 hr mb-6 bg-blue-400 sepfoll-hr mx-auto" />
                         </div>

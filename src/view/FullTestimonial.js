@@ -73,7 +73,7 @@ const FullTestimonial = () => {
                         <div className="container pt-20 pb-8">
                             <div className="row">
                                 <div className="col-lg-10 col-xl-8 mx-auto col-12 text-center">
-                                    <h1 className="text-center text-gray-700 font-bold text-3xl md:text-4xl uppercase">LO QUE DICE  <span className="text-blue-500">LA GENTE</span></h1>
+                                    <h1 className="text-center text-gray-700 font-bold text-3xl md:text-4xl uppercase">LO QUE DICE  <span className="text-blue-500 sitblu-clrsite">LA GENTE</span></h1>
                                     <hr className="w-20 hr mb-6 bg-blue-400 sepfoll-hr mx-auto" />
                                 </div>
                             </div>
@@ -137,7 +137,7 @@ const FullTestimonial = () => {
 
                             <div className="row">
                                 <div className="col-lg-10 col-xl-8 mx-auto col-12 text-center">
-                                    <h3 className="text-center text-gray-700 font-bold text-3xl md:text-4xl uppercase">Comenta<span className="text-blue-500">rios</span></h3>
+                                    <h3 className="text-center text-gray-700 font-bold text-3xl md:text-4xl uppercase">Comenta<span className="text-blue-500 sitblu-clrsite">rios</span></h3>
                                     <p className="text-gray-500 text-base md:text-lg fw-medium">Lo que dicen nuestras estudiantes</p>
                                     <hr className="w-20 hr mb-6 bg-blue-400 sepfoll-hr mx-auto" />
                                 </div>

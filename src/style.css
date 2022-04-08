@@ -45,7 +45,10 @@ b, strong{
 .date_freec{word-break:normal;white-space:nowrap;width:88px;border-radius:4px;box-shadow:-6px 6px 0px 0px #17233c;text-shadow:-1px 1px 2px rgb(0 0 0 / 60%);font-weight:700;letter-spacing:1.2px;padding-left:6px !important;padding-right:6px !important;}
 .btn.fw-medium, .fw-medium{font-weight:500;}
 .date_freec span{color:#f7bc23;}
-.partner:hover{background-image:linear-gradient(to right, rgb(27, 93, 216), rgb(27, 122, 246));color:white;transform:scale(1.1);transition:transform 3s;}
+
+ 
+.partner:hover{background-image:linear-gradient(to right, rgb(27, 93, 216), rgb(27, 122, 246));color:white;
+}
 .fw-medium.input-group-text{font-weight:600;}
 .form-annum{width:100%;background-color:#fff;border-radius:14px;padding:40px;box-shadow:rgb(0 0 0 / 10%) 0px 4px 24px;}
 form.form-annum .form-select option, form.form-annum .form-control, form.form-annum .form-select, form.form-annum .btn, form.form-annum .input-group-text{font-size:15px;}
@@ -540,6 +543,9 @@ img.dotstp{margin-bottom:-50px;position:relative;left:-34px;}
 .testimonials-areamock .slidebg-h{overflow:hidden;}
 .testimonials-areamock .slidebg-h::before{top:auto;right:-60px;left:auto;bottom:-60px;width:125px;height:125px;}
 .testimonials-areamock.whatstu .sepfoll-hr::before{box-shadow:0 0 0 3px #d5e8ff;}
+.libcomeclr{
+    background-color: #d5e8ff;
+}
 .disclaimer-bx.background_contactus_mocktest{background-attachment:fixed;background-size:auto;background-repeat:repeat;}
 .indexhome .btn-site{padding-top:9px !important;padding-bottom:9px !important;}
 .mocktest-page .testimonials-areamock .text-3xl{font-size:1.875rem;line-height:2.25rem;}
@@ -865,7 +871,7 @@ body .our_faq_sec.custom_locationall .accordion-header button{font-weight:600;}
         padding-left: 21px;
     }
     #FAQ .accordion-body ul p:last-child {
-        margin-bottom: 4px;
+        margin-bottom: 2px;
     }
     .curriculum-masterid .panel.panel-default{box-shadow:0px 9px 14px 0px rgb(0 0 0 / 4%), 0px -1px 14px 0px rgb(0 0 0 / 3%);background:#ffffff;margin-bottom:30px;border-radius:12px;}
 .curriculum-masterid .panel.panel-default:last-child{margin-bottom:15px;}
@@ -1277,6 +1283,15 @@ animation-direction: normal;
 animation-fill-mode: none;
 animation-play-state: running;
 }
+.certification-courseslight .sepfoll-hr.weeksz::before {
+    box-shadow: 0 0 0 3px #e6e8f7;
+}
+
+
+
+
+
+
  
  /* responsive media */
  

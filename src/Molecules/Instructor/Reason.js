@@ -14,7 +14,7 @@ const Reason = () => {
 
             <div className="container py-16">
                 <h1 className="font-bold text-3xl md:text-4xl text-center mb-5 text-black">
-                    Grandes razones para convertirse en un <span className="text-blue-500">
+                    Grandes razones para convertirse en un <span className="text-blue-500 sitblu-clrsite">
                         entrenador de carrera
                     </span>
                     <div className="border-t-2 border-gray-400 w-14 mt-3 mb-2 mx-auto"></div>

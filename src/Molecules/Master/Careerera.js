@@ -8,7 +8,7 @@ const Careerera = (props) => {
             <div className="full-w enroll-sduwhy scroll-spbx" id="Careera">
                 <div className="container py-16">
                     <div className="text-left">
-                        <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 text-capitalize">Por qué <span className="text-blue-500">Careerera</span>
+                        <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 text-capitalize">Por qué <span className="text-blue-500 sitblu-clrsite">Careerera</span>
                         </p>
                         {props.lomejores ?
                             <p className="text-base md:text-lg font-semibold text-gray-600">{props.lomejores}</p>

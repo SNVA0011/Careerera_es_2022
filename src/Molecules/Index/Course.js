@@ -73,7 +73,7 @@ const Course = () => {
               </h3>
               <p className="text-center text-gray-700 font-bold text-3xl md:text-4xl lg:text-5xl mb-4">
                 <span className="d-inline-block procur"><AnimatedNumbers animateToNumber={totalcour === '' ? exactData[0].Course.length : totalcour}></AnimatedNumbers></span>
-                + {' '} <span className="text-blue-500"> Profesional</span> Cursos
+                + {' '} <span className="text-blue-500 sitblu-clrsite"> Profesional</span> Cursos
               </p>
 
               {widthsc < 992 ? '' :

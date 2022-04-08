@@ -52,7 +52,7 @@ class Partner extends React.Component {
                         <div className="row">
 
                             <div className="col-lg-6 col-12">
-                                <p className="text-left text-3xl md:text-4xl lg:text-5xl font-bold text-gray-600 mb-2">Nuestra <span className="text-blue-500">Compañera</span></p>
+                                <p className="text-left text-3xl md:text-4xl lg:text-5xl font-bold text-gray-600 mb-2">Nuestra <span className="text-blue-500 sitblu-clrsite">Compañera</span></p>
                                 <p className='text-base md:text-lg'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                             </div>
  

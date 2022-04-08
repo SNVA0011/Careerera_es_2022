@@ -85,7 +85,7 @@ const Testimonial = (props) => {
 
                                 {/* <p className="text-center text-6xl font-bold text-gray-600 mb-6">In The Media</p> */}
                                 <p className="text-3xl md:text-4xl  lg:text-5xl  font-bold text-gray-700 mb-3  softwarelike">
-                                Nuestra {props.title1} <span className="text-blue-500"> {props.title2}</span>
+                                Nuestra {props.title1} <span className="text-blue-500 sitblu-clrsite"> {props.title2}</span>
                                 </p>
                                 <div className='clearfix w-100'></div>
 

@@ -11,7 +11,7 @@ const Courses = () => {
       {Catsts ?
         <div id="FAQ">
           <div className="lg:pl-40 lg:pr-40 pl-8 pr-8 pt-8  pb-8">
-            <h1 className="font-bold text-4xl">Curso de Ciencia de Datos   <span className="text-blue-500"> Certificación </span></h1>
+            <h1 className="font-bold text-4xl">Curso de Ciencia de Datos   <span className="text-blue-500 sitblu-clrsite"> Certificación </span></h1>
             <p className="text-gray-700 font-semibold mt-2">Acerca del curso de certificación de ciencia de datos</p>
             <div className="grid grid-cols-1 gap-4">
               <div>

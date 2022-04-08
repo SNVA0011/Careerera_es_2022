@@ -81,7 +81,7 @@ export default function Courses() {
                         </h3>
                         <p className="text-center text-gray-700 font-bold text-3xl md:text-4xl lg:text-5xl mb-0">
                             <span className="d-inline-block procur"><AnimatedNumbers animateToNumber={totalcour === '' ? exactData.filter((item) => item.new_label === '1').length : totalcour[0]}></AnimatedNumbers></span>
-                            + {' '} <span className="text-blue-500"> Profesional</span> Cursos
+                            + {' '} <span className="text-blue-500 sitblu-clrsite"> Profesional</span> Cursos
                         </p>
                         <div className="pt-4 megamenu-wrapper media-prtslider">
                             <div className='ourclient-staffing'>

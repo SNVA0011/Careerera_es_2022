@@ -11,24 +11,24 @@ import AnimatedNumbers from "react-animated-numbers";
 
 const How = () => {
     return (
-        <div className='full-w how-tobecome-teach testimonials-areamock whyobject-sc exc text-center text-black'>
+        <div className='full-w how-tobecome-teach certification-courseslight full-w whyobject-sc exc text-center text-black'>
             <div className='py-16'>
                 <div className="container">
-                    <div className="mt-0">
+                <div className="mt-0">
                         <h1 className="font-bold text-3xl md:text-4xl text-center mb-3 text-black">
-                            Cómo convertirse en un <span className="text-blue-500">
+                            Cómo convertirse en un <span className="sitblu-clrsite">
                                 Careerera
                             </span>
                         </h1>
 
-                        <p className='text-gray-600 mb-2 md:text-lg'>
+                        <p className='text-gray-700 mb-2 md:text-lg font-semibold'>
                             Careerera requiere excelentes habilidades de comunicación y experiencia y conocimientos técnicos prácticos. Un título, además de formación avanzada y experiencia docente son muy deseables. Debe poder enseñar un mínimo de 6 semanas por año, con un compromiso de 8-14 semanas de preferencia.
                         </p>
-                        <h4 className="font-semibold text-base">
+                        <h4 className="font-semibold text-base sitblu-clrsite bg-white d-inline-block px-3 py-1 rounded-2xl mb-3">
                             Nuestro Proceso de Selección y Formación
                         </h4>
 
-                        <hr className="w-20 hr mb-4 bg-blue-400 sepfoll-hr mx-auto" />
+                        <hr className="w-20 hr mb-4 bg-blue-400 sepfoll-hr mx-auto weeksz" />
                     </div>
 
                     <div className="row pt-10">
@@ -36,9 +36,9 @@ const How = () => {
                             <div className="justify-content-center flex">
                                 <img alt='Interview' src={application} className="" width="80" />
                             </div>
-                            <div className="text-center partner mt-2 rounded-2xl p-4">
+                            <div className="text-center partner  rounded-2xl p-4">
                                 <h4 className="font-bold  ">Entrevista</h4>
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed font-medium  md:text-lg">
                                     Primero, entrevistamos a los candidatos para asegurarnos de que tengan sólidas habilidades de comunicación para que puedan transmitir su experiencia de manera efectiva.
                                 </p>
                             </div>
@@ -48,9 +48,9 @@ const How = () => {
                             <div className="justify-content-center flex">
                                 <img alt='Author Interview' src={schedule} className="" width="80" />
                             </div>
-                            <div className="text-center partner mt-3 rounded-2xl p-4">
+                            <div className="text-center partner  rounded-2xl p-4">
                                 <h4 className="font-bold  ">Entrevista al autor</h4>
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed font-medium  md:text-lg">
                                     A continuación, el autor del curso lleva a todos los candidatos a través de
                                     una lista de verificación detallada para asegurarse de que tienen tanto la
                                     conocimientos técnicos y experiencia laboral práctica
@@ -63,9 +63,9 @@ const How = () => {
                             <div className="justify-content-center flex">
                                 <img alt='Train-the-Trainer Program' src={discuss} className="" width="80" />
                             </div>
-                            <div className="text-center partner mt-3 rounded-2xl p-4">
+                            <div className="text-center partner  rounded-2xl p-4">
                                 <h4 className="font-bold  ">Programa de formación de formadores</h4>
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed font-medium  md:text-lg">
                                     Todos los candidatos luego pasan por nuestro intensivo
                                     Programa Train-the-Trainer donde aprenden los
                                     últimas técnicas en Aprendizaje Activo. Graduarse,
@@ -78,9 +78,9 @@ const How = () => {
                             <div className="justify-content-center flex">
                                 <img alt='Course Audit' src={tool} className="" width="80" />
                             </div>
-                            <div className="text-center partner mt-4 rounded-2xl p-4">
+                            <div className="text-center partner  rounded-2xl p-4">
                                 <h4 className="font-bold">Auditoría del curso</h4>
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed font-medium  md:text-lg">
                                     Los candidatos exitosos luego auditan el curso que
                                     enseñará y presentará parte del curso para
                                     evaluación por parte del instructor principal para un
@@ -93,9 +93,9 @@ const How = () => {
                             <div className="justify-content-center flex">
                                 <img alt='Co-Teach' src={pen} className="" width="80" />
                             </div>
-                            <div className="text-center partner mt-4 rounded-2xl p-4">
+                            <div className="text-center partner  rounded-2xl p-4">
                                 <h4 className="font-bold">co-enseñar</h4>
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed font-medium  md:text-lg">
                                     Los candidatos más exitosos enseñan juntos un
                                     curso con un instructor experimentado que actúe como
                                     su mentor Presentan la mitad o más de los
@@ -108,9 +108,9 @@ const How = () => {
                             <div className="justify-content-center flex">
                                 <img alt='Solo Teac' src={meet} className="" width="80" />
                             </div>
-                            <div className="text-center partner mt-4 rounded-2xl p-4">
+                            <div className="text-center partner  rounded-2xl p-4">
                                 <h4 className="font-bold">Enseñar solo</h4>
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed font-medium  md:text-lg">
                                     Finalmente, el candidato es asignado a una enseñanza individual.
                                     Los asistentes al curso completan evaluaciones detalladas de todos los instructores, y estas se utilizan para identificar actividades de desarrollo en curso que mejoran constantemente sus puntajes.
                                 </p>
