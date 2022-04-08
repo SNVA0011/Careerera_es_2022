@@ -126,7 +126,6 @@ const Index = () => {
                 title1="Estudiantes"
                 title2="Revisar" />
 
-
             <Disclaimer />
         </div>
     )
