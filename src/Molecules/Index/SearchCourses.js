@@ -8,9 +8,9 @@ import { Link, useNavigate } from 'react-router-dom'
 
 export default function SearchCourses() {
     // Api courses
-    const { value1, value2 } = useContext(Context)
-    const [exactData, setData] = value1
-    const [status, loadStatus] = value2
+    const { value13, value14 } = useContext(Context)
+    const [exactData, setData] = value13
+    const [status, loadStatus] = value14
 
     // Modal
     const [coursesname, setCoursesname] = useState('')
@@ -69,24 +69,26 @@ export default function SearchCourses() {
                             }>
                             {
                             exactData.length > 0 ?
-                            exactData.map((item, i) =>
-                                item.Course.filter(({ CourseTitel }) =>
-                                        coursesname === '' ||
-                                        CourseTitel.toLowerCase().includes(coursesname.toLowerCase()
-                                        )).map((subitem, i) => (
-                                    <li
-                                        key={subitem.course_id}
-                                        className="dropdown-item p-0 rounded-0">
-                                        <Link
-                                            to={subitem.courseFUllURL}
-                                            key={subitem.course_id}
-                                            className="dropdown-item rounded-0 py-2"
-                                            onClick={()=>{handleClose()}}>
-                                            {subitem.CourseTitel}
-                                        </Link> 
-                                    </li>
-                                ))
-                            ):''}
+                           
+
+                            exactData.filter(({ CourseTitel }) =>
+                            coursesname === '' ||
+                            CourseTitel.toLowerCase().includes(coursesname.toLowerCase()
+                            )).map((subitem, i) => (
+                        <li
+                            key={subitem.course_id}
+                            className="dropdown-item p-0 rounded-0">
+                            <Link
+                                to={subitem.courseFUllURL}
+                                key={subitem.course_id}
+                                className="dropdown-item rounded-0 py-2"
+                                onClick={()=>{handleClose()}}>
+                                {subitem.CourseTitel}
+                            </Link> 
+                        </li>
+                            ))
+
+                              : '' }
                         </ul>
                     </div>
                 </Modal.Body>

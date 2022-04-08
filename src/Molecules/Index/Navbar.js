@@ -143,11 +143,11 @@ const Navbars = () => {
               </Provider>
             </div>
 
-            {/* <div className=" ml-4 pr-lg-2 text-right text-lg-left">
+            <div className=" ml-4 pr-lg-2 text-right text-lg-left">
               <Provider>
                 <SearchCourses />
               </Provider>
-            </div> */}
+            </div>
           </div>
 
         </div>

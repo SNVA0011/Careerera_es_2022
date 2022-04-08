@@ -1425,7 +1425,7 @@ table.table.min-widen-200.table-bordered{min-width:890px;}
 
  .carousel .carousel-control-next, .carousel .carousel-control-prev{width:9%;}
  .full-w.des-explornav .navbar-dark .navbar-nav .nav-link.active:after{display:none;}
- .header-top .rounded-circle.rounded-scourses{border:none;padding:0;font-size:20px;background:transparent;color:#6c757d;}
+ .header-top .rounded-circle.rounded-scourses{border:none;margin-right: -12px;font-size:20px;background:transparent;color:#6c757d;}
  .header-top .mainlogo-dblock{text-align:center;}
  .header-top .mainlogo-dblock .d-inline-block.align-middle.mr-10{margin-right:0;margin-left:0;}
  .our_faq_sec.profcourmore .accordion-body{padding-left:16px !important;padding-right:16px !important;padding-bottom:20px;}
