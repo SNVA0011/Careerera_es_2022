@@ -329,9 +329,10 @@ hr.w-20.hr.hrcer-cr{opacity:1;background:#3e3f43;border-radius:50px;height:5px !
 .sepfoll-hr::before{content:"";width:12px;height:12px;background:#ffffff;position:absolute;bottom:-4px;box-shadow:0 0 0 3px #fff;left:50%;transition:all 700ms ease 0s;border:2px dotted #00acee;margin-left:-6px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}
 .staffingsol .training-room .why-datasciencesuf .sepfoll-hr::before{box-shadow:0 0 0 3px #376595;border-color:#275585;}
 .testimonials-areamock.whyobject-sc.exc .why-datasciencesuf.whatwe .sepfoll-hr::before,
-.training-room .why-datasciencesuf .sepfoll-hr::before{    box-shadow: 0 0 0 0 #315f8f;
+.training-room .why-datasciencesuf .sepfoll-hr::before{     box-shadow: 0 0 0 0 #315f8f;
     border-color: #275585;
-    background: #2888eb;}
+    background: #638dbd;
+    border-style: dashed;}
 .start-yourcareer .sepfoll-hr::before{box-shadow:0 0 0 3px #fafafa;}
 .application_process_sec .col-12{-webkit-transition:all 0.2s;-moz-transition:all 0.2s;-o-transition:all 0.2s;transition:all 0.2s}
 .our_faq_sec.custom_locationall .accordion-header .btn-site.invert{min-width:61px;padding:5px 6px 3px;font-size:12px;pointer-events:none;margin-left:0;position:relative;margin-top:-11px;top:7px;}
