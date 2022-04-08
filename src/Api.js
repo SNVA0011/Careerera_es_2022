@@ -169,12 +169,7 @@ export const Provider = (props) => {
         })
     }
 
-    console.log('allbatchesLoad->', allbatchesLoad)
-    allbatchesLoad ?
-        console.log('Allbatches-->', allbatches)
-        :
-        console.log('loading allbatchesLoad...' + 'https://es.careerera.com/API/course/AllBatchList.php?Language=2&timeZone=' + contextcur.currency)
-
+   
     useEffect(() => {
         getData()
         getCourse()
