@@ -246,7 +246,7 @@ a.mailto-footer:hover{color:rgb(0, 159, 225)}
 .btn-site::before{height:150%;left:-1300%;top:-10px;transform:skew(50deg);-ms-transform:skew(50deg);-o-transform:skew(50deg);-webkit-transform:skew(50deg);transform-origin:bottom;-o-transform-origin:bottom;-ms-transform-origin:bottom;-webkit-transform-origin:bottom;width:100%;}
 .btn-site:hover:before{width:195%;left:-25%;}
 .btn-site span{position:relative;z-index:2;}
-.full-w.start-yourcareer.relatedcr .accordion-button{transition:none;border:none;font-weight:600;color:#4f4f4f;padding-top:12px;padding-bottom:12px;}
+.full-w.start-yourcareer.relatedcr .accordion-button{transition:none;border:none;font-weight:600;color:#4f4f4f;padding-top:12px;padding-bottom:12px; background: #fff;}
 .full-w.start-yourcareer.relatedcr .accordion-button[aria-expanded="true"]{background:rgb(8 79 153);color:#fff;border-color:rgb(8 79 153);}
 .full-w.start-yourcareer.relatedcr .table>:not(:first-child){border:none;}
 .full-w.start-yourcareer.relatedcr .table>:not(caption)>*>*{border-color:#ddd;}
