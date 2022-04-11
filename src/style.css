@@ -64,7 +64,7 @@ form.form-annum textarea.form-control{height:auto;}
 .blog_bxrowpagi .dots{display:none;}
 .blog_bxrowpagi .dots.activedot{display:inline-block;}
 .countryflag-menu.dropdown .dropdown-menu img{box-shadow:-2px 2px 4px rgb(128 152 163 / 39%);}
-.countryflag-menu.dropdown .dropdown-toggle.btn-primary.dropdown-toggle{background-color:#ffffff;border-color:#f1f1f1;color:#084f99;width:auto;display:flex;justify-content:space-between;align-items:center;padding:10px 12px;border-radius:8px;font-weight:500;box-shadow:none;background:url('../src/Images/reviews_area.jpg');background-size:230%;background-position:left center;border:none;padding-right:0;}
+.countryflag-menu.dropdown .dropdown-toggle.btn-primary.dropdown-toggle{background-color:#ffffff;border-color:#f1f1f1;color:#084f99;width:auto;display:flex;justify-content:space-between;align-items:center;padding:10px 12px;border-radius:8px;font-weight:500;box-shadow:none;background:url('../src/Images/reviews_area.jpg');background-size:250%;background-position:left center;border:none;padding-right:0;}
 .countryflag-menu.dropdown .dropdown-toggle::after{margin-left:8px;transition:all 0.2s ease;-ms-transition:all 0.2s ease;-moz-transition:all 0.2s ease;-webkit-transition:all 0.2s ease;-o-transition:all 0.2s ease;}
 .countryflag-menu.dropdown .dropdown-toggle.btn-primary.dropdown-toggle .w-100{text-align:left;}
 .countryflag-menu.dropdown .dropdown-toggle img{border-radius:4px;width:27px; box-shadow: 0 1px 5px #ccc;height:auto;image-rendering:crisp-edges;image-rendering:-moz-crisp-edges;image-rendering:-o-crisp-edges;image-rendering:-webkit-optimize-contrast;position:relative;top:-1px;margin-right:9px;}
