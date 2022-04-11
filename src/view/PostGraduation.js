@@ -36,7 +36,7 @@ const PostGraduation = () => {
 
                         <div className="row">
                             <div className="col-lg-10 col-xl-8 mx-auto col-12 text-center">
-                                <h1 className="text-center text-gray-700 font-bold text-3xl md:text-4xl uppercase">PROGRAMA DE <span className="text-blue-500 d-inline-block">POSTGRADO</span></h1>
+                                <h1 className="text-center text-gray-700 font-bold text-3xl md:text-4xl uppercase">PROGRAMA DE <span className="text-blue-500 sitblu-clrsite d-inline-block">POSTGRADO</span></h1>
                                 <hr className="w-20 hr mb-6 bg-blue-400 sepfoll-hr mx-auto" />
                             </div>
                         </div>
