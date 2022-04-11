@@ -5,14 +5,13 @@ import homeslideredu from "../../Images/about5.png";
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-
-
 import c1 from "../../Images/c1.jpg";
 import c2 from "../../Images/c2.jpg";
 import c3 from "../../Images/c3.jpg";
 import c5 from "../../Images/c5.jpg";
 import c6 from "../../Images/c6.jpg";
 import i1 from "../../Images/banner.svg";
+import courOnline from "../../Images/online-learning-cour.png";
 
 const Hero = () => {
 
@@ -75,8 +74,6 @@ const Hero = () => {
         </div>
 
 
-
-
         <div className="container py-16">
           <div className="row align-items-center">
 
@@ -87,7 +84,17 @@ const Hero = () => {
                 <span className="orange-clrsite">Carrera Avanzada</span>
               </h1>
               <div className="border-t-2 border-gray-500 w-5 mb-3"></div>
-              <h2 className="text-lg md:text-xl lg:text-xl lg:text-2xl font-semibold mb-0 text-white">APRENDE CURSOS <span className="font-semibold d-block d-sm-inline-block text-yellow-400">EN VIVO Y EN LÍNEA</span></h2>
+
+              <div className="d-flex liveonlinesp">
+                <div className="w-20 text-left">
+                  <img src={courOnline} alt="live and online"></img>
+                </div>
+                <div className="pt-sm-4 text-left flex-grow-1">
+                  <h2 className="text-lg md:text-xl lg:text-xl xl:text-2xl font-light mb-0 text-white d-flex flex-sm-row flex-column align-items-sm-center">APRENDE CURSOS <span className="font-bold text-base xl:text-lg sitblu-clrsite bg-blue-200 d-inline-block px-3 py-1 rounded-3xl align-middle ml-3 leading-normal">
+                    <i class="bi bi-play-circle-fill mr-1"></i> EN VIVO Y EN LÍNEA</span></h2>
+                </div>
+              </div>
+
               {/* <p className="text-lg xl:text-xl">
                 Explore the academic degree options available at Careerera.<br></br> A  education is an <b>investment</b> in your future.
               </p> */}

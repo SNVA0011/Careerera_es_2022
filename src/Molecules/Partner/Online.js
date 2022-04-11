@@ -12,20 +12,20 @@ const Online = () => {
                         Oportunidad de educación <span className='orange-clrsite'>en línea</span>
                     </h2>
                     <p className="text-gray-700 text-lg md:text-xl lg:text-2xl fw-medium">
-                        - Una visión general 2016 vs 2023 -
+                        - Una visión general 2016 vs {(new Date().getFullYear()+1)} -
                     </p>
                     <hr className="w-20 hr mb-4 bg-blue-400 sepfoll-hr mx-auto" />
                 </div>
 
                 <div className="row pt-4">
-                    <div className='col-lg-4 col-12'>
+                    <div className='col-lg-3 col-12'>
                         <img src={toplayer} className='dotstp' alt='dots-texture'></img>
                         <img src={online} alt='online_education' className="rounded-2xl full-w position-relative z-10  shadow-image-lg" />
                         <div className='text-right'>
                             <img src={toplayer} alt='dots-texture' className='dotstp d-inline-block right'></img>
                         </div>
                     </div>
-                    <div className="col-lg-8 col-12 font-semibold">
+                    <div className="col-lg-9 col-12 font-semibold">
 
 
                         <div className="verview-tmline">
@@ -36,7 +36,7 @@ const Online = () => {
                                 <div className="col-9">
                                     <p className="md:text-lg text-gray-700 font-semibold my-3">
                                         En 2016, el mercado de educación en línea tenía 1800 núcleos, que para
-                                        2021 serán 14 000 millones de rupias al 52 % CAGR.
+                                        {(new Date().getFullYear()+1)} serán 14 000 millones de rupias al 52 % CAGR.
                                     </p>
                                 </div>
                             </div>
@@ -55,7 +55,7 @@ const Online = () => {
                                 <div className="col-9 text-right">
                                     <p className="md:text-lg text-gray-700 font-semibold my-3">
                                         En 2016, la recapacitación y la certificación en línea costaron 696
-                                        millones de rupias para 2021 estarán en 3400 millones de rupias con una
+                                        millones de rupias para {(new Date().getFullYear()+1)} estarán en 3400 millones de rupias con una
                                         CAGR del 38 %.
                                     </p>
                                 </div>

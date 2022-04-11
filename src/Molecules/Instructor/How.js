@@ -123,53 +123,53 @@ const How = () => {
 
             <div className='training-room'>
                 <div className="why-datasciencesuf whatwe scroll-spbx bg-blue-50">
-                    <div className="container py-28">
+                    <div className="container pt-24 pb-12">
                         <div className="row">
-                            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            {/* <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div className="main_heading heading_center mb-5">
                                     <h2 className="text-3xl md:text-4xl font-bold text-white">
                                     Que tenemos <span className='text-yellow-400'>Logrado hasta ahora</span></h2>
                                     <hr className="w-20 hr mb-4 bg-blue-400 sepfoll-hr mx-auto" />
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="col-xs-12 col-sm-6 col-lg-3">
-                                <ul className="counter_number px-0 mb-3">
+                                <ul className="counter_number px-0 mb-5">
                                     <li className="font-bold text-4xl md:text-5xl mb-1 text-blue-300">
                                         <div className='animated_numberscenter w-100'>
                                             <AnimatedNumbers animateToNumber={253851}></AnimatedNumbers>
                                         </div>
                                     </li>
-                                    <li className=" text-lg md:text-lg text-white">Usuarios Registrados</li>
+                                    <li className=" text-lg md:text-lg  font-semibold text-blue-200">Usuarios Registrados</li>
                                 </ul>
                             </div>
                             <div className="col-xs-12 col-sm-6 col-lg-3">
-                                <ul className="counter_number px-0 mb-3">
+                                <ul className="counter_number px-0 mb-5">
                                     <li className="font-bold text-4xl md:text-5xl mb-1 text-blue-300">
                                         <div className='animated_numberscenter w-100'>
                                             <AnimatedNumbers animateToNumber={146}></AnimatedNumbers>
                                         </div>
                                     </li>
-                                    <li className=" text-lg md:text-lg text-white">Cursos Disponibles</li>
+                                    <li className=" text-lg md:text-lg  font-semibold text-blue-200">Cursos Disponibles</li>
                                 </ul>
                             </div>
                             <div className="col-xs-12 col-sm-6 col-lg-3">
-                                <ul className="counter_number px-0 mb-3">
+                                <ul className="counter_number px-0 mb-5">
                                     <li className="font-bold text-4xl md:text-5xl mb-1 text-blue-300">
                                         <div className='animated_numberscenter w-100'>
                                             <AnimatedNumbers animateToNumber={1054}></AnimatedNumbers>
                                         </div>
                                     </li>
-                                    <li className=" text-lg md:text-lg text-white">Próximas Clases</li>
+                                    <li className=" text-lg md:text-lg  font-semibold text-blue-200">Próximas Clases</li>
                                 </ul>
                             </div>
                             <div className="col-xs-12 col-sm-6 col-lg-3">
-                                <ul className="counter_number px-0 mb-3">
+                                <ul className="counter_number px-0 mb-5">
                                     <li className="font-bold text-4xl md:text-5xl mb-1 text-blue-300">
                                         <div className='animated_numberscenter w-100'>
                                             <AnimatedNumbers animateToNumber={47}></AnimatedNumbers>
                                         </div>
                                     </li>
-                                    <li className=" text-lg md:text-lg text-white">aprendizaje electronico</li>
+                                    <li className=" text-lg md:text-lg  font-semibold text-blue-200">aprendizaje electronico</li>
                                 </ul>
                             </div>
                         </div>
