@@ -30,17 +30,9 @@ const Hero = () => {
     responsive: {
       0: {
         items: 2,
-        margin: 20,
+        margin: 10,
       },
       426: {
-        items: 3,
-        margin: 20,
-      },
-      576: {
-        items: 3,
-        margin: 20,
-      },
-      12: {
         items: 3,
         margin: 20,
       }
@@ -141,7 +133,7 @@ const Hero = () => {
             </div>
 
             <div className="col-lg-5 col-xxl-4 col-12 mx-auto text-center mt-lg-0">
-              <img src={i1} alt='Ready to learn' />
+              <img src={i1} alt='Ready to learn' className="w-100"/>
               {/* <SideIcon /> */}
             </div>
           </div>

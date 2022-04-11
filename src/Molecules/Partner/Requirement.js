@@ -19,7 +19,7 @@ const Requirement = () => {
                             <i className="bi bi-people text-5xl mr-3 text-blue-500"></i>
                             <div>
                                 <h4 className='pt-1 font-bold text-xl capitalize mb-1'>Gran red comercial</h4>
-                                <p className=' text-gray-500 font-medium mb-0'>Una gran red comercial con empresas.</p>
+                                <p className=' text-gray-500 font-medium mb-0 text-lg'>Una gran red comercial con empresas.</p>
                             </div>
                         </div>
                     </li>
@@ -28,7 +28,7 @@ const Requirement = () => {
                             <i className="bi bi-shield-fill-check text-5xl mr-3 text-blue-500"></i>
                             <div>
                                 <h4 className='pt-1 font-bold text-xl capitalize mb-1'>Un negocio calificado y creíble</h4>
-                                <p className=' text-gray-500 font-medium mb-0'>Funcionamiento durante un mínimo de 3-4 años.</p>
+                                <p className=' text-gray-500 font-medium mb-0 text-lg'>Funcionamiento durante un mínimo de 3-4 años.</p>
                             </div>
                         </div>
                     </li>
@@ -37,7 +37,7 @@ const Requirement = () => {
                             <i className="bi bi-graph-up-arrow text-5xl mr-3 text-blue-500"></i>
                             <div>
                                 <h4 className='pt-1 font-bold text-xl capitalize mb-1'>Experiencia en el manejo de empresas</h4>
-                                <p className=' text-gray-500 font-medium mb-0'>Ofertas por encima de INR 25 lacs</p>
+                                <p className=' text-gray-500 font-medium mb-0 text-lg'>Ofertas por encima de INR 25 lacs</p>
                             </div>
                         </div>
                     </li>

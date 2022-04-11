@@ -685,6 +685,10 @@ img.dotstp{margin-bottom:-50px;position:relative;left:-34px;}
 .overflow-hidden.ppt-clistaff.norotate{-webkit-transform:none;-ms-transform:none;-moz-transform:none;-o-transform:none;transform:none}
 .prelaunch-comm, .regiavail.full-w.partnetapk-area, .indexhome .regiavail.full-w.partnetapk-area{background-image:url('../src/Images/shape-dotted.png');background-color:#FAFAFA;background-position:center center;background-repeat:no-repeat;background-size:cover;}
 .services-movingr{position:relative;}
+.prelaunch-comm{
+    background-repeat: repeat;
+    background-size: 1000px;
+}
 .services-movingr::after{position:absolute;content:'';right:0;top:0;background-image:url('../src/Images/services-movingr.png');background-position:center center;background-size:cover;background-repeat:no-repeat;width:60%;height:150px;}
 .student-coursepopup .pop_body_content .my-auto.w-100.px-3, .services-movingr .position-relative{z-index:2;}
 .indexhome .regiavail.full-w.partnetapk-area .rounded-circle{box-shadow:0 37px 20px -20px rgb(0 0 0 / 20%);border:solid 3px #fff;}
@@ -1138,12 +1142,9 @@ body .our_faq_sec.custom_locationall .accordion-header button{font-weight:600;}
     background: #fff;
     background-image:url('../src/Images/services-movingr.png');
     background-position: right top;
-    background-size: 70%;
+    background-size: 200px;
     background-repeat: no-repeat;
 }
-
-
-
   .prelaunch-comm .heading-border-line {
     left: 0;
     right: 0;
@@ -1330,11 +1331,14 @@ animation-play-state: running;
     padding-top: 50px;
 }
 .allcour-btn .dropdown-menu .px-scrollbox-12 {
-    overflow: auto;
-    max-height: 92vh;
-    min-height: 92vh;
-    padding-bottom: 80px;
+    overflow-y: auto;
+    max-height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 140px;
 }
+.allcour-btn .dropdown-menu .px-scrollbox-12::-webkit-scrollbar-thumb{border: none;background-color:#d5d5d5;}
+.allcour-btn .dropdown-menu .px-scrollbox-12::-webkit-scrollbar{background-color:transparent;width:4px;height:5px;} 
+
  
 }
 
@@ -1592,6 +1596,11 @@ table.table.min-widen-200.table-bordered{min-width:890px;}
  .prelaunch-comm .heading-border-line {
     left: -19px;
  }
+ .reqhelp.bg-gray-50 i.bi.text-5xl.mr-3.text-blue-500{    
+    height: 60px;
+    min-width: 60px;
+    line-height: 60px;
+    font-size: 29px;}
  .liveonlinesp span.align-middle.leading-normal {
     margin-left: 0px;
     margin-top: 4px;
@@ -1689,7 +1698,7 @@ table.table.min-widen-200.table-bordered{min-width:890px;}
  .linktitle-batch span.mx-1{width:100%;display:block;margin-top:-6px;font-size:0;}
  .full-w.banner-pagetitle .linktitle-batchtitle{margin-bottom:8px !important;}
  .free-batches.full-w .disclaimer-bx, .all-batches.full-w .disclaimer-bx{font-size:20px;}
- .home-banner.full-w .maintitle{font-size:2rem;}
+ .home-banner.full-w .maintitle{font-size:2.2rem;}
  .partner-marketing-affiliates.would .m-0.couns, .partner-marketing-affiliates.would .m-0.couns span{-webkit-transform:skewX(0deg);-moz-transform:skewX(0deg);-o-transform:skewX(0deg);transform:skewX(0deg);width:100%;}
  .partner-marketing-affiliates.would .m-0.couns{box-shadow:0px -3px 0px 0 #fbbf24, 0px 7px 13px 0 rgb(0 0 0 / 40%);}
  .student-coursepopup .text-2xl.font-semibold.text-gray-800{max-width:190px;margin-left:auto;margin-right:auto;}
