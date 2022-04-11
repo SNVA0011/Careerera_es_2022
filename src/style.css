@@ -1329,6 +1329,13 @@ animation-play-state: running;
 .mockexam-certi.caciones-slider .ourclient-staffing .owl-carousel {
     padding-top: 50px;
 }
+.allcour-btn .dropdown-menu .px-scrollbox-12 {
+    overflow: auto;
+    max-height: 92vh;
+    min-height: 92vh;
+    padding-bottom: 80px;
+}
+ 
 }
 
 @media only screen and (min-width:576px){.text-sm-right{text-align:right;}
