@@ -44,7 +44,12 @@ const NewsDetail = () => {
             <link rel="canonical" href={"https://www.careerera.com/news-events/"+ news.news}></link>
           </Helmet>
 
-          <Hero title="News Detail" detail="" batch="" img={blogs} />
+          <Hero title="News Detail" detail=""  batch={<>
+            <Link to="/" className="no-underline badge bg-info">Home</Link>
+            <span className="mx-2"> / </span>
+            <Link to="/news-events" className="no-underline badge bg-info">News & Event</Link>
+            <span className="mx-2"> / </span>
+            {Eventdetails[0].h1}</>} img={blogs} />
 
 
           <div className="blog-detials-single container py-16">

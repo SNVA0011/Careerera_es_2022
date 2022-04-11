@@ -100,7 +100,12 @@ const BlogDetail = () => {
 
           </Helmet>
 
-          <Hero title="Blog Detail" detail="" batch="" img={blogs} />
+          <Hero title="Blog Detail" detail="" batch={<>
+            <Link to="/" className="no-underline badge bg-info">Home</Link>
+            <span className="mx-2"> / </span>
+            <Link to="/blog" className="no-underline badge bg-info">Blog</Link>
+            <span className="mx-2"> / </span>
+            {BlogDetail[0].h1}</>} img={blogs} />
 
           <div className="blog-detials-single container py-16">
             <div className="row">

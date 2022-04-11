@@ -100,7 +100,10 @@ const BlogArabic = () => {
                     <Hero
                         title="Blogs and Article"
                         detail=""
-                        batch=""
+                        batch={<>
+                            <Link to="/" className="no-underline badge bg-info">Home</Link>
+                            <span className="mx-2"> / </span>
+                            Blog </>}
                         img={blogs}
                     />
                     <div className="container py-20">
