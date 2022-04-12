@@ -29,13 +29,10 @@ const BlogDetailArabic = () => {
   setblogDetailsts(true);
   }
 
-
-
-
   useEffect(() => {
     BlogDetails();
     window.scrollTo(0, 0);
-  }, []);
+  }, [urlar]);
 
 
 
