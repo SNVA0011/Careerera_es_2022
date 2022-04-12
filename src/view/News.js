@@ -85,7 +85,7 @@ const News = () => {
                         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                     </Helmet>
 
-                    <Hero title="News and Events" detail=""  batch={<>
+                    <Hero title="NEWS & EVENTS" detail=""  batch={<>
                             <Link to="/" className="no-underline badge bg-info">Home</Link>
                             <span className="mx-2"> / </span>
                             News and Events </>} img={news} />

@@ -7,7 +7,7 @@ const Hero = (props) => {
             <div className="container">
                 <div className="row text-gray-700 align-items-center text-center">
                     <div className="col-12">
-                        <h1 className={"text-3xl sm:text-4xl font-bold text-white linktitle-batchtitle" + (props.detail ? '' : ' mb-0 mb-sm-2')}>
+                        <h1 className={"text-3xl sm:text-4xl font-bold text-white linktitle-batchtitle tracking-wide text-uppercase " + (props.detail ? '' : ' mb-0 mb-sm-2')}>
                             {props.title}{' '}
                             {props.detail ? <span className="text-blue-500">{props.detail}</span> : ''}
                         </h1>

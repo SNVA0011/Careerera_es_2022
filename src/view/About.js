@@ -279,7 +279,7 @@ const About = () => {
                     <div className="col-xl-4 col-lg-5 col-sm-6 col-12">
                         <div className="single-team-box">
                             <div className="image">
-                                <img src={vivek} alt="Vivek K Singh" className='rounded-circle border' />
+                                <img src={vivek} alt="Vivek K Singh" className='rounded border' />
 
                                 <ul className="social">
                                     <li>

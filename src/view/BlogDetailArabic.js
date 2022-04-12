@@ -75,7 +75,7 @@ const BlogDetailArabic = () => {
 
           </Helmet>
 
-          <Hero title="Blog Detail" detail="" batch={<>
+          <Hero title="BLOG DETAILS" detail="" batch={<>
             <Link to="/" className="no-underline badge bg-info">Home</Link>
             <span className="mx-2"> / </span>
             <Link to="/blog" className="no-underline badge bg-info">Blog</Link>

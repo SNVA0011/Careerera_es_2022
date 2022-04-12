@@ -98,7 +98,7 @@ const BlogArabic = () => {
                     </Helmet>
 
                     <Hero
-                        title="Blogs and Article"
+                        title="BLOG"
                         detail=""
                         batch={<>
                             <Link to="/" className="no-underline badge bg-info">Home</Link>
