@@ -178,14 +178,14 @@ export default function DataScienceCountry() {
                           <div className="mt-auto">
                             <div className='row'>
                               <div className='col-lg-6 col-12'>
-                                <Link to={'post-graduate-program-in-data-science/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'post-graduate-program-in-data-science/batch'} className='btn-site invert no-underline text-sm w-100'>
                                   <span>
                                     Upcoming Batches
                                   </span>
                                 </Link>
                               </div>
                               <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                <Link to={'post-graduate-program-in-data-science'} className='btn-site no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'post-graduate-program-in-data-science'} className='btn-site no-underline text-sm w-100'>
                                   <span>
                                     Learn More
                                     <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -227,14 +227,14 @@ export default function DataScienceCountry() {
                           <div className="mt-auto">
                             <div className='row'>
                               <div className='col-lg-6 col-12'>
-                                <Link to={'data-science-professional-certification/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'data-science-professional-certification/batch'} className='btn-site invert no-underline text-sm w-100'>
                                   <span>
                                     Upcoming Batches
                                   </span>
                                 </Link>
                               </div>
                               <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                <Link to={'data-science-professional-certification'} className='btn-site no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'data-science-professional-certification'} className='btn-site no-underline text-sm w-100'>
                                   <span>
                                     Learn More
                                     <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -276,14 +276,14 @@ export default function DataScienceCountry() {
                           <div className="mt-auto">
                             <div className='row'>
                               <div className='col-lg-6 col-12'>
-                                <Link to={'post-graduate-program-in-business-analytics/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'post-graduate-program-in-business-analytics/batch'} className='btn-site invert no-underline text-sm w-100'>
                                   <span>
                                     Upcoming Batches
                                   </span>
                                 </Link>
                               </div>
                               <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                <Link to={'post-graduate-program-in-business-analytics'} className='btn-site no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'post-graduate-program-in-business-analytics'} className='btn-site no-underline text-sm w-100'>
                                   <span>
                                     Learn More
                                     <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -327,14 +327,14 @@ export default function DataScienceCountry() {
                           <div className="mt-auto">
                             <div className='row'>
                               <div className='col-lg-6 col-12'>
-                                <Link to={'dsap-data-science-analytics-professionals/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'dsap-data-science-analytics-professionals/batch'} className='btn-site invert no-underline text-sm w-100'>
                                   <span>
                                     Upcoming Batches
                                   </span>
                                 </Link>
                               </div>
                               <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                <Link to={'dsap-data-science-analytics-professionals'} className='btn-site no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'dsap-data-science-analytics-professionals'} className='btn-site no-underline text-sm w-100'>
                                   <span>
                                     Learn More
                                     <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -376,14 +376,14 @@ export default function DataScienceCountry() {
                           <div className="mt-auto">
                             <div className='row'>
                               <div className='col-lg-6 col-12'>
-                                <Link to={'data-science-with-python/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'data-science-with-python/batch'} className='btn-site invert no-underline text-sm w-100'>
                                   <span>
                                     Upcoming Batches
                                   </span>
                                 </Link>
                               </div>
                               <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                <Link to={'data-science-with-python'} className='btn-site no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'data-science-with-python'} className='btn-site no-underline text-sm w-100'>
                                   <span>
                                     Learn More
                                     <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -425,14 +425,14 @@ export default function DataScienceCountry() {
                           <div className="mt-auto">
                             <div className='row'>
                               <div className='col-lg-6 col-12'>
-                                <Link to={'machine-learning-with-python/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'machine-learning-with-python/batch'} className='btn-site invert no-underline text-sm w-100'>
                                   <span>
                                     Upcoming Batches
                                   </span>
                                 </Link>
                               </div>
                               <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                <Link to={'machine-learning-with-python'} className='btn-site no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'machine-learning-with-python'} className='btn-site no-underline text-sm w-100'>
                                   <span>
                                     Learn More
                                     <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -476,14 +476,14 @@ export default function DataScienceCountry() {
                           <div className="mt-auto">
                             <div className='row'>
                               <div className='col-lg-6 col-12'>
-                                <Link to={'deep-learning-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'deep-learning-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
                                   <span>
                                     Upcoming Batches
                                   </span>
                                 </Link>
                               </div>
                               <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                <Link to={'deep-learning-certification-training'} className='btn-site no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'deep-learning-certification-training'} className='btn-site no-underline text-sm w-100'>
                                   <span>
                                     Learn More
                                     <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -524,14 +524,14 @@ export default function DataScienceCountry() {
                           <div className="mt-auto">
                             <div className='row'>
                               <div className='col-lg-6 col-12'>
-                                <Link to={'time-series-forecasting/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'time-series-forecasting/batch'} className='btn-site invert no-underline text-sm w-100'>
                                   <span>
                                     Upcoming Batches
                                   </span>
                                 </Link>
                               </div>
                               <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                <Link to={'time-series-forecasting'} className='btn-site no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'time-series-forecasting'} className='btn-site no-underline text-sm w-100'>
                                   <span>
                                     Learn More
                                     <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -573,14 +573,14 @@ export default function DataScienceCountry() {
                           <div className="mt-auto">
                             <div className='row'>
                               <div className='col-lg-6 col-12'>
-                                <Link to={'natural-language-processing/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'natural-language-processing/batch'} className='btn-site invert no-underline text-sm w-100'>
                                   <span>
                                     Upcoming Batches
                                   </span>
                                 </Link>
                               </div>
                               <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                <Link to={'natural-language-processing'} className='btn-site no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'natural-language-processing'} className='btn-site no-underline text-sm w-100'>
                                   <span>
                                     Learn More
                                     <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -625,14 +625,14 @@ export default function DataScienceCountry() {
                           <div className="mt-auto">
                             <div className='row'>
                               <div className='col-lg-6 col-12'>
-                                <Link to={'data-base-management-system/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'data-base-management-system/batch'} className='btn-site invert no-underline text-sm w-100'>
                                   <span>
                                     Upcoming Batches
                                   </span>
                                 </Link>
                               </div>
                               <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                <Link to={'data-base-management-system'} className='btn-site no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'data-base-management-system'} className='btn-site no-underline text-sm w-100'>
                                   <span>
                                     Learn More
                                     <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -674,14 +674,14 @@ export default function DataScienceCountry() {
                           <div className="mt-auto">
                             <div className='row'>
                               <div className='col-lg-6 col-12'>
-                                <Link to={'introduction-of-python-for-iem-utemss/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'introduction-of-python-for-iem-utemss/batch'} className='btn-site invert no-underline text-sm w-100'>
                                   <span>
                                     Upcoming Batches
                                   </span>
                                 </Link>
                               </div>
                               <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                <Link to={'introduction-of-python-for-iem-utemss'} className='btn-site no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'introduction-of-python-for-iem-utemss'} className='btn-site no-underline text-sm w-100'>
                                   <span>
                                     Learn More
                                     <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -723,14 +723,14 @@ export default function DataScienceCountry() {
                           <div className="mt-auto">
                             <div className='row'>
                               <div className='col-lg-6 col-12'>
-                                <Link to={'data-visualization-in-python/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'data-visualization-in-python/batch'} className='btn-site invert no-underline text-sm w-100'>
                                   <span>
                                     Upcoming Batches
                                   </span>
                                 </Link>
                               </div>
                               <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                <Link to={'data-visualization-in-python'} className='btn-site no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'data-visualization-in-python'} className='btn-site no-underline text-sm w-100'>
                                   <span>
                                     Learn More
                                     <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -774,14 +774,14 @@ export default function DataScienceCountry() {
                           <div className="mt-auto">
                             <div className='row'>
                               <div className='col-lg-6 col-12'>
-                                <Link to={'masters-in-data-science-engineering/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'masters-in-data-science-engineering/batch'} className='btn-site invert no-underline text-sm w-100'>
                                   <span>
                                     Upcoming Batches
                                   </span>
                                 </Link>
                               </div>
                               <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                <Link to={'masters-in-data-science-engineering'} className='btn-site no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'masters-in-data-science-engineering'} className='btn-site no-underline text-sm w-100'>
                                   <span>
                                     Learn More
                                     <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -823,14 +823,14 @@ export default function DataScienceCountry() {
                           <div className="mt-auto">
                             <div className='row'>
                               <div className='col-lg-6 col-12'>
-                                <Link to={'masters-in-data-science-and-analytics/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'masters-in-data-science-and-analytics/batch'} className='btn-site invert no-underline text-sm w-100'>
                                   <span>
                                     Upcoming Batches
                                   </span>
                                 </Link>
                               </div>
                               <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                <Link to={'masters-in-data-science-and-analytics'} className='btn-site no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'masters-in-data-science-and-analytics'} className='btn-site no-underline text-sm w-100'>
                                   <span>
                                     Learn More
                                     <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -873,14 +873,14 @@ export default function DataScienceCountry() {
                           <div className="mt-auto">
                             <div className='row'>
                               <div className='col-lg-6 col-12'>
-                                <Link to={'dsf-data-science-fundamental/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'dsf-data-science-fundamental/batch'} className='btn-site invert no-underline text-sm w-100'>
                                   <span>
                                     Upcoming Batches
                                   </span>
                                 </Link>
                               </div>
                               <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                <Link to={'dsf-data-science-fundamental'} className='btn-site no-underline text-sm w-100'>
+                                <Link to={'/data-science/'+'dsf-data-science-fundamental'} className='btn-site no-underline text-sm w-100'>
                                   <span>
                                     Learn More
                                     <i className="fas fa-chevron-right ml-2 align-middle"></i>

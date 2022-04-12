@@ -241,14 +241,14 @@ export default function CyberSecurityCity() {
                                                     <div className="mt-auto">
                                                         <div className='row'>
                                                             <div className='col-lg-6 col-12'>
-                                                                <Link to={'post-graduate-program-in-cyber-security/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'post-graduate-program-in-cyber-security/batch'} className='btn-site invert no-underline text-sm w-100'>
                                                                     <span>
                                                                         Upcoming Batches
                                                                     </span>
                                                                 </Link>
                                                             </div>
                                                             <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                                                <Link to={'post-graduate-program-in-cyber-security'} className='btn-site no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'post-graduate-program-in-cyber-security'} className='btn-site no-underline text-sm w-100'>
                                                                     <span>
                                                                         Learn More
                                                                         <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -289,14 +289,14 @@ export default function CyberSecurityCity() {
                                                     <div className="mt-auto">
                                                         <div className='row'>
                                                             <div className='col-lg-6 col-12'>
-                                                                <Link to={'cyber-security-professional/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'cyber-security-professional/batch'} className='btn-site invert no-underline text-sm w-100'>
                                                                     <span>
                                                                         Upcoming Batches
                                                                     </span>
                                                                 </Link>
                                                             </div>
                                                             <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                                                <Link to={'cyber-security-professional'} className='btn-site no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'cyber-security-professional'} className='btn-site no-underline text-sm w-100'>
                                                                     <span>
                                                                         Learn More
                                                                         <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -340,14 +340,14 @@ export default function CyberSecurityCity() {
                                                     <div className="mt-auto">
                                                         <div className='row'>
                                                             <div className='col-lg-6 col-12'>
-                                                                <Link to={'certified-information-systems-security-professional-cissp/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'certified-information-systems-security-professional-cissp/batch'} className='btn-site invert no-underline text-sm w-100'>
                                                                     <span>
                                                                         Upcoming Batches
                                                                     </span>
                                                                 </Link>
                                                             </div>
                                                             <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                                                <Link to={'certified-information-systems-security-professional-cissp'} className='btn-site no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'certified-information-systems-security-professional-cissp'} className='btn-site no-underline text-sm w-100'>
                                                                     <span>
                                                                         Learn More
                                                                         <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -390,14 +390,14 @@ export default function CyberSecurityCity() {
                                                     <div className="mt-auto">
                                                         <div className='row'>
                                                             <div className='col-lg-6 col-12'>
-                                                                <Link to={'cisa-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'cisa-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
                                                                     <span>
                                                                         Upcoming Batches
                                                                     </span>
                                                                 </Link>
                                                             </div>
                                                             <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                                                <Link to={'cisa-certification-training'} className='btn-site no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'cisa-certification-training'} className='btn-site no-underline text-sm w-100'>
                                                                     <span>
                                                                         Learn More
                                                                         <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -440,14 +440,14 @@ export default function CyberSecurityCity() {
                                                     <div className="mt-auto">
                                                         <div className='row'>
                                                             <div className='col-lg-6 col-12'>
-                                                                <Link to={'cism-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'cism-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
                                                                     <span>
                                                                         Upcoming Batches
                                                                     </span>
                                                                 </Link>
                                                             </div>
                                                             <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                                                <Link to={'cism-certification-training'} className='btn-site no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'cism-certification-training'} className='btn-site no-underline text-sm w-100'>
                                                                     <span>
                                                                         Learn More
                                                                         <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -491,14 +491,14 @@ export default function CyberSecurityCity() {
                                                     <div className="mt-auto">
                                                         <div className='row'>
                                                             <div className='col-lg-6 col-12'>
-                                                                <Link to={'masters-in-cyber-security/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'masters-in-cyber-security/batch'} className='btn-site invert no-underline text-sm w-100'>
                                                                     <span>
                                                                         Upcoming Batches
                                                                     </span>
                                                                 </Link>
                                                             </div>
                                                             <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                                                <Link to={'masters-in-cyber-security'} className='btn-site no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'masters-in-cyber-security'} className='btn-site no-underline text-sm w-100'>
                                                                     <span>
                                                                         Learn More
                                                                         <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -539,14 +539,14 @@ export default function CyberSecurityCity() {
                                                     <div className="mt-auto">
                                                         <div className='row'>
                                                             <div className='col-lg-6 col-12'>
-                                                                <Link to={'checkpoint-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'checkpoint-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
                                                                     <span>
                                                                         Upcoming Batches
                                                                     </span>
                                                                 </Link>
                                                             </div>
                                                             <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                                                <Link to={'checkpoint-certification-training'} className='btn-site no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'checkpoint-certification-training'} className='btn-site no-underline text-sm w-100'>
                                                                     <span>
                                                                         Learn More
                                                                         <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -587,14 +587,14 @@ export default function CyberSecurityCity() {
                                                     <div className="mt-auto">
                                                         <div className='row'>
                                                             <div className='col-lg-6 col-12'>
-                                                                <Link to={'trend-micro-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'trend-micro-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
                                                                     <span>
                                                                         Upcoming Batches
                                                                     </span>
                                                                 </Link>
                                                             </div>
                                                             <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                                                <Link to={'trend-micro-certification-training'} className='btn-site no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'trend-micro-certification-training'} className='btn-site no-underline text-sm w-100'>
                                                                     <span>
                                                                         Learn More
                                                                         <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -638,14 +638,14 @@ export default function CyberSecurityCity() {
                                                     <div className="mt-auto">
                                                         <div className='row'>
                                                             <div className='col-lg-6 col-12'>
-                                                                <Link to={'implementing-the-nist-standards-using-cobit-5/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'implementing-the-nist-standards-using-cobit-5/batch'} className='btn-site invert no-underline text-sm w-100'>
                                                                     <span>
                                                                         Upcoming Batches
                                                                     </span>
                                                                 </Link>
                                                             </div>
                                                             <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                                                <Link to={'implementing-the-nist-standards-using-cobit-5'} className='btn-site no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'implementing-the-nist-standards-using-cobit-5'} className='btn-site no-underline text-sm w-100'>
                                                                     <span>
                                                                         Learn More
                                                                         <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -687,14 +687,14 @@ export default function CyberSecurityCity() {
                                                     <div className="mt-auto">
                                                         <div className='row'>
                                                             <div className='col-lg-6 col-12'>
-                                                                <Link to={'cobit5-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'cobit5-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
                                                                     <span>
                                                                         Upcoming Batches
                                                                     </span>
                                                                 </Link>
                                                             </div>
                                                             <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                                                <Link to={'cobit5-certification-training'} className='btn-site no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'cobit5-certification-training'} className='btn-site no-underline text-sm w-100'>
                                                                     <span>
                                                                         Learn More
                                                                         <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -737,14 +737,14 @@ export default function CyberSecurityCity() {
                                                     <div className="mt-auto">
                                                         <div className='row'>
                                                             <div className='col-lg-6 col-12'>
-                                                                <Link to={'cobit-5-implementation-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'cobit-5-implementation-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
                                                                     <span>
                                                                         Upcoming Batches
                                                                     </span>
                                                                 </Link>
                                                             </div>
                                                             <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                                                <Link to={'cobit-5-implementation-certification-training'} className='btn-site no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'cobit-5-implementation-certification-training'} className='btn-site no-underline text-sm w-100'>
                                                                     <span>
                                                                         Learn More
                                                                         <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -788,14 +788,14 @@ export default function CyberSecurityCity() {
                                                     <div className="mt-auto">
                                                         <div className='row'>
                                                             <div className='col-lg-6 col-12'>
-                                                                <Link to={'cobit-5-assessor-for-security-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'cobit-5-assessor-for-security-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
                                                                     <span>
                                                                         Upcoming Batches
                                                                     </span>
                                                                 </Link>
                                                             </div>
                                                             <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                                                <Link to={'cobit-5-assessor-for-security-certification-training'} className='btn-site no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'cobit-5-assessor-for-security-certification-training'} className='btn-site no-underline text-sm w-100'>
                                                                     <span>
                                                                         Learn More
                                                                         <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -836,14 +836,14 @@ export default function CyberSecurityCity() {
                                                     <div className="mt-auto">
                                                         <div className='row'>
                                                             <div className='col-lg-6 col-12'>
-                                                                <Link to={'cobit-5-assessor-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'cobit-5-assessor-certification-training/batch'} className='btn-site invert no-underline text-sm w-100'>
                                                                     <span>
                                                                         Upcoming Batches
                                                                     </span>
                                                                 </Link>
                                                             </div>
                                                             <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                                                <Link to={'cobit-5-assessor-certification-training'} className='btn-site no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'cobit-5-assessor-certification-training'} className='btn-site no-underline text-sm w-100'>
                                                                     <span>
                                                                         Learn More
                                                                         <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -884,14 +884,14 @@ export default function CyberSecurityCity() {
                                                     <div className="mt-auto">
                                                         <div className='row'>
                                                             <div className='col-lg-6 col-12'>
-                                                                <Link to={'csf-cyber-security-fundamental/batch'} className='btn-site invert no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'csf-cyber-security-fundamental/batch'} className='btn-site invert no-underline text-sm w-100'>
                                                                     <span>
                                                                         Upcoming Batches
                                                                     </span>
                                                                 </Link>
                                                             </div>
                                                             <div className='ml-auto col-lg-6 col-12 mt-1 mt-lg-0'>
-                                                                <Link to={'csf-cyber-security-fundamental'} className='btn-site no-underline text-sm w-100'>
+                                                                <Link to={'/cyber-security/'+'csf-cyber-security-fundamental'} className='btn-site no-underline text-sm w-100'>
                                                                     <span>
                                                                         Learn More
                                                                         <i className="fas fa-chevron-right ml-2 align-middle"></i>
@@ -1455,37 +1455,37 @@ export default function CyberSecurityCity() {
                                     <Accordion.Body>
                                         <ul className='list-disc text-base row'>
                                             <li className='col-xxl-3 col-lg-6 col-12'>
-                                                <Link to={"/" + "cyber-security/certification-course/india"}>
+                                                <Link to={'/cyber-security/'+"/" + "cyber-security/certification-course/india"}>
                                                     India
                                                 </Link>
                                             </li>
                                             <li className='col-xxl-3 col-lg-6 col-12'>
-                                                <Link to={"/" + "cyber-security/certification-course/malaysia"}>
+                                                <Link to={'/cyber-security/'+"/" + "cyber-security/certification-course/malaysia"}>
                                                     Malaysia
                                                 </Link>
                                             </li>
                                             <li className='col-xxl-3 col-lg-6 col-12'>
-                                                <Link to={"/" + "cyber-security/certification-course/singapore"}>
+                                                <Link to={'/cyber-security/'+"/" + "cyber-security/certification-course/singapore"}>
                                                     Singapore
                                                 </Link>
                                             </li>
                                             <li className='col-xxl-3 col-lg-6 col-12'>
-                                                <Link to={"/" + "cyber-security/certification-course/uae"}>
+                                                <Link to={'/cyber-security/'+"/" + "cyber-security/certification-course/uae"}>
                                                     UAE
                                                 </Link>
                                             </li>
                                             <li className='col-xxl-3 col-lg-6 col-12'>
-                                                <Link to={"/" + "cyber-security/certification-course/united-kingdom"}>
+                                                <Link to={'/cyber-security/'+"/" + "cyber-security/certification-course/united-kingdom"}>
                                                     United Kingdom
                                                 </Link>
                                             </li>
                                             <li className='col-xxl-3 col-lg-6 col-12'>
-                                                <Link to={"/" + "cyber-security/certification-course/canada"}>
+                                                <Link to={'/cyber-security/'+"/" + "cyber-security/certification-course/canada"}>
                                                     Canada
                                                 </Link>
                                             </li>
                                             <li className='col-xxl-3 col-lg-6 col-12'>
-                                                <Link to={"/" + "cyber-security/certification-course/new-zealand"}>
+                                                <Link to={'/cyber-security/'+"/" + "cyber-security/certification-course/new-zealand"}>
                                                     New Zealand
                                                 </Link>
                                             </li>
