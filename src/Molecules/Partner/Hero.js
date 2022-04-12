@@ -67,18 +67,31 @@ const Hero = () => {
 
               <hr></hr>
               <div className='mt-3 text-center text-xl-left parner-uscal'>
-
                 <div className='mailto-partnerjoin text-left text-base md:text-lg font-light'>
                   <div className="row">
-                  <a className="col-md-6 mb-3 mb-md-0 col-12 no-underline text-white mb-2" href="mailto:partnerwithus@careerera.com" target="_blank">
-                    <i className="bi bi-envelope roundmail-ul mr-2 orange-clrsite"></i>
-                    <span className='d-inline-block'>partnerwithus@careerera.com</span>
-                  </a>
-                  
-                  <a className="col-md-6 mb-3 mb-md-0 col-12 no-underline text-white mb-2" href="tel:+919643034607" target="_blank">
-                    <i className="bi  bi-telephone roundmail-ul mr-2 orange-clrsite"></i>
-                    <span className='d-inline-block'>+91 9643-034-607</span>
-                  </a>
+                    <div className='col-md-6 mb-3 col-12'>
+                      <a className="no-underline text-white d-inline-flex align-items-center font-medium tracking-wide" href="tel:+919643034607" target="_blank">
+                        <i class="bi  bi-telephone roundmail-ul mr-2 orange-clrsite"></i>
+                        <span className='d-inline-block'>+91 9643-034-607</span>
+                      </a>
+                    </div>
+
+                    <div className='col-md-6 mb-3 col-12'>
+                      <a className="no-underline text-white d-inline-flex align-items-center font-medium tracking-wide" href="https://api.whatsapp.com/send?phone=+919643034607&text=Hi%2C%20I%20am%20interested%20in%20Partner%20with%20us%20program%20of%20Careerera" target="_blank">
+                        <i class="bi bi-whatsapp roundmail-ul mr-2 orange-clrsite"></i>
+                        <span className='d-inline-block'>+91 9643-034-607</span>
+                      </a>
+                    </div>
+                    <div className='col-12 mb-3'>
+                      <hr className='m-0'></hr>
+                    </div>
+
+                    <div className='col-md-6 col-12'>
+                      <a className="no-underline text-white d-inline-flex align-items-center font-medium tracking-wide" href="mailto:partnerwithus@careerera.com" target="_blank">
+                        <i class="bi bi-envelope roundmail-ul mr-2 orange-clrsite"></i>
+                        <span className='d-inline-block'>partnerwithus@careerera.com</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
 
