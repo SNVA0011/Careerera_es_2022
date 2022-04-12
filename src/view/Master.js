@@ -164,7 +164,17 @@ const Master = () => {
  
 
                 <div className="why-pgpedu">
-                    <Careerera />
+                    <Careerera 
+                    curso="empty" incluyen="empty" cursoval="200" 
+                    lomejores='Tome ayuda del proveedor líder de cursos educativos en línea de la India.' 
+                    cursotitle3='Contratación de socios' 
+                    cursotitle4="Mejor Facultad" 
+                    incluyen1='USUARIAS'
+                    incluyenpara1='250000+'
+                    incluyen2='Programas mejor clasificados'
+                    incluyenpara2='10'
+                    incluyenpara4='25+'
+                    />
                 </div>
 
                 <UserformsApplication title="Socios de" subtitle="Contratación" titleheading="Le aseguramos asistencia laboral al final del programa." />

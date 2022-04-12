@@ -94,7 +94,7 @@ export default function CyberSecurityStatic() {
                 <div className='discription_sec scroll-spbx' id='Description'>
                     <div className='container py-16'>
                         <div className="sec_title">
-                            <h2 className='text-2xl md:text-3xl font-bold'>Cyber Security <span className='orange-clrsite'>Online Course</span></h2>
+                            <h2 className='text-2xl md:text-3xl font-bold'>Cyber Security <span className='orange-clrsite'>Course Online</span></h2>
                             <p className='text-gray-500 text-base md:text-lg fw-medium'>Accelerate your career in Cyber Security</p>
                             <hr className="w-20 hr mb-4 bg-blue-400 sepfoll-hr"></hr>
                         </div>

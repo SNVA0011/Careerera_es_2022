@@ -172,11 +172,11 @@ const BatchDetail = (props) => {
                 {props.data ? "" : <p className="text-gray-500 text-base mb-0 leading-relaxed" dangerouslySetInnerHTML={{ __html: Detail[0].Batch[0].TrainingOutcome }} />}
        
 
-                <p className="text-lg mb-3 mt-12"><i className="bi bi-calendar4-event mr-1  text-blue-600 text-xl"></i> <span className="font-semibold text-blue-600 text-xl mr-2">Fecha de orientación:-</span>
+                <p className="text-lg mb-3 mt-12"><i className="bi bi-calendar4-event mr-1  sitblu-clrsite text-xl"></i> <span className="font-semibold sitblu-clrsite text-xl mr-2">Fecha de orientación:-</span>
                 <span className="d-block mb-1"></span>
                  {Detail[0].batchDetails[0].Date} ({contextcur.currency})</p>
                  <hr className="w-25"></hr>
-                 <p className="text-lg mb-1"><i className="bi bi-clock-history mr-1  text-blue-600 text-xl"></i> <span className="font-semibold text-blue-600 text-xl mr-2">Hora de clase:-</span>
+                 <p className="text-lg mb-1"><i className="bi bi-clock-history mr-1  sitblu-clrsite text-xl"></i> <span className="font-semibold sitblu-clrsite text-xl mr-2">Hora de clase:-</span>
                 <span className="d-block mb-1"></span>
                  {Detail[0].batchDetails[0].Time.slice(0, 17)}({contextcur.currency}) </p>
                 <p className="text-red-500 font-semibold text-sm sm:text-base mt-3">Nota: la fecha y la hora de la clase pueden cambiar debido a circunstancias inevitables</p>

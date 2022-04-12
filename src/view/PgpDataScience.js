@@ -82,7 +82,7 @@ const PgpDataScience = (props) => {
             />
             <DescriptionStatic
                 title="Data Science"
-                heading="Accelerate your career in Data Science"
+                heading="Learn how to analyze and interpret data correctly."
                 data={<>
                     <p>Accelerate your career in Data Science with the exclusive Data Science
                         Analytics Program. Experience world-class Data Science training by By Industry Leaders on the most in-demand Data Science Skills. Gain hands-on

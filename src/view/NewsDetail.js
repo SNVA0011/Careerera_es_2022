@@ -3,7 +3,7 @@ import Hero from '../Atoms/Hero'
 import blogs from '../Images/blogs.png'
 import { useParams } from 'react-router'
 import news1 from '../Images/news1.jpg'
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Moment from "react-moment";
 import { Helmet } from 'react-helmet'
 
@@ -51,7 +51,7 @@ const NewsDetail = () => {
             <span className="mx-2"> / </span>
             <Link to="/news-events" className="no-underline badge bg-info">News & Events</Link>
             <span className="mx-2"> / </span>
-            {Eventdetails[0].h1}</>} img={blogs} />
+            News & Events Details</>} img={blogs} />
 
 
           <div className="blog-detials-single container py-16">
@@ -94,7 +94,7 @@ const NewsDetail = () => {
                   </h5>
                   <div className="py-0 scroll">
                     {Eventdetails[0].RecentBlogList.map((item, i) => (
-                      <Link to={'/news-events/' + item.url} className="d-flex px-3 py-3" key={item.id}>
+                      <NavLink to={'/news-events/' + item.url} className="d-flex px-3 py-3" key={item.id} activeclassname="active">
                         <div className="flex-shrink-0 font-light">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
@@ -113,7 +113,7 @@ const NewsDetail = () => {
                             </svg>
                           </button>
                         </div>
-                      </Link>
+                      </NavLink>
                     ))}
                   </div>
                 </div>

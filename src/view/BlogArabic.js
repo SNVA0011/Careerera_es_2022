@@ -129,7 +129,7 @@ const BlogArabic = () => {
                                                     <div className="col-xl-9 col-md-8 col-12">
                                                         <h2 className="font-bold mb-3 text-xl md:text-2xl">
                                                             <Link
-                                                                to={'/ar/'+item.url}
+                                                                to={'/ar/blog/'+item.url}
                                                                 className="decoration-0"
                                                             >
                                                                 {item.title}

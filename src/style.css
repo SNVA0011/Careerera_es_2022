@@ -180,8 +180,9 @@ a.mailto-footer:hover{color:rgb(0, 159, 225)}
 .blog-detials-single .sidebar-bx .btn{padding:4px 15px;border-color:#697b96;background:#fff;color:#697b96;font-size:12px;margin-top:2px;box-shadow:none;border-radius:4px;transition:none;-ms-transition:none;-webkit-transition:none;}
 .blog-detials-single .sidebar-bx a{color:#000;text-decoration:none;display:block;}
 .blog-detials-single .sidebar-bx .d-flex:hover{background:rgb(1 121 246 / 10%);}
-.blog-detials-single .sidebar-bx a:hover{color:#0175ed;}
-.blog-detials-single .sidebar-bx .d-flex:hover .btn{border-color:#0175ed;color:#fff;background:-ms-linear-gradient(95deg, #084f99 0, #007dff 100%);background:-moz-linear-gradient(95deg, #084f99 0, #007dff 100%);background:-webkit-linear-gradient(95deg, #084f99 0, #007dff 100%);}
+.blog-detials-single .sidebar-bx .d-flex.active {background: rgb(104 122 148 / 10%)}
+.blog-detials-single .sidebar-bx a.active,.blog-detials-single .sidebar-bx a:hover{color:#0175ed;}
+.blog-detials-single .sidebar-bx .d-flex.active .btn,.blog-detials-single .sidebar-bx .d-flex:hover .btn{border-color:#0175ed;color:#fff;background:-ms-linear-gradient(95deg, #084f99 0, #007dff 100%);background:-moz-linear-gradient(95deg, #084f99 0, #007dff 100%);background:-webkit-linear-gradient(95deg, #084f99 0, #007dff 100%);}
 .blog-detials-single .content ol, .blog-detials-single .content ul{width:100%;padding:0 0 0 28px;margin:0 0 10px;}
 .blog-detials-single .content ol li,.blog-detials-single .content ul li{margin-bottom:4px;}
 .blog-detials-single .content ul>li{width:100%;list-style:disc;}
@@ -635,7 +636,7 @@ img.dotstp{margin-bottom:-50px;position:relative;left:-34px;}
 .blgvisibleowlcarousel .mb-4.mb-xl-0.shadow-customblg.border{border-radius:0.75rem;box-shadow:none;margin-bottom:0px !important;}
 .blgvisibleowlcarousel.media-prtslider .owl-carousel .owl-dots{margin-top:19px;}
 .blgvisibleowlcarousel.media-prtslider .owl-carousel .owl-item img{width:100%;}
-.chapterleft-bx{min-width:140px;}
+.chapterleft-bx{min-width:28%;}
 .lowercase-firstl{text-transform:lowercase;}
 .lowercase-firstl::first-letter{text-transform:uppercase;}
 .usercomment-sh::before{-webkit-box-shadow:0px 6px 6px rgb(0 0 0 / 05%), 0px 0px 2px rgb(0 0 0 / 05%);box-shadow:0px 6px 6px rgb(0 0 0 / 05%), 0px 0px 2px rgb(0 0 0 / 05%);position:relative;border:2px solid #fff;border-radius:40px;}
@@ -686,7 +687,7 @@ img.dotstp.d-inline-block.right{margin-top:-50px;position:relative;right:-34px;l
 .full-w.banner-pagetitle p.linktitle-batch{letter-spacing:1.6px;}
 .country-master .sepfoll-hr::before{box-shadow:0 0 0 3px #f9fafb;background:#f9fafb;}
 .bg-snocurri{background:rgb(123, 127, 137);background:-moz-linear-gradient(-45deg, rgba(123, 127, 137, 1) 0%, rgba(156, 163, 175, 1) 100%);background:-webkit-linear-gradient(-45deg, rgba(123, 127, 137, 1) 0%, rgba(156, 163, 175, 1) 100%);background:linear-gradient(135deg, rgba(123, 127, 137, 1) 0%, rgba(156, 163, 175, 1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7b7f89', endColorstr='#9ca3af', GradientType=1);border-color:rgb(124 128 138);}
-.curriculum-mstercoun .chapterleft-bx{min-width:165px;}
+.curriculum-mstercoun .chapterleft-bx{min-width:30%;}
 .curriculum-mstercoun .bggrayunit{background-color:rgb(144 150 162 / 3%);}
 .talwin-formstyle{}
 .form-annum.talwin-formstyle .block.bg-white.w-full.border.border-slate-300, .form-annum.talwin-formstyle .form-control, .form-annum.talwin-formstyle .form-select, .form-annum.talwin-formstyle .btn{height:3rem;}

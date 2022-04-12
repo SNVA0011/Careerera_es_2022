@@ -17,7 +17,7 @@ const Careerera = (props) => {
                         }
                     </div>
                     <hr className="w-20 hr mb-4 bg-blue-400 sepfoll-hr" />
-                    <div className="row pt-1">
+                    <div className="row pt-1 text-uppercase">
                         <div className="justify-items-center  col-lg-3 col-md-6 col-12 text-center mb-4">
                             <i className="fas fa-users fa-2x border-1 border-white rounded-full bg-blue-500 p-4 text-white "></i>
 
