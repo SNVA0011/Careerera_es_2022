@@ -111,10 +111,14 @@ export default function CyberSecurityState() {
                                 <p className='text-gray-500 text-base md:text-lg fw-medium'>Accelerate your career in Cyber Security</p>
                                 <hr className="w-20 hr mb-4 bg-blue-400 sepfoll-hr"></hr>
                             </div>
-                            <div className="des_content">
-                                <p dangerouslySetInnerHTML={{ __html: data[0].county_desc }} />
 
-                            </div>
+                            {data[0] ?
+                            <div className="blog-detials-single">
+                                <div className="content st data-scinece-othercer" dangerouslySetInnerHTML={{ __html: data[0].county_desc }}>
+                                </div>
+                               </div> : ''}
+
+               
                         </div>
                     </div>
 

@@ -924,13 +924,14 @@ body .our_faq_sec.custom_locationall .accordion-header button{font-weight:600;}
 .animated_numberscenter .animated-container{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 
 .annummis{min-height:54px;min-width:46px;}
- .mockexam-certi .media-prtslider .owl-carousel .owl-item, .fadeInUpscrl{-webkit-animation-name:fadeInUpfadeInUpscrl;animation-name:fadeInUpfadeInUpscrl;-webkit-animation-duration:0.4s !important;animation-duration:0.4s !important;-webkit-animation-timing-function:cubic-bezier(.5, 0, 0, 1.25);animation-timing-function:cubic-bezier(.5, 0, 0, 1.25);-webkit-animation-fill-mode:both;animation-fill-mode:both;}
-@-webkit-keyframes fadeInUpfadeInUpscrl{0%{opacity:0;-webkit-transform:translate3d(0, 10%, 0);transform:translate3d(0, 10%, 0);}
+.mockexam-certi .media-prtslider .owl-carousel .owl-item, .fadeInUpscrl{-webkit-animation-name:fadeInUpfadeInUpscrl;animation-name:fadeInUpfadeInUpscrl;-webkit-animation-duration:0.4s !important;animation-duration:0.4s !important;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+@-webkit-keyframes fadeInUpfadeInUpscrl{0%{opacity:0;-webkit-transform:translate3d(0, 5%, 0);transform:translate3d(0, 5%, 0);}
+ 5%{opacity:1;-webkit-transform:none;transform:none;}
+ }
+ @keyframes fadeInUpfadeInUpscrl{0%{opacity:0;-webkit-transform:translate3d(0, 5%, 0);transform:translate3d(0, 5%, 0);}
  100%{opacity:1;-webkit-transform:none;transform:none;}
  }
- @keyframes fadeInUpfadeInUpscrl{0%{opacity:0;-webkit-transform:translate3d(0, 10%, 0);transform:translate3d(0, 10%, 0);}
- 100%{opacity:1;-webkit-transform:none;transform:none;}
- }
+ 
  .fadeInUpscrlout{-webkit-animation-name:fadeInUpscrlout_2;animation-name:fadeInUpscrlout_2;-webkit-animation-duration:0.4s !important;animation-duration:0.4s !important;-webkit-animation-timing-function:cubic-bezier(.5, 0, 0, 1.25);animation-timing-function:cubic-bezier(.5, 0, 0, 1.25);-webkit-animation-fill-mode:both;animation-fill-mode:both;}
  @-webkit-keyframes fadeInUpscrlout_2{0%{opacity:1;}
  100%{opacity:0;-webkit-transform:translate3d(0, 2000px, 0);transform:translate3d(0, 2000px, 0);}

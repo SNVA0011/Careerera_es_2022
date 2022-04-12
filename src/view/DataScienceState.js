@@ -115,10 +115,18 @@ export default function DataScienceState() {
                 <p className='text-gray-500 text-base md:text-lg fw-medium'>Accelerate your career in Data Science</p>
                 <hr className="w-20 hr mb-4 bg-blue-400 sepfoll-hr"></hr>
               </div>
-              <div className="des_content">
-                <p dangerouslySetInnerHTML={{ __html: data[0].county_desc }} />
 
-                {/* <div className={"desc_list_show_more " + (conthide ? 'd-none' : 'd-block')}>
+              {data[0] ?
+                <div className="blog-detials-single">
+                  <div className="content st data-scinece-othercer" dangerouslySetInnerHTML={{ __html: data[0].county_desc }}>
+                  </div>
+                </div>
+                : ''}
+
+              {/*<div className="des_content">
+                <p  />
+
+                <div className={"desc_list_show_more " + (conthide ? 'd-none' : 'd-block')}>
                 <a href={void (0)}
                   onClick={() => { showMorecont() }}
                   className="desc_show_more btn-site no-underline cursor-pointer invert"><span>Mostrar Más</span></a>
@@ -132,8 +140,10 @@ export default function DataScienceState() {
                     <span>Show Less</span>
                   </a>
                 </div>
-              </div> */}
               </div>
+              </div> */}
+
+
             </div>
           </div>
 

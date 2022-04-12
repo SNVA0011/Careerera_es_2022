@@ -109,7 +109,13 @@ export default function CyberSecurityContry() {
                                 <h2 className='text-2xl md:text-3xl font-bold'>Cyber Security <span className='orange-clrsite'>Online Course</span></h2>
                                 <p className='text-gray-500 text-base md:text-lg fw-medium'>Accelerate your career in Cyber Security</p>
                                 <hr className="w-20 hr mb-4 bg-blue-400 sepfoll-hr"></hr>
-                                <p dangerouslySetInnerHTML={{ __html: data[0].state_desc }} />
+
+                        {data[0] ?        
+<div className="blog-detials-single">
+                                <div className="content st data-scinece-othercer" dangerouslySetInnerHTML={{ __html: data[0].state_desc }}>
+                                </div>
+                               </div> : ''}
+ 
                             </div>
 
                         </div>
