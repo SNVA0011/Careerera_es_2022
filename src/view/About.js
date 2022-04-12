@@ -18,6 +18,8 @@ import vivek from '../Images/vivek.jpeg'
 import alok from '../Images/alok.jpg'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
+import AnimatedNumbers from "react-animated-numbers";
+
 
 const About = () => {
 
@@ -381,16 +383,16 @@ const About = () => {
                                     <div className='row mb-3'>
                                         <div className="col-sm-6 col-12 mb-4">
                                             <div className='shadow-0'>
-                                                <h2 className="text-blue-500 font-semibold text-3xl md:text-4xl xxl:text-5xl">
-                                                    60+
+                                                <h2 className="text-blue-500 sitblu-clrsite font-semibold text-3xl md:text-4xl xxl:text-5xl">
+                                                    <div className='d-inline-block'><AnimatedNumbers  animateToNumber={60} configs={[ { mass: 1, tension: 220, friction: 100 }, { mass: 1, tension: 180, friction: 130 }, { mass: 1, tension: 280, friction: 90 }, { mass: 1, tension: 180, friction: 135 }, { mass: 1, tension: 260, friction: 100 }, { mass: 1, tension: 210, friction: 180 }, ]}></AnimatedNumbers></div>+
                                                 </h2>
                                                 <p className="text-gray-700 text-lg lg:text-xl font-semibold">Los paises</p>
                                             </div>
                                         </div>
                                         <div className="col-sm-6 col-12 mb-4">
                                             <div className='shadow-0'>
-                                                <h2 className="text-blue-500 font-semibold text-3xl md:text-4xl xxl:text-5xl">
-                                                    253851
+                                                <h2 className="text-blue-500 sitblu-clrsite font-semibold text-3xl md:text-4xl xxl:text-5xl">
+                                                    <div className='d-inline-block'><AnimatedNumbers  animateToNumber={253851} configs={[ { mass: 1, tension: 220, friction: 100 }, { mass: 1, tension: 180, friction: 130 }, { mass: 1, tension: 280, friction: 90 }, { mass: 1, tension: 180, friction: 135 }, { mass: 1, tension: 260, friction: 100 }, { mass: 1, tension: 210, friction: 180 }, ]}></AnimatedNumbers></div>
                                                 </h2>
                                                 <p className="text-gray-700 text-lg lg:text-xl font-semibold">Usuarios</p>
                                             </div>
@@ -398,16 +400,16 @@ const About = () => {
 
                                         <div className="col-sm-6 col-12 mb-4">
                                             <div className='shadow-0'>
-                                                <h2 className="text-blue-500 font-semibold text-3xl md:text-4xl xxl:text-5xl">
-                                                    29
+                                                <h2 className="text-blue-500 sitblu-clrsite font-semibold text-3xl md:text-4xl xxl:text-5xl">
+                                                    <div className='d-inline-block'><AnimatedNumbers  animateToNumber={29} configs={[ { mass: 1, tension: 220, friction: 100 }, { mass: 1, tension: 180, friction: 130 }, { mass: 1, tension: 280, friction: 90 }, { mass: 1, tension: 180, friction: 135 }, { mass: 1, tension: 260, friction: 100 }, { mass: 1, tension: 210, friction: 180 }, ]}></AnimatedNumbers></div>
                                                 </h2>
                                                 <p className="text-gray-700 text-lg lg:text-xl font-semibold">Trayectoria profesional</p>
                                             </div>
                                         </div>
                                         <div className="col-sm-6 col-12 mb-4">
                                             <div className='shadow-0'>
-                                                <h2 className="text-blue-500 font-semibold text-3xl md:text-4xl xxl:text-5xl">
-                                                    146
+                                                <h2 className="text-blue-500 sitblu-clrsite font-semibold text-3xl md:text-4xl xxl:text-5xl">
+                                                   <div className='d-inline-block'><AnimatedNumbers animateToNumber={146} configs={[ { mass: 1, tension: 220, friction: 100 }, { mass: 1, tension: 180, friction: 130 }, { mass: 1, tension: 280, friction: 90 }, { mass: 1, tension: 180, friction: 135 }, { mass: 1, tension: 260, friction: 100 }, { mass: 1, tension: 210, friction: 180 }, ]}></AnimatedNumbers></div>
                                                 </h2>
                                                 <p className="text-gray-700 text-lg lg:text-xl font-semibold">Cursos</p>
                                             </div>
@@ -415,16 +417,16 @@ const About = () => {
 
                                         <div className="col-sm-6 col-12 mb-4">
                                             <div className='shadow-0'>
-                                                <h2 className="text-blue-500 font-semibold text-3xl md:text-4xl xxl:text-5xl">
-                                                    1054
+                                                <h2 className="text-blue-500 sitblu-clrsite font-semibold text-3xl md:text-4xl xxl:text-5xl">
+                                                   <div className='d-inline-block'><AnimatedNumbers animateToNumber={1054} configs={[ { mass: 1, tension: 220, friction: 100 }, { mass: 1, tension: 180, friction: 130 }, { mass: 1, tension: 280, friction: 90 }, { mass: 1, tension: 180, friction: 135 }, { mass: 1, tension: 260, friction: 100 }, { mass: 1, tension: 210, friction: 180 }, ]}></AnimatedNumbers></div>
                                                 </h2>
                                                 <p className="text-gray-700 text-lg lg:text-xl font-semibold">próximas clases</p>
                                             </div>
                                         </div>
                                         <div className="col-sm-6 col-12">
                                             <div className='shadow-0'>
-                                                <h2 className="text-blue-500 font-semibold text-3xl md:text-4xl xxl:text-5xl">
-                                                    47
+                                                <h2 className="text-blue-500 sitblu-clrsite font-semibold text-3xl md:text-4xl xxl:text-5xl">
+                                                   <div className='d-inline-block'><AnimatedNumbers animateToNumber={47} configs={[ { mass: 1, tension: 220, friction: 100 }, { mass: 1, tension: 180, friction: 130 }, { mass: 1, tension: 280, friction: 90 }, { mass: 1, tension: 180, friction: 135 }, { mass: 1, tension: 260, friction: 100 }, { mass: 1, tension: 210, friction: 180 }, ]}></AnimatedNumbers></div>
                                                 </h2>
                                                 <p className="text-gray-700 text-lg lg:text-xl font-semibold">aprendizaje electronico</p>
                                             </div>
