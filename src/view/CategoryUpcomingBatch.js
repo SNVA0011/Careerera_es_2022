@@ -18,11 +18,13 @@ export default function CategoryUpcomingBatch() {
 
     // List of BlogDetails
     async function getCourse() {
-        const course = await fetch(
-            'https://es.careerera.com/API/course/CategoryPage.php?url=' + idbatchmain + '&timeZone=EST'
-        )
-        const courseapi = await course.json()
-        Catsetfinal(courseapi.records)
+        await fetch('http://65.0.26.142:9000/apiurl/', {
+            method: 'POST',
+            body: JSON.stringify({ "apiurl": 'https://es.careerera.com/API/course/CategoryPage.php?url=' + idbatchmain + '&timeZone=EST'}),
+            headers: {
+                'Content-type': 'application/json; charset=UTF-8',
+            },
+        }, []).then((response) => response.json()).then((json) => Catsetfinal(json.records));
         Catloadsts(true)
     }  
 

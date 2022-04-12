@@ -81,7 +81,7 @@ const PgpDataScience = (props) => {
                 blogs="Blogs"
             />
             <DescriptionStatic
-                title="Data Science Online Course"
+                title="Data Science"
                 heading="Accelerate your career in Data Science"
                 data={<>
                     <p>Accelerate your career in Data Science with the exclusive Data Science
@@ -710,14 +710,21 @@ const PgpDataScience = (props) => {
                 ques15="Q14 : Is there any guarantee of placement after the completion of the PGP in Data Science course?"
                 ans15="A : We provide dedicated placement assistance after the program completion. We give guidance on resume writing, Conduct Workshops on Interview Preparation."
                 ques16="Q15 : Why should one choose Careerera?"
-                ans16="As an education provider, Careerera aims at developing the overall personality of an individual so that they can progress into becoming highly skilled working professionals.
-                         Careerera’s faculty utilize contemporary tactics in order to deliver training sessions which include one-to-one interaction between the participants and the instructor.
-                         The trainers appointed for Careerera’s courses possess a very high level of expertise in their subjects and fields. Therefore Careerera can easily guarantee positive results for all the participants.
-                         24x7 guidance is provided to those who need it via call, email, or video call.
-                         Candidates can opt for demo classes in order to get a good idea of the actual training sessions.
-                         Careerera provides the online live virtual classroom training model in order to make it easier for working professionals to attend the sessions on one hand while balancing their work on the other.
-                     
-                     "
+                ans16='<ul class="faq_ul_list">
+                <li>As an education provider, Careerera aims at developing the overall personality of an
+individual so that they can progress into becoming highly skilled working professionals.</li>
+<li>Careerera’s faculty utilize contemporary tactics in order to deliver training sessions
+which include one-to-one interaction between the participants and the instructor.</li>
+<li>The trainers appointed for Careerera’s courses possess a very high level of expertise
+in their subjects and fields. Therefore Careerera can easily guarantee positive results
+for all the participants.</li>
+<li>24x7 guidance is provided to those who need it via call, email, or video call.</li>
+<li>Candidates can opt for demo classes in order to get a good idea of the actual training
+sessions.</li>
+<li>Careerera provides the online live virtual classroom training model in order to make it
+easier for working professionals to attend the sessions on one hand while balancing
+their work on the other.</li>
+              </ul>'
                 ques17=""
                 ans17=""
 
