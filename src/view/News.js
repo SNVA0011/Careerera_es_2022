@@ -21,13 +21,15 @@ const News = () => {
     const [Eventsts, setEventsts] = useState(false)
 
     // List of Event
-    async function Eventslist() {
-        const allEventsList = await fetch(
-            'https://my.careerera.com/API/common/EventsList.php'
-        )
-        const allEventsListapi = await allEventsList.json()
-        setEvent(allEventsListapi.records)
-        setEventsts(true)
+    async function Eventslist() {  
+        await fetch('http://65.0.26.142:9000/apiurl/', {
+            method: 'POST',
+            body: JSON.stringify({ "apiurl": 'https://my.careerera.com/API/common/EventsList.php' }),
+            headers: {
+                'Content-type': 'application/json; charset=UTF-8',
+            },
+        }, []).then((response) => response.json()).then((json) => setEvent(json.records));
+        setEventsts(true);
     }
 
     const freeAllbatch = []

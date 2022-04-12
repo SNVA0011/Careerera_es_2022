@@ -61,40 +61,34 @@ export const Provider = (props) => {
     console.log("0000000", logger)
 
     async function getCourse() {
-        // const data = await fetch('http://65.0.26.142:9000/apiurl/', {
-        //     method: 'POST',
-        //     body: JSON.stringify({ "apiurl": 'https://my.careerera.com/API/course/CategoryPage.php?url=' + id + "&timeZone=EST" }),
-        //     headers: {
-        //         'Content-type': 'application/json; charset=UTF-8',
-        //     },
-        // }, []).then((response) => response.json()).then((json) => Catsetfinal(json.records));
-        // console.log("P", data)
+        const data = await fetch('http://65.0.26.142:9000/apiurl/', {
+            method: 'POST',
+            body: JSON.stringify({ "apiurl": 'https://es.careerera.com/API/course/CategoryPage.php?url=' + id + "&timeZone=EST" }),
+            headers: {
+                'Content-type': 'application/json; charset=UTF-8',
+            },
+        }, []).then((response) => response.json()).then((json) => Catsetfinal(json.records));
+        console.log("P", data)
 
 
-        const course = await fetch(
-            'https://es.careerera.com/API/course/CategoryPage.php?url=' + id + "&timeZone=EST"
-        )
-        const courseapi = await course.json()
-        Catsetfinal(courseapi.records)
+        // const course = await fetch(
+        //     'https://es.careerera.com/API/course/CategoryPage.php?url=' + id + "&timeZone=EST"
+        // )
+        // const courseapi = await course.json()
+        // Catsetfinal(courseapi.records)
         Catloadsts(true)
     }
 
     // Free Courses
-    async function freeCourse() {
-        // await fetch('http://65.0.26.142:9000/apiurl/', {
-        //     method: 'POST',
-        //     body: JSON.stringify({ "apiurl": 'https://my.careerera.com/API/course/FreeElearningBatch.php?timeZone=' + contextcur.currency }),
-        //     headers: {
-        //         'Content-type': 'application/json; charset=UTF-8',
-        //     },
-        // }, []).then((response) => response.json()).then((json) => setFreeCour(json.records));
-
-        const data = await fetch(
-            'https://my.careerera.com/API/course/FreeElearningBatch.php?timeZone=' + contextcur.currency
-        )
-        const dataapi = await data.json()
-        setFreeCour(dataapi.records)
-        setFreeCourLoad(true)
+    async function freeCourse() { 
+        await fetch('http://65.0.26.142:9000/apiurl/', {
+            method: 'POST',
+            body: JSON.stringify({ "apiurl": 'https://my.careerera.com/API/course/FreeElearningBatch.php?timeZone=' + contextcur.currency }),
+            headers: {
+                'Content-type': 'application/json; charset=UTF-8',
+            },
+        }, []).then((response) => response.json()).then((json) => setFreeCour(json.records));
+        setFreeCourLoad(true); 
     }
 
     // Live Online Api
@@ -119,13 +113,15 @@ export const Provider = (props) => {
 
 
     // Country List Api
-    async function Allcountrylist() {
-        const allcountrylist = await fetch(
-            'https://my.careerera.com/API/common/CountryList.php'
-        )
-        const allcountrylistapi = await allcountrylist.json()
-        setallcountryList(allcountrylistapi.records)
-        setcountryLoad(true)
+    async function Allcountrylist() { 
+        await fetch('http://65.0.26.142:9000/apiurl/', {
+            method: 'POST',
+            body: JSON.stringify({ "apiurl": 'https://my.careerera.com/API/common/CountryList.php' }),
+            headers: {
+                'Content-type': 'application/json; charset=UTF-8',
+            },
+        }, []).then((response) => response.json()).then((json) => setallcountryList(json.records));
+        setcountryLoad(true);
     }
 
     // async function CallApi(){

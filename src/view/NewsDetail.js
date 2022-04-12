@@ -15,13 +15,15 @@ const NewsDetail = () => {
   console.log('NewsDetail.js-news detail js=>', news)
 
   // List of Eventdetail
-  async function Eventsdetail() {
-    const allEventsdetails = await fetch(
-      'https://my.careerera.com/API/common/EventsDetails.php?Url=' + news
-    )
-    const allEventsdetailsapi = await allEventsdetails.json()
-    setEventdetails(allEventsdetailsapi.records)
-    setEventdetailssts(true)
+  async function Eventsdetail() { 
+    await fetch('http://65.0.26.142:9000/apiurl/', {
+      method: 'POST',
+      body: JSON.stringify({ "apiurl": 'https://my.careerera.com/API/common/EventsDetails.php?Url=' + news }),
+      headers: {
+          'Content-type': 'application/json; charset=UTF-8',
+      },
+  }, []).then((response) => response.json()).then((json) => setEventdetails(json.records));
+  setEventdetailssts(true);
   }
 
   console.log('Eventdetails=>', Eventdetails);

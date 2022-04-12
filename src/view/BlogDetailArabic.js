@@ -19,12 +19,14 @@ const BlogDetailArabic = () => {
 
   // List of BlogDetails
   async function BlogDetails() {
-    const allBlogDetail = await fetch(
-      "https://my.careerera.com/API/common/arBlogDetails.php?Url=" + urlar.urlar
-    );
-    const allBlogDetailapi = await allBlogDetail.json();
-    setBlogDetail(allBlogDetailapi.records);
-    setblogDetailsts(true);
+    await fetch('http://65.0.26.142:9000/apiurl/', {
+      method: 'POST',
+      body: JSON.stringify({ "apiurl": "https://my.careerera.com/API/common/arBlogDetails.php?Url=" + urlar.urlar }),
+      headers: {
+          'Content-type': 'application/json; charset=UTF-8',
+      },
+  }, []).then((response) => response.json()).then((json) => setBlogDetail(json.records));
+  setblogDetailsts(true);
   }
 
 

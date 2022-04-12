@@ -24,12 +24,14 @@ const Blog = () => {
 
     // List of Blog
     async function Bloglist() {
-        const allBlogList = await fetch(
-            'https://es.careerera.com/API/common/BlogList.php'
-        )
-        const allBlogListapi = await allBlogList.json()
-        setBlog(allBlogListapi.records)
-        setblogsts(true)
+         await fetch('http://65.0.26.142:9000/apiurl/', {
+            method: 'POST',
+            body: JSON.stringify({ "apiurl": 'https://es.careerera.com/API/common/BlogList.php' }),
+            headers: {
+                'Content-type': 'application/json; charset=UTF-8',
+            },
+        }, []).then((response) => response.json()).then((json) => setBlog(json.records));
+        setblogsts(true);
     }
 
     const freeAllbatch = []
