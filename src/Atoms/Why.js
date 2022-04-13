@@ -57,7 +57,8 @@ const Why = (props) => {
                     </div>
                     <div className="time_content">
                       <h5 className='text-2xl md:text-3xl font-bold my-3'>2.7 MILLION</h5>
-                      <p className='mb-0 text-sm sm:text-base'>La estimación global de 2021 exige 2,7 millones de puestos de {props.data} trabajo.</p>
+                      <p className='mb-0 text-sm sm:text-base'>
+                      La estimación global para 2022 exige 2,7 millones de ofertas de trabajo para funciones de análisis y {props.data}.</p>
                     </div>
                   </div>
                 </li>
@@ -83,7 +84,7 @@ const Why = (props) => {
                     </div>
                     <div className="time_content">
                       <h5 className='text-2xl md:text-3xl font-bold my-3'>2021-22</h5>
-                      <p className='mb-0 text-sm sm:text-base'>A nivel mundial para convertirse en una de las cinco principales habilidades para puestos de trabajo en 2021-22.</p>
+                      <p className='mb-0 text-sm sm:text-base'>A nivel mundial para convertirse en una de las cinco principales habilidades para puestos de trabajo en 2022.</p>
                     </div>
                   </div>
                 </li>

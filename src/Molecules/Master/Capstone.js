@@ -34,7 +34,7 @@ const Capstone = (props) => {
                     </div>
                     :
                     <div className="sec_title">
-                        <h2 className="text-2xl md:text-3xl font-bold">Capstone <span className="orange-clrsite">Proyecto</span></h2>
+                        <h2 className="text-2xl md:text-3xl font-bold">Capstone <span className="orange-clrsite">Proyectos</span></h2>
                         <p className="text-gray-800 text-base md:text-lg fw-medium">Pon a prueba tus habilidades y hazte con un proyecto final.</p>
                         <hr className="w-20 hr mb-5 bg-blue-400 sepfoll-hr" />
                     </div>

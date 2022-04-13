@@ -267,51 +267,51 @@ const App = () => {
 
 
                     {/* MASTERS COURSE STATIC */}
-                    <Route exact path="/data-science/post-graduate-program-in-data-science" element={<CurrencyContxt.Provider
+                    {/* <Route exact path="/data-science/post-graduate-program-in-data-science" element={<CurrencyContxt.Provider
                         value={[contextcur, setContextCur]}>
                         <Provider>
                             <PgpDataScience />
                         </Provider>
-                    </CurrencyContxt.Provider>} />
+                    </CurrencyContxt.Provider>} /> */}
 
-                    <Route exact path="/artificial-intelligence-and-machine-learning/post-graduate-program-in-artificial-intelligence-machine-learning" element={<CurrencyContxt.Provider
+                    {/* <Route exact path="/artificial-intelligence-and-machine-learning/post-graduate-program-in-artificial-intelligence-machine-learning" element={<CurrencyContxt.Provider
                         value={[contextcur, setContextCur]}>
                         <Provider>
                             <PgpArtificalIntelligence />
                         </Provider>
-                    </CurrencyContxt.Provider>} />
+                    </CurrencyContxt.Provider>} /> */}
 
 
-                    <Route exact path="/cyber-security/post-graduate-program-in-cyber-security" element={<CurrencyContxt.Provider
+                    {/* <Route exact path="/cyber-security/post-graduate-program-in-cyber-security" element={<CurrencyContxt.Provider
                         value={[contextcur, setContextCur]}>
                         <Provider>
                             <PgpCyberSecurity />
                         </Provider>
-                    </CurrencyContxt.Provider>} />
+                    </CurrencyContxt.Provider>} /> */}
 
 
-                    <Route exact path="/internet-marketing/post-graduate-program-in-digital-marketing" element={<CurrencyContxt.Provider
+                    {/* <Route exact path="/internet-marketing/post-graduate-program-in-digital-marketing" element={<CurrencyContxt.Provider
                         value={[contextcur, setContextCur]}>
                         <Provider>
                             <PgpDigitalMarketing />
                         </Provider>
-                    </CurrencyContxt.Provider>} />
+                    </CurrencyContxt.Provider>} /> */}
 
 
-                    <Route exact path="/software-development/pgp-in-full-stack-development" element={<CurrencyContxt.Provider
+                    {/* <Route exact path="/software-development/pgp-in-full-stack-development" element={<CurrencyContxt.Provider
                         value={[contextcur, setContextCur]}>
                         <Provider>
                             <PgpFullStack />
                         </Provider>
-                    </CurrencyContxt.Provider>} />
+                    </CurrencyContxt.Provider>} /> */}
 
 
-                    <Route exact path="/software-development/post-graduate-program-in-ui-and-ux-design" element={<CurrencyContxt.Provider
+                    {/* <Route exact path="/software-development/post-graduate-program-in-ui-and-ux-design" element={<CurrencyContxt.Provider
                         value={[contextcur, setContextCur]}>
                         <Provider>
                             <PgpUi />
                         </Provider>
-                    </CurrencyContxt.Provider>} />
+                    </CurrencyContxt.Provider>} /> */}
 
 
                     {/* Spanish - MASTERS COURSE STATIC */}
@@ -339,7 +339,7 @@ const App = () => {
 
                     {/* End MASTERS COURSE STATIC */}
 
-                    <Route exact path="/:id/:dats/:country" element={<CurrencyContxt.Provider
+                    {/* <Route exact path="/:id/:dats/:country" element={<CurrencyContxt.Provider
                         value={[contextcur, setContextCur]}>
                         <Provider>
                             <MasterCountry />
@@ -358,12 +358,12 @@ const App = () => {
                         <Provider>
                             <MasterCity />
                         </Provider>
-                    </CurrencyContxt.Provider>} />
+                    </CurrencyContxt.Provider>} /> */}
 
 
 
                     {/* view */}
-                    <Route exact path="/:id/certification-course/:countrycourse" element={<CurrencyContxt.Provider
+                    {/* <Route exact path="/:id/certification-course/:countrycourse" element={<CurrencyContxt.Provider
                         value={[contextcur, setContextCur]}>
                         <Provider>
                             <DataScienceCountry />
@@ -416,7 +416,7 @@ const App = () => {
                         <Provider>
                             <CyberSecurityZip />
                         </Provider>
-                    </CurrencyContxt.Provider>} />
+                    </CurrencyContxt.Provider>} /> */}
 
 
                     <Route exact path="/:data/liveonline/:date/:workid" element={<CurrencyContxt.Provider
@@ -503,8 +503,14 @@ const App = () => {
                         </CurrencyContxt.Provider>} />
 
 
-
                     {/* Index & Not found page */}
+                    <Route path="/data-science/post-graduate-program-in-data-science " element={<NotFound />} />
+                    <Route path="/cyber-security/post-graduate-program-in-cyber-security" element={<NotFound />} />
+                    <Route path="/software-development/pgp-in-full-stack-development " element={<NotFound />} />
+                    <Route path="/software-development/post-graduate-program-in-ui-and-ux-design" element={<NotFound />} />
+                    <Route path="/internet-marketing/post-graduate-program-in-digital-marketing" element={<NotFound />} />
+                    <Route path="/artificial-intelligence-and-machine-learning/post-graduate-program-in-artificial-intelligence-machine-learning" element={<NotFound />} />
+
                     <Route path="*" element={<NotFound />} />
 
                     <Route exact path="/" element={
