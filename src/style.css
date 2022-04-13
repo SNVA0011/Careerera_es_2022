@@ -258,6 +258,10 @@ a.mailto-footer:hover{color:rgb(0, 159, 225)}
 .waveontopform, .certification-courses .shape-bottom{position:absolute;left:0;top:0px;width:100%;}
 .waveontopform svg, .certification-courses .shape-bottom svg{height:180px;width:100%;}
 .full-w.start-yourcareer.relatedcr{background-image:none;}
+.full-w.des-explornav .navbar-dark .navbar-nav .nav-link{
+    text-transform: capitalize;
+}
+ 
 .full-w.des-explornav .navbar-dark .navbar-nav .nav-link{padding-left:0px;margin-right:30px;color:rgb(255 255 255 / 80%);position:relative;}
 .full-w.des-explornav .navbar-dark .navbar-nav .nav-link.active{color:#fbbf24;font-weight:800;text-shadow:-2px 1px 3px rgb(0 0 0 / 40%);}
 .full-w.des-explornav .navbar-dark .navbar-nav .nav-link.active:before{content:"";width:94%;height:5px;position:absolute;bottom:-11px;background:#f7be26;left:0;transition:all 700ms ease 0s;margin-left:0;border-radius:40px;box-shadow:0 -2px 17px rgb(0 0 0 / 39%);}
@@ -824,6 +828,7 @@ body .our_faq_sec.custom_locationall .accordion-header button{font-weight:600;}
 .data-scinece-othercer h2{font-weight:600;margin-top:40px;font-size:180%;}
 .blog-detials-single .content.st p:first-child span[style="text-decoration:underline;"] strong,.data-scinece-othercer h3{font-weight:600;margin-top:40px;font-size:140%;}
 .blog-detials-single .content.st p:first-child span[style="text-decoration:underline;"] strong{font-weight:700;}
+ 
 .data-scinece-othercer h4{font-weight:600;margin-top:40px;font-size:140%;}
 .data-scinece-othercer h5{font-weight:600;margin-top:40px;font-size:140%;}
 .data-scinece-othercer h4:first-child{margin-top:0;}
