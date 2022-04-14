@@ -24,6 +24,8 @@ import tyt from '../Images/staffing/tyt.png';
 import illcunsulting from '../Images/staffing/ill-cunsulting.png';
 import rfsilicon from '../Images/staffing/rf-silicon.png';
 import arnavcandy from '../Images/staffing/arnav-candy.png';
+import { Link } from "react-router-dom";
+
 
 
 export default function StaffingSolution() {
@@ -89,7 +91,10 @@ export default function StaffingSolution() {
                 <link rel="canonical" href="https://www.careerera.com/es/staffing-solution" />
             </Helmet>
 
-            <Hero title="Soluciones De Dotación De Personal" batch="Hogar / Soluciones De Dotación De Personal" />
+            <Hero title="Soluciones De Dotación De Personal"  
+            batch={<> <Link to="/" className="no-underline badge bg-info">Hogar</Link>
+        <span className="mx-2"> / </span>Soluciones De Dotación De Personal </>} 
+            />
 
 
             <div className="discription_sec">

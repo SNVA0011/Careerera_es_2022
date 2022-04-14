@@ -7,6 +7,8 @@ import noida2Img from '../Images/training-rooms/noida-2.jpg';
 import gurgaon3Img from '../Images/training-rooms/gurgaon-3.jpg';
 import gurgaon2Img from '../Images/training-rooms/gurgaon-2.jpg';
 import gurgaon1Img from '../Images/training-rooms/gurgaon-1.jpg';
+import { Link } from "react-router-dom";
+
 
 
 export default function TrainingRoom() {
@@ -22,7 +24,9 @@ export default function TrainingRoom() {
                 <link rel="canonical" href="https://www.careerera.com/es/training-room" />
             </Helmet>
 
-            <Hero title="SALAS DE FORMACIÓN" batch="Hogar / SALAS DE FORMACIÓN" />
+            <Hero title="SALAS DE FORMACIÓN" 
+            batch={<> <Link to="/" className="no-underline badge bg-info">Hogar</Link>
+        <span className="mx-2"> / </span>SALAS DE FORMACIÓN </>} />
 
             {/*=========== discription_sec ===========*/}
             <div className="discription_sec">

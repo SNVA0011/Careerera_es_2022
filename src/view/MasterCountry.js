@@ -138,7 +138,7 @@ const MasterCountry = () => {
 
                             </Helmet>
 
-                            <MasterCountryHero title={items.CourseTitel + " in " + countrycaptial}/>
+                            <MasterCountryHero title={items.CourseTitel + " in " + countrycaptial}  durationasitis={items.Duration}/>
 
                         </>
                     )

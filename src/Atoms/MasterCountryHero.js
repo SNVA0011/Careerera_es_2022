@@ -49,8 +49,14 @@ export default function MasterCountryHero(props) {
                                         <li className="sm:text-lg mb-3 font-semibold tracking-wide d-flex">
                                             <div className="mr-2">
                                                 <i className="shadow bi bi-check2 text-dark text-lg mr-1 bg-yellow-400 rounded px-1" />
-                                            </div>{" "}
-                                            36 horas
+                                            </div>{" "}  
+                                            {props.durationasitis ?
+                                                props.durationasitis
+                                                :
+                                                <>
+                                                     36 horas
+                                                </>
+                                            }
                                         </li>
                                         <li className="sm:text-lg mb-3 font-semibold tracking-wide d-flex">
                                             <div className="mr-2">

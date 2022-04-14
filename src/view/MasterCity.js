@@ -134,7 +134,7 @@ const MasterCity = () => {
 
                             </Helmet>
 
-                            <MasterCountryHero title={items.CourseTitel + " in " + country.city} />
+                            <MasterCountryHero title={items.CourseTitel + " in " + country.city} durationasitis={items.Duration}/>
                         </>
                     )
                 })}

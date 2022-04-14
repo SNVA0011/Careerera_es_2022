@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import Hero from '../Atoms/Hero'
 import disclaimer from '../Images/Datascience4.png'
 import { Helmet } from 'react-helmet'
+import { Link } from "react-router-dom";
+
 
 const TermsandCondition = () => {
     useEffect(() => {
@@ -19,8 +21,9 @@ const TermsandCondition = () => {
 
             <Hero
                 title="Términos "
-                detail="y Condiciones"
-                batch=" Hogar / Términos y Condiciones "
+                detail="y Condiciones" 
+                batch={<> <Link to="/" className="no-underline badge bg-info">Hogar</Link>
+        <span className="mx-2"> / </span>Términos y Condiciones </>} 
                 img={disclaimer}
             />
 

@@ -12,6 +12,8 @@ import { CurrencyContxt } from '../Atoms/Contextcurrency'
 import { Context, Provider } from "../Api";
 import { Helmet } from 'react-helmet'
 import Forms from '../Atoms/Form'
+import { Link } from "react-router-dom";
+
 
 const Contact = () => {
   // Country List Api
@@ -56,7 +58,8 @@ const Contact = () => {
       <Hero
         title="Contacto  "
         detail="Nosotros"
-        batch=" Hogar / Contacto "
+        batch={<> <Link to="/" className="no-underline badge bg-info">Hogar</Link>
+          <span className="mx-2"> / </span>Contacto </>}
         img={login}
       />
 
@@ -307,7 +310,7 @@ const Contact = () => {
                 Enviar un mensaje
               </h3>
               <p className="text-left mb-5">
-              Su dirección de correo electrónico No será publicado, Campos requeridos están marcados.
+                Su dirección de correo electrónico No será publicado, Campos requeridos están marcados.
 
               </p>
 

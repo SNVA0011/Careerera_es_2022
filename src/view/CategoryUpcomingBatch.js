@@ -20,13 +20,13 @@ export default function CategoryUpcomingBatch() {
     async function getCourse() {
         await fetch('http://65.0.26.142:9000/apiurl/', {
             method: 'POST',
-            body: JSON.stringify({ "apiurl": 'https://es.careerera.com/API/course/CategoryPage.php?url=' + idbatchmain + '&timeZone=EST'}),
+            body: JSON.stringify({ "apiurl": 'https://es.careerera.com/API/course/CategoryPage.php?url=' + idbatchmain + '&timeZone=EST' }),
             headers: {
                 'Content-type': 'application/json; charset=UTF-8',
             },
         }, []).then((response) => response.json()).then((json) => Catsetfinal(json.records));
         Catloadsts(true)
-    }  
+    }
 
     // currency inr/usd
     const [contextcur, setContextCur] = useContext(CurrencyContxt);
@@ -62,8 +62,9 @@ export default function CategoryUpcomingBatch() {
                     {
                         Catfinal[0].courseList.filter(courseList => courseList.courseFUllURL === idbatchmain + '/' + idbatch).map((listcour, i) =>
                             <>
-                                <Hero title="UPCOMING BATCHES" batch={"Hogar / " + listcour.CourseTitel} />
-
+                                <Hero title="UPCOMING BATCHES"
+                                    batch={<> <Link to="/" className="no-underline badge bg-info">Hogar</Link>
+                                        <span className="mx-2"> / </span> {listcour.CourseTitel} </>} />
 
                                 <div className={"free-batches bg-gray-50 full-w" + (listcour.CourseBatchList.Elearning.length > 0 || listcour.CourseBatchList.LVC.length > 0 ? ' py-16' : '')}>
 
@@ -94,7 +95,7 @@ export default function CategoryUpcomingBatch() {
                                                         {
                                                             listcour.CourseBatchList.Elearning.map((item, ind) => (
 
-                                                                <ScrollAnimation animateIn='fadeInUpscrl' animateOut='fadeInUpscrlout' delay={6*ind} animateOnce={true} className='col-lg-6 col-12 mb-4' key={ind}>
+                                                                <ScrollAnimation animateIn='fadeInUpscrl' animateOut='fadeInUpscrlout' delay={6 * ind} animateOnce={true} className='col-lg-6 col-12 mb-4' key={ind}>
                                                                     <div className="d-flex border-2 shadow px-3 py-3 h-100 flex-column flex-sm-row bg-white">
                                                                         <div className="">
                                                                             <div className="bg-red-600 p-3 text-center text-xs text-white date_freec">
@@ -185,7 +186,7 @@ export default function CategoryUpcomingBatch() {
                                                             {
                                                                 listcour.CourseBatchList.LVC.map((dats, index) => (
 
-                                                                    <ScrollAnimation animateIn='fadeInUpscrl' animateOut='fadeInUpscrlout' delay={6*index} animateOnce={true} className='col-lg-6 col-12 mb-4' key={index}>
+                                                                    <ScrollAnimation animateIn='fadeInUpscrl' animateOut='fadeInUpscrlout' delay={6 * index} animateOnce={true} className='col-lg-6 col-12 mb-4' key={index}>
                                                                         <div className="d-flex border-2 shadow px-3 py-3 h-100 flex-column flex-sm-row bg-white">
                                                                             <div className="">
                                                                                 <div className="bg-red-600 p-3 text-center text-xs text-white date_freec">
@@ -294,7 +295,7 @@ export default function CategoryUpcomingBatch() {
 
 
                 </div>
-                : <img src={fun} className="w-screen" alt="careerera-loader-image"/>}
+                : <img src={fun} className="w-screen" alt="careerera-loader-image" />}
         </div>
 
     );

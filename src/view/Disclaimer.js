@@ -1,7 +1,10 @@
-import React,{useEffect} from 'react'
+import React, { useEffect } from 'react'
 import Hero from '../Atoms/Hero'
 import disclaimer from '../Images/Datascience4.png'
 import { Helmet } from 'react-helmet'
+import { Link } from "react-router-dom";
+
+
 
 const Disclaimer = () => {
     useEffect(() => {
@@ -14,14 +17,15 @@ const Disclaimer = () => {
                 <title>Descargo de responsabilidad</title>
                 <meta name="description" content="" />
                 <meta name="keywords" content="" />
-                <link rel="canonical" href="https://www.careerera.com/es/disclaimer"/>
+                <link rel="canonical" href="https://www.careerera.com/es/disclaimer" />
             </Helmet>
 
 
             <Hero
                 title="Descargo de responsabilidad "
                 detail=""
-                batch=" Hogar / Descargo de responsabilidad"
+                batch={<> <Link to="/" className="no-underline badge bg-info">Hogar</Link>
+                    <span className="mx-2"> / </span>Descargo de responsabilidad </>}
                 img={disclaimer} />
             <div className="container py-16">
                 <h1 className="text-center font-bold">Descargo de responsabilidad</h1>

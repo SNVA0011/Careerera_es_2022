@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import Hero from '../Atoms/Hero'
 import disclaimer from '../Images/Datascience4.png'
 import { Helmet } from 'react-helmet'
+import { Link } from "react-router-dom";
+
 
 
 const Terms = () => {
@@ -19,8 +21,9 @@ const Terms = () => {
 
             <Hero
                 title="Condiciones "
-                detail="De Uso"
-                batch=" Hogar / Condiciones De Uso  "
+                detail="De Uso" 
+                batch={<> <Link to="/" className="no-underline badge bg-info">Hogar</Link>
+        <span className="mx-2"> / </span>Condiciones De Uso </>} 
                 img={disclaimer}
             />
             <div className="container py-16">

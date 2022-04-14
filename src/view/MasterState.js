@@ -157,7 +157,7 @@ const MasterState = () => {
                             </Helmet>
 
 
-                            <MasterCountryHero title={items.CourseTitel + " in " + country.state} />
+                            <MasterCountryHero title={items.CourseTitel + " in " + country.state}  durationasitis={items.Duration}/>
                         </>
                     )
                 })}

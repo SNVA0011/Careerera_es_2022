@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Hero from '../Atoms/Hero'
 import disclaimer from '../Images/Datascience4.png'
 import { Helmet } from 'react-helmet'
+import { Link } from "react-router-dom";
 
 
 const Refund = () => {
@@ -21,7 +22,8 @@ const Refund = () => {
             <Hero
                 title="POLITICA"
                 detail=" DE REEMBOLSO"
-                batch=" Hogar / Politica de reembolso "
+                batch={<> <Link to="/" className="no-underline badge bg-info">Hogar</Link>
+                    <span className="mx-2"> / </span>Politica de reembolso </>}
                 img={disclaimer}
             />
             <div className="container py-16">

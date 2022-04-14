@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import Hero from '../Atoms/Hero'
 import disclaimer from '../Images/Datascience4.png'
 import { Helmet } from 'react-helmet'
+import { Link } from "react-router-dom";
+
 
 
 const Privacy = () => {
@@ -19,8 +21,9 @@ const Privacy = () => {
 
             <Hero
                 title="Política"
-                detail=" De Privacidad"
-                batch=" Hogar / Política de privacidad "
+                detail=" De Privacidad" 
+                batch={<> <Link to="/" className="no-underline badge bg-info">Hogar</Link>
+        <span className="mx-2"> / </span>Política de privacidad </>} 
                 img={disclaimer}
             />
             <div className="container py-16">

@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import Hero from '../Atoms/Hero'
 import disclaimer from '../Images/Datascience4.png'
 import { Helmet } from 'react-helmet'
+import { Link } from "react-router-dom";
+
 
 const Rescheduling = () => {
     useEffect(() => {
@@ -19,8 +21,9 @@ const Rescheduling = () => {
 
             <Hero
                 title="Política"
-                detail=" De Reprogramación"
-                batch=" Hogar / Política de reprogramación"
+                detail=" De Reprogramación" 
+                batch={<> <Link to="/" className="no-underline badge bg-info">Hogar</Link>
+        <span className="mx-2"> / </span>Política de reprogramación </>} 
                 img={disclaimer}
             />
 
