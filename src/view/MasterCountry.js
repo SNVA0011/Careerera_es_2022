@@ -166,7 +166,7 @@ const MasterCountry = () => {
                                 return (
                                     <>
                                         {
-                                            items.CourseBatchList.Elearning.length > 0 ?
+                                            items.CourseBatchList.Elearning?.length > 0 ?
                                                 <>
                                                     <h3 className='font-semibold text-2xl mb-3'>Aprendizaje electrónico</h3>
                                                     <hr></hr>
@@ -188,7 +188,7 @@ const MasterCountry = () => {
                                     return (
                                         <>
                                             {
-                                                items.CourseBatchList.Elearning.length > 0 ?
+                                                items.CourseBatchList.Elearning?.length > 0 ?
                                                     items.CourseBatchList.Elearning.map((item, i) => {
                                                         return (
                                                             <>
@@ -208,6 +208,7 @@ const MasterCountry = () => {
 
                                                                                 {contextcur.currency === 'Asia/Kolkata' ?
                                                                                     <p className="font-semibold mb-1">
+                                                                                         <i class="bi bi-cash text-gray-500 mr-2"></i>
                                                                                         {' '}
                                                                                         <span className="line-through text-gray-500 font-semibold mr-1">
                                                                                             ₹{item.INR_Old_price}
@@ -216,6 +217,7 @@ const MasterCountry = () => {
                                                                                     </p>
                                                                                     :
                                                                                     <p className="font-semibold mb-1">
+                                                                                        <i class="bi bi-cash text-gray-500 mr-2"></i>
                                                                                         {' '}
                                                                                         <span className="line-through text-gray-500 font-semibold mr-1">
                                                                                             ${item.Old_price}
@@ -225,10 +227,12 @@ const MasterCountry = () => {
                                                                                 }
 
                                                                                 <p className="font-semibold mb-1">
+                                                                                         <i class="bi bi-building text-gray-500 mr-2"></i>
                                                                                     Careerera ({item.workshop_id})
                                                                                 </p>
 
                                                                                 <p className="font-semibold mb-1">
+                                                                                         <i class="bi bi-clock-history text-gray-500 mr-2"></i>
                                                                                     {item.batch_duration}
 
                                                                                     {item.Totalhour > 0 ?
@@ -236,6 +240,7 @@ const MasterCountry = () => {
                                                                                         : ''}
                                                                                 </p>
                                                                                 <p className="font-semibold">
+                                                                                       <i class="bi bi-camera-video-fill text-gray-500 mr-2"></i>
                                                                                     {item.batch_category}
                                                                                 </p>
 
@@ -287,7 +292,7 @@ const MasterCountry = () => {
                             <div className="row">
 
 
-                                {allfreeCour[0].LVC.filter((items) => items.BatchURL.includes(country.dats)).length > 0 ?
+                                {allfreeCour[0].LVC.filter((items) => items.BatchURL.includes(country.dats))?.length > 0 ?
                                     <>
                                         {allfreeCour[0].LVC.filter((items) => items.BatchURL.includes(country.dats)).map((items, index) => {
                                             return (
@@ -319,6 +324,7 @@ const MasterCountry = () => {
 
                                                                     {contextcur.currency === 'Asia/Kolkata' ?
                                                                         <p className="font-semibold mb-1">
+                                                                             <i class="bi bi-cash text-gray-500 mr-2"></i>
                                                                             {' '}
                                                                             <span className="line-through text-gray-500 font-semibold mr-1">
                                                                                 ₹{items.INR_Old_price}
@@ -327,6 +333,7 @@ const MasterCountry = () => {
                                                                         </p>
                                                                         :
                                                                         <p className="font-semibold mb-1">
+                                                                            <i class="bi bi-cash text-gray-500 mr-2"></i>
                                                                             {' '}
                                                                             <span className="line-through text-gray-500 font-semibold mr-1">
                                                                                 ${items.Old_price}
@@ -337,14 +344,17 @@ const MasterCountry = () => {
 
 
                                                                     <p className="font-semibold mb-1">
+                                                                        <i class="bi bi-building text-gray-500 mr-2"></i>
                                                                         Careerera ({items.workshop_id})
                                                                     </p>
 
                                                                     <p className="font-semibold mb-1">
+                                                                          <i class="bi bi-calendar4-event text-gray-500 mr-2"></i>
                                                                         {items.date} <span className="text-gray-500">-To-</span> {items.Enddate}
                                                                     </p>
 
                                                                     <p className="font-semibold mb-1">
+                                                                          <i class="bi bi-clock-history text-gray-500 mr-2"></i>
                                                                         {
                                                                             items.batch_duration.includes("Month") ? getWords(parseInt(items.batch_duration)) : items.batch_duration
                                                                         }
@@ -354,6 +364,7 @@ const MasterCountry = () => {
                                                                             : ''}
                                                                     </p>
                                                                     <p className="font-semibold">
+                                                                          <i class="bi bi-camera-video-fill text-gray-500 mr-2"></i>
                                                                         {items.batch_category}
                                                                     </p>
 
@@ -417,7 +428,7 @@ const MasterCountry = () => {
 
                         {Catsts ?
                             Catfinal[0].courseList.filter((items) => items.courseFUllURL == country.id + "/" + country.dats).map((items, i) =>
-                                items.Curriculum.length > 0 ?
+                                items.Curriculum?.length > 0 ?
 
                                     <>
                                         <div className="col-12 d-none d-md-block">

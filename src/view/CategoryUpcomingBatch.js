@@ -111,6 +111,7 @@ export default function CategoryUpcomingBatch() {
 
                                                                                 {contextcur.currency === 'Asia/Kolkata' ?
                                                                                     <p className="font-semibold mb-1">
+                                                                                         <i class="bi bi-cash text-gray-500 mr-2"></i>
                                                                                         {' '}
                                                                                         <span className="line-through text-gray-500 font-semibold mr-1">
                                                                                             ₹{item.INR_Old_price}
@@ -122,6 +123,7 @@ export default function CategoryUpcomingBatch() {
                                                                                     </p>
                                                                                     :
                                                                                     <p className="font-semibold mb-1">
+                                                                                        <i class="bi bi-cash text-gray-500 mr-2"></i>
                                                                                         {' '}
                                                                                         <span className="line-through text-gray-500 font-semibold mr-1">
                                                                                             ${item.Old_price}
@@ -131,10 +133,12 @@ export default function CategoryUpcomingBatch() {
                                                                                 }
 
                                                                                 <p className="font-semibold mb-1">
+                                                                                         <i class="bi bi-building text-gray-500 mr-2"></i>
                                                                                     Careerera ({item.workshop_id})
                                                                                 </p>
 
                                                                                 <p className="font-semibold mb-1">
+                                                                                         <i class="bi bi-clock-history text-gray-500 mr-2"></i>
                                                                                     {item.batch_duration}
 
                                                                                     {item.Totalhour > 0 ?
@@ -142,6 +146,7 @@ export default function CategoryUpcomingBatch() {
                                                                                         : ''}
                                                                                 </p>
                                                                                 <p className="font-semibold mb-1">
+                                                                                       <i class="bi bi-camera-video-fill text-gray-500 mr-2"></i>
                                                                                     {item.batch_category}
                                                                                 </p>
 
@@ -212,6 +217,7 @@ export default function CategoryUpcomingBatch() {
 
                                                                                     {contextcur.currency === 'Asia/Kolkata' ?
                                                                                         <p className="font-semibold mb-1">
+                                                                                             <i class="bi bi-cash text-gray-500 mr-2"></i>
                                                                                             {' '}
                                                                                             <span className="line-through text-gray-500 font-semibold mr-1">
                                                                                                 ₹{dats.INR_Old_price}
@@ -222,6 +228,7 @@ export default function CategoryUpcomingBatch() {
                                                                                         </p>
                                                                                         :
                                                                                         <p className="font-semibold mb-1">
+                                                                                            <i class="bi bi-cash text-gray-500 mr-2"></i>
                                                                                             {' '}
                                                                                             <span className="line-through text-gray-500 font-semibold mr-1">
                                                                                                 ${dats.Old_price}
@@ -232,14 +239,17 @@ export default function CategoryUpcomingBatch() {
 
 
                                                                                     <p className="font-semibold mb-1">
+                                                                                        <i class="bi bi-building text-gray-500 mr-2"></i>
                                                                                         Careerera ({dats.workshop_id})
                                                                                     </p>
 
                                                                                     <p className="font-semibold mb-1">
+                                                                                          <i class="bi bi-calendar4-event text-gray-500 mr-2"></i>
                                                                                         {dats.date}
                                                                                     </p>
 
                                                                                     <p className="font-semibold mb-1">
+                                                                                          <i class="bi bi-clock-history text-gray-500 mr-2"></i>
                                                                                         {dats.batch_duration}
 
                                                                                         {dats.Totalhour > 0 ?
@@ -247,6 +257,7 @@ export default function CategoryUpcomingBatch() {
                                                                                             : ''}
                                                                                     </p>
                                                                                     <p className="font-semibold mb-1">
+                                                                                          <i class="bi bi-camera-video-fill text-gray-500 mr-2"></i>
                                                                                         {dats.batch_category}
                                                                                     </p>
 
