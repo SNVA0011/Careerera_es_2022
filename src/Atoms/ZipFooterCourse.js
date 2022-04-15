@@ -37,7 +37,7 @@ const ZipFooterCourse = (props) => {
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                <span className="uppercase" dangerouslySetInnerHTML={{__html: props.title}}></span>, este curso y el lote también están disponibles en otras ubicaciones <div className="btn-site invert ml-3"><span>Vista</span></div></Accordion.Header>
+                <span className="capitalize" dangerouslySetInnerHTML={{__html: props.title}}></span>, este curso y el lote también están disponibles en otras ubicaciones <div className="btn-site invert ml-3"><span>Vista</span></div></Accordion.Header>
                 <Accordion.Body>
                   <ul className='list-disc text-base row'>
                     {data.map((items, i) => (

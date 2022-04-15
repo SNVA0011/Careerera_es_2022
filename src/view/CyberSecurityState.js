@@ -159,7 +159,7 @@ export default function CyberSecurityState() {
 
                                                         <h5 className='font-bold text-gray-600 course-title mb-2'>Post Graduate Program in Cyber Security</h5>
 
-                                                        <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                                                        <p className='text-gray-500 mb-4 text-base sm:text-base'>
                                                             Upskill, upgrade, and earn a Post Graduate Certification in Cyber
                                                             security. Keep your organization resilient from cyber attacks. Delve
                                                             into assessing risk and enhancing cyber security measures with
@@ -209,7 +209,7 @@ export default function CyberSecurityState() {
 
                                                         <h5 className='font-bold text-gray-600 course-title mb-2'>Cyber Security Professional</h5>
 
-                                                        <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                                                        <p className='text-gray-500 mb-4 text-base sm:text-base'>
                                                             Get into an intensive accumulation of foundational knowledge blended
                                                             with the industry's hottest trends, current practices.
                                                         </p>
@@ -259,7 +259,7 @@ export default function CyberSecurityState() {
 
                                                         <h5 className='font-bold text-gray-600 course-title mb-2'>Certified Information Systems Security Professional (CISSP)</h5>
 
-                                                        <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                                                        <p className='text-gray-500 mb-4 text-base sm:text-base'>
                                                             Fast-track your cybersecurity métier with&nbsp;CISSP certification.
                                                             Get unlimited access to specialized training involving curation,
                                                             organization, management.
@@ -308,7 +308,7 @@ export default function CyberSecurityState() {
 
                                                         <h5 className='font-bold text-gray-600 course-title mb-2'>CISA Certification Training</h5>
 
-                                                        <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                                                        <p className='text-gray-500 mb-4 text-base sm:text-base'>
                                                             Be a CISA certified professional and stand out amongst the sea of
                                                             professionals with Careerera. Get into comprehensive training and
                                                             prove your mastery over auditing in Information Technology and
@@ -358,7 +358,7 @@ export default function CyberSecurityState() {
 
                                                         <h5 className='font-bold text-gray-600 course-title mb-2'>CISM Certification Training</h5>
 
-                                                        <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                                                        <p className='text-gray-500 mb-4 text-base sm:text-base'>
                                                             Careerera brings you top-class training for professionals vying for
                                                             CISM certification. Become an Enterprise Security Leader with a
                                                             Strategic Approach as Careerera brings you top-class security
@@ -410,7 +410,7 @@ export default function CyberSecurityState() {
 
                                                         <h5 className='font-bold text-gray-600 course-title mb-2'>Masters in Cyber Security</h5>
 
-                                                        <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                                                        <p className='text-gray-500 mb-4 text-base sm:text-base'>
                                                             Major the dynamic skill sets of Cyber security Practitioner through
                                                             a Masters in Cyber Security program. The well-formulated hands-on
                                                             course is developed aligning to the industry's latest trends.
@@ -459,7 +459,7 @@ export default function CyberSecurityState() {
 
                                                         <h5 className='font-bold text-gray-600 course-title mb-2'>Checkpoint Certification Training</h5>
 
-                                                        <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                                                        <p className='text-gray-500 mb-4 text-base sm:text-base'>
                                                             GLearn Industry's spearheading firewall protection system and obtain
                                                             validation through a Checkpoint Certification training at Careerera.
                                                         </p>
@@ -507,7 +507,7 @@ export default function CyberSecurityState() {
 
                                                         <h5 className='font-bold text-gray-600 course-title mb-2'>Trend Micro Certification Training</h5>
 
-                                                        <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                                                        <p className='text-gray-500 mb-4 text-base sm:text-base'>
                                                             Become a certified Trained-Micro practitioner. Learn how to deploy
                                                             and take charge of dominant security solutions at Careerera.
                                                         </p>
@@ -557,7 +557,7 @@ export default function CyberSecurityState() {
 
                                                         <h5 className='font-bold text-gray-600 course-title mb-2'>Implementing the NIST Standards using COBIT 5</h5>
 
-                                                        <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                                                        <p className='text-gray-500 mb-4 text-base sm:text-base'>
                                                             Learn about the context and nature of cybersecurity risks, and
                                                             manage them by deploying the NIST Cybersecurity Framework and COBIT
                                                             5.
@@ -606,7 +606,7 @@ export default function CyberSecurityState() {
 
                                                         <h5 className='font-bold text-gray-600 course-title mb-2'>COBIT5 Certification Training</h5>
 
-                                                        <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                                                        <p className='text-gray-500 mb-4 text-base sm:text-base'>
                                                             Leverage your skills and knowledge of Cybersecurity and safeguard
                                                             your organization from sophisticated attacks with COBIT5
                                                             certification training and validate your technical skills.
@@ -655,7 +655,7 @@ export default function CyberSecurityState() {
 
                                                         <h5 className='font-bold text-gray-600 course-title mb-2'>COBIT 5 Implementation Certification Training</h5>
 
-                                                        <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                                                        <p className='text-gray-500 mb-4 text-base sm:text-base'>
                                                             Learn how to apply COBIT 5 to your company's specific business
                                                             challenges, pain spots, cause events, and risk scenarios. Learn how
                                                             to implement COBIT 5 in your company and how to use it effectively
@@ -707,7 +707,7 @@ export default function CyberSecurityState() {
 
                                                         <h5 className='font-bold text-gray-600 course-title mb-2'>COBIT 5 Assessor for Security Certification Training</h5>
 
-                                                        <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                                                        <p className='text-gray-500 mb-4 text-base sm:text-base'>
                                                             Avail yourself of this comprehensive trading about the use of
                                                             technology in support of managerial goals benefit from the COBIT 5
                                                             Assessor for Security Certification Training.
@@ -756,7 +756,7 @@ export default function CyberSecurityState() {
 
                                                         <h5 className='font-bold text-gray-600 course-title mb-2'>COBIT 5 Assessor Certification Training</h5>
 
-                                                        <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                                                        <p className='text-gray-500 mb-4 text-base sm:text-base'>
                                                             With great benefits for Managers and anyone in charge of making
                                                             decisions about the use of technology in support of business goals.
                                                         </p>
@@ -804,7 +804,7 @@ export default function CyberSecurityState() {
 
                                                         <h5 className='font-bold text-gray-600 course-title mb-2'>CSF (Cyber Security Fundamental)</h5>
 
-                                                        <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                                                        <p className='text-gray-500 mb-4 text-base sm:text-base'>
                                                             Enhance your skills and get closer to your dream of becoming an
                                                             expert Cybersecurity professional.
                                                         </p>

@@ -14,7 +14,7 @@ const CityFooterCourse = (props) => {
 
     const dat = await fetch('http://65.0.26.142:9000/apiurl/', {
       method: 'POST',
-      body: JSON.stringify({ "apiurl": "https://my.careerera.com/admin/admins/api/city1.php?service="+props.title+"&state="+props.id2+"&county="+props.id }),
+      body: JSON.stringify({ "apiurl": "https://my.careerera.com/admin/admins/api/city1.php?service="+props.title.replace(/\s/g, '-')+"&state="+props.id2+"&county="+props.id }),
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
       },
@@ -40,7 +40,7 @@ const CityFooterCourse = (props) => {
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                <span className="uppercase" dangerouslySetInnerHTML={{__html: props.title}}></span>, este curso y el lote también están disponibles en otras ubicaciones <div className="btn-site invert ml-3"><span>Vista</span></div></Accordion.Header>
+                <span className="capitalize" dangerouslySetInnerHTML={{__html: props.title}}></span>, este curso y el lote también están disponibles en otras ubicaciones <div className="btn-site invert ml-3"><span>Vista</span></div></Accordion.Header>
                 <Accordion.Body>
                   <ul className='list-disc text-base row'>
                     {data.map((items, i) => (

@@ -194,7 +194,7 @@ export default function DataScienceStatic() {
                             Post Graduate Program in Data Science
                           </h5>
 
-                          <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                          <p className='text-gray-500 mb-4 text-base sm:text-base'>
                             Gain expertise in the field of data science by learning practical
                             skills and techniques blended with thorough theoretical concepts and
                             core fundamentals.
@@ -243,7 +243,7 @@ export default function DataScienceStatic() {
                             Data Science Professional Certification
                           </h5>
 
-                          <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                          <p className='text-gray-500 mb-4 text-base sm:text-base'>
                             Get ahead on data-driven techniques with a Data Science Professional
                             Certification and master the art of executing various tools,
                             languages, and libraries that professional data scientists use.
@@ -292,7 +292,7 @@ export default function DataScienceStatic() {
                             Post Graduate Program In Business Analytics
                           </h5>
 
-                          <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                          <p className='text-gray-500 mb-4 text-base sm:text-base'>
                             Tailor your learning process to your data science career with a PGP
                             in Business Analytics. Attain analytics proficiency and the edge to
                             become a top influence in key business decisions.
@@ -343,7 +343,7 @@ export default function DataScienceStatic() {
                             DSAP (Data Science Analytics Professionals)
                           </h5>
 
-                          <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                          <p className='text-gray-500 mb-4 text-base sm:text-base'>
                             Jumpstart your Data science Career with a solid foundational
                             program. DSAP is your threshold to becoming a leading Business
                             Analytics professional.
@@ -392,7 +392,7 @@ export default function DataScienceStatic() {
                             Data Science with Python
                           </h5>
 
-                          <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                          <p className='text-gray-500 mb-4 text-base sm:text-base'>
                             Get into the data science world with the most popular tool Python.
                             Learn how to utilize computation to achieve a variety of goals
                             through Data Science with Python Program.
@@ -441,7 +441,7 @@ export default function DataScienceStatic() {
                             Machine Learning With Python
                           </h5>
 
-                          <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                          <p className='text-gray-500 mb-4 text-base sm:text-base'>
                             Get started with Supervised as well as Unsupervised learning with a
                             course in Machine Learning with Python. This course is your one-stop
                             track to learning the tools to head on with ML and Python.
@@ -492,7 +492,7 @@ export default function DataScienceStatic() {
                             Deep Learning Certification Training
                           </h5>
 
-                          <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                          <p className='text-gray-500 mb-4 text-base sm:text-base'>
                             Get into the world of building, training, and deploying variants of
                             Deep Architecture from convolutional networks to Autoencoders to
                             Recurrent Networks with Deep Learning Certification training.
@@ -541,7 +541,7 @@ export default function DataScienceStatic() {
                             Time Series Forecasting
                           </h5>
 
-                          <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                          <p className='text-gray-500 mb-4 text-base sm:text-base'>
                             Build a robust foundational knowledge with this Time Series
                             Forecasting course and be empowered with the in-demand skills.
                           </p>
@@ -589,7 +589,7 @@ export default function DataScienceStatic() {
                             Natural Language Processing
                           </h5>
 
-                          <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                          <p className='text-gray-500 mb-4 text-base sm:text-base'>
                             Dive into the world of building scalable algorithms powered by AI
                             and ML. The NLP (Natural Language Processing) course will power you
                             with experiential learning.
@@ -640,7 +640,7 @@ export default function DataScienceStatic() {
                             Database Management System
                           </h5>
 
-                          <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                          <p className='text-gray-500 mb-4 text-base sm:text-base'>
                             Become a Pro at DBMS by mastering the basics of programming
                             languages, delving into the database literature, and learning how to
                             construct, manipulate, and generate reports from database tables
@@ -690,7 +690,7 @@ export default function DataScienceStatic() {
                             Introduction of Python for IEM-UTeMSS
                           </h5>
 
-                          <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                          <p className='text-gray-500 mb-4 text-base sm:text-base'>
                             Navigate your way around Python and Machine Learning as we introduce
                             you to the essential ideas of Machine Learning (ML) as well as
                             developing ML bots using the Python Programming Language.
@@ -739,7 +739,7 @@ export default function DataScienceStatic() {
                             Data Visualization in Python
                           </h5>
 
-                          <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                          <p className='text-gray-500 mb-4 text-base sm:text-base'>
                             This course on Data Visualization will help you transform from a
                             beginner to a pro. Get to learn how to generate intriguing visuals
                             and charts using Python.
@@ -790,7 +790,7 @@ export default function DataScienceStatic() {
                             Masters in Data Science Engineering
                           </h5>
 
-                          <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                          <p className='text-gray-500 mb-4 text-base sm:text-base'>
                             Delve into the world of predictive modeling and engineering systems
                             with data-driven designs and gain a thorough understanding of
                             scientific and practical data science and analytics expertise.
@@ -839,7 +839,7 @@ export default function DataScienceStatic() {
                             Masters in Data Science and Analytics
                           </h5>
 
-                          <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                          <p className='text-gray-500 mb-4 text-base sm:text-base'>
                             Be a Business top-runner through this Data science and analytics
                             Masters's Program. Get immersed into this rigorous training that
                             offers hands-on experience.
@@ -888,7 +888,7 @@ export default function DataScienceStatic() {
                             DSF (Data Science Fundamental)
                           </h5>
 
-                          <p className='text-gray-500 mb-4 text-sm sm:text-base'>
+                          <p className='text-gray-500 mb-4 text-base sm:text-base'>
                             This crisp and solid foundational course is an ideal start for data
                             science enthusiasts that equips prospective data science
                             practitioners with key data science concepts, practices, techniques,

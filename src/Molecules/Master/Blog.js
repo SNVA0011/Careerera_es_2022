@@ -40,7 +40,7 @@ const options = {
 
 const Blog = (props) => {
     const final = props.data;
-  
+
     return (
         <div className="blogs-articlepub faq-sectionquery scroll-spbx blogbased" id="blog">
 
@@ -57,11 +57,11 @@ const Blog = (props) => {
                         {final ?
                             final[0] ?
                                 <div className="col-xl-4 col-md-6 col-12 mb-4 mb-xl-0">
-                                    <div className="full-w shadow-customblg rounded-xl overflow-hidden">
+                                    <div className="full-w shadow-customblg rounded-xl overflow-hidden position-relative">
                                         <img src={`https://my.careerera.com/` + final[0].image} className="w-full" alt={final[0].title}
-/>
+                                        />
                                         <div className="p-4 border-top bg-white">
-                                            <Link to={'/blog/' + final[0].url} className="text-lg py-1 flex-grow-1 font-bold no-underline mb-1 text-black  d-block">
+                                            <Link to={'/blog/' + final[0].url} className="text-lg py-1 flex-grow-1 font-bold no-underline mb-1 text-black  d-block stretched-link">
                                                 {final[0].title}
                                             </Link>
                                             <div className="mt-3 d-flex flex-column flex-xl-row align-items-xl-center justify-content-between">
@@ -79,11 +79,11 @@ const Blog = (props) => {
                         {final[0] ?
                             final[1] ?
                                 <div className="col-xl-4 col-md-6 col-12 mb-4 mb-xl-0">
-                                    <div className="full-w shadow-customblg rounded-xl overflow-hidden">
+                                    <div className="full-w shadow-customblg rounded-xl overflow-hidden position-relative">
                                         <img src={`https://my.careerera.com/` + final[1].image} className="w-full" alt={final[1].title}
-/>
+                                        />
                                         <div className="p-4 border-top bg-white">
-                                            <Link to={'/blog/' + final[1].url} className="text-lg py-1 flex-grow-1 font-bold no-underline mb-1 text-black  d-block">
+                                            <Link to={'/blog/' + final[1].url} className="text-lg py-1 flex-grow-1 font-bold no-underline mb-1 text-black  d-block stretched-link">
                                                 {final[1].title}
                                             </Link>
                                             <div className="mt-3 d-flex flex-column flex-xl-row align-items-xl-center justify-content-between">
@@ -102,11 +102,11 @@ const Blog = (props) => {
                         {final[0] ?
                             final[2] ?
                                 <div className="col-xl-4 col-md-6 col-12 mb-4 mb-xl-0">
-                                    <div className="full-w shadow-customblg rounded-xl overflow-hidden">
+                                    <div className="full-w shadow-customblg rounded-xl overflow-hidden position-relative">
                                         <img src={`https://my.careerera.com/` + final[2].image} className="w-full" alt={final[2].title}
-/>
+                                        />
                                         <div className="p-4 border-top bg-white">
-                                            <Link to={'/blog/' + final[2].url} className="text-lg py-1 flex-grow-1 font-bold no-underline mb-1 text-black  d-block">
+                                            <Link to={'/blog/' + final[2].url} className="text-lg py-1 flex-grow-1 font-bold no-underline mb-1 text-black  d-block stretched-link">
                                                 {final[2].title}
                                             </Link>
                                             <div className="mt-3 d-flex flex-column flex-xl-row align-items-xl-center justify-content-between">
@@ -130,11 +130,11 @@ const Blog = (props) => {
                         {final[0] ?
                             final[0] ?
                                 <div className="mb-4 mb-xl-0 shadow-customblg border">
-                                    <div className="full-w  rounded-xl overflow-hidden">
+                                    <div className="full-w  rounded-xl overflow-hidden position-relative">
                                         <img src={`https://my.careerera.com/` + final[0].image} className="w-full" alt={final[0].title}
-/>
+                                        />
                                         <div className="p-4 border-top bg-white">
-                                            <Link to={'/blog/' + final[0].url} className="text-lg py-1 flex-grow-1 font-bold no-underline mb-1 text-black  d-block">
+                                            <Link to={'/blog/' + final[0].url} className="text-lg py-1 flex-grow-1 font-bold no-underline mb-1 text-black  d-block stretched-link">
                                                 {final[0].title}
                                             </Link>
                                             <div className="mt-3 d-flex flex-column flex-xl-row align-items-xl-center justify-content-between">
@@ -152,11 +152,11 @@ const Blog = (props) => {
                         {final[0] ?
                             final[1] ?
                                 <div className="mb-4 mb-xl-0 shadow-customblg border">
-                                    <div className="full-w  rounded-xl overflow-hidden">
+                                    <div className="full-w  rounded-xl overflow-hidden position-relative">
                                         <img src={`https://my.careerera.com/` + final[1].image} className="w-full" alt={final[1].title}
-/>
+                                        />
                                         <div className="p-4 border-top bg-white">
-                                            <Link to={'/blog/' + final[1].url} className="text-lg py-1 flex-grow-1 font-bold no-underline mb-1 text-black  d-block">
+                                            <Link to={'/blog/' + final[1].url} className="text-lg py-1 flex-grow-1 font-bold no-underline mb-1 text-black  d-block stretched-link">
                                                 {final[1].title}
                                             </Link>
                                             <div className="mt-3 d-flex flex-column flex-xl-row align-items-xl-center justify-content-between">
@@ -174,11 +174,11 @@ const Blog = (props) => {
                         {final[0] ?
                             final[2] ?
                                 <div className="mb-4 mb-xl-0 shadow-customblg border">
-                                    <div className="full-w  rounded-xl overflow-hidden">
+                                    <div className="full-w  rounded-xl overflow-hidden position-relative">
                                         <img src={`https://my.careerera.com/` + final[2].image} className="w-full" alt={final[2].title}
-/>
+                                        />
                                         <div className="p-4 border-top bg-white">
-                                            <Link to={'/blog/' + final[2].url} className="text-lg py-1 flex-grow-1 font-bold no-underline mb-1 text-black  d-block">
+                                            <Link to={'/blog/' + final[2].url} className="text-lg py-1 flex-grow-1 font-bold no-underline mb-1 text-black  d-block stretched-link">
                                                 {final[2].title}
                                             </Link>
                                             <div className="mt-3 d-flex flex-column flex-xl-row align-items-xl-center justify-content-between">
