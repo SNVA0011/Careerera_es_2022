@@ -276,14 +276,7 @@ const MasterState = () => {
                                                                 </div>
                                                             </>
                                                         )
-                                                    }) : <div className="row pt-3 alsobenefitthose">
-                                                        <div className="col-lg-12 col-12 d-flex">
-                                                            <i className="bi bi-exclamation-triangle text-danger text-3xl" />
-                                                            <div className="pl-5">
-                                                                <p className="text-lg font-semibold mb-1">No Items Found</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>}
+                                                    }) : ''}
 
                                         </>
                                     )
@@ -408,14 +401,7 @@ const MasterState = () => {
                                             )
                                         })}
                                     </>
-                                    : <div className="row pt-3 alsobenefitthose">
-                                        <div className="col-lg-12 col-12 d-flex">
-                                            <i className="bi bi-exclamation-triangle text-danger text-3xl" />
-                                            <div className="pl-5">
-                                                <p className="text-lg font-semibold mb-1">No Items Found</p>
-                                            </div>
-                                        </div>
-                                    </div>}
+                                    : ''}
 
 
 
@@ -447,48 +433,46 @@ const MasterState = () => {
 
                     <div className="row pt-2 curriculum-mstercoun">
 
-                        <div className="col-12 d-none d-md-block">
-                            <div className="list-group mb-2 shadow-md">
-                                <div className="d-flex list-group-item py-3 flex-column flex-md-row text-white font-semibold bg-snocurri text-lg">
-                                    <div className="text-nowrap pr-3 chapterleft-bx">
-                                        Sl. No.
-                                    </div>
-                                    <div className="flex-grow-1 mt-2 mt-md-0">
-                                        Chapter
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
 
 
                         {Catsts ?
                             Catfinal[0].courseList.filter((items) => items.courseFUllURL == country.id + "/" + country.dats).map((items, i) =>
                                 items.Curriculum.length > 0 ?
-                                    items.Curriculum.map((item, i) =>
-                                        <div className="col-12" key={i}>
-                                            <div className="list-group mb-2 shadow-sm">
-                                                <div className="d-flex list-group-item py-3 flex-column flex-md-row bggrayunit">
-                                                    <div className="text-nowrap pr-3 text-gray-500 chapterleft-bx sno-placeholder">
-                                                        <i className="bi bi-file-earmark-text-fill mr-2 text-blue-400" />
-                                                        {item.Unit_num}
+                                    <>
+                                        <div className="col-12 d-none d-md-block">
+                                            <div className="list-group mb-2 shadow-md">
+                                                <div className="d-flex list-group-item py-3 flex-column flex-md-row text-white font-semibold bg-snocurri text-lg">
+                                                    <div className="text-nowrap pr-3 chapterleft-bx">
+                                                        Sl. No.
                                                     </div>
-                                                    <div className="flex-grow-1 font-semibold mt-2 mt-md-0 snochap-placeholder">
-                                                        {item.Unit_Name}
+                                                    <div className="flex-grow-1 mt-2 mt-md-0">
+                                                        Chapter
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    )
-                                    : <div className="row pt-3 alsobenefitthose">
-                                        <div className="col-lg-12 col-12 d-flex">
-                                            <i className="bi bi-exclamation-triangle text-danger text-3xl" />
-                                            <div className="pl-5">
-                                                <p className="text-lg font-semibold mb-1">No Items Found</p>
-                                            </div>
-                                        </div>
-                                    </div>
 
+
+                                        {
+                                            items.Curriculum.map((item, i) =>
+                                                <div className="col-12" key={i}>
+                                                    <div className="list-group mb-2 shadow-sm">
+                                                        <div className="d-flex list-group-item py-3 flex-column flex-md-row bggrayunit">
+                                                            <div className="text-nowrap pr-3 text-gray-500 chapterleft-bx sno-placeholder">
+                                                                <i className="bi bi-file-earmark-text-fill mr-2 text-blue-400" />
+                                                                {item.Unit_num}
+                                                            </div>
+                                                            <div className="flex-grow-1 font-semibold mt-2 mt-md-0 snochap-placeholder">
+                                                                {item.Unit_Name}
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            )
+                                        }
+                                    </>
+                                    : ''
                             )
 
                             : <div className="overflow-hidden text-center py-5 my-20">

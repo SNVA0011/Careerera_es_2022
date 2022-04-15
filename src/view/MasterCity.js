@@ -88,7 +88,7 @@ const MasterCity = () => {
     // currency inr/usd
     //   const [contextcur, setContextCur] = useContext(CurrencyContxt);
 
-  
+
 
     useEffect(() => {
         getCourse()
@@ -97,7 +97,7 @@ const MasterCity = () => {
         window.scrollTo(0, 0);
     }, []);
 
- 
+
     const finalId = data.filter((items) => items.countries_url == country.city)
 
     // getWords
@@ -130,11 +130,11 @@ const MasterCity = () => {
                                 <title>{items.CourseTitel} Course in {country.city} - Careerera</title>
                                 <meta name="description" content={"Enroll for the " + items.CourseTitel + "course online in " + country.city + ". Get E-learning Live online training session at Careerera. It helps you to achieve your career goals."} />
                                 <meta name="keywords" content={"" + items.CourseTitel + " " + country.city + ",  " + country.city + " " + items.CourseTitel + ", " + country.city + " " + items.CourseTitel + " online, online " + country.city + " " + items.CourseTitel + ",  " + items.CourseTitel + " in " + country.city + ""} />
-                                <link rel="canonical" href={"https://www.careerera.com/"+country.id+"/"+country.dats+"/"+country.city+"/"+country.state+"/"+country.city}/>
+                                <link rel="canonical" href={"https://www.careerera.com/" + country.id + "/" + country.dats + "/" + country.city + "/" + country.state + "/" + country.city} />
 
                             </Helmet>
 
-                            <MasterCountryHero title={items.CourseTitel + " in " + country.city} durationasitis={items.Duration}/>
+                            <MasterCountryHero title={items.CourseTitel + " in " + country.city} durationasitis={items.Duration} />
                         </>
                     )
                 })}
@@ -176,7 +176,7 @@ const MasterCity = () => {
                         }
 
 
-                        
+
                         {Catsts ? <>
 
                             <div className="row">
@@ -189,7 +189,7 @@ const MasterCity = () => {
                                                     items.CourseBatchList.Elearning.map((item, i) => {
                                                         return (
                                                             <>
-                                                                <ScrollAnimation  animateIn='fadeInUpscrl' animateOut='fadeInUpscrlout' delay={6*i} animateOnce={true}  className='col-lg-6 col-12 mb-4' key={i}>
+                                                                <ScrollAnimation animateIn='fadeInUpscrl' animateOut='fadeInUpscrlout' delay={6 * i} animateOnce={true} className='col-lg-6 col-12 mb-4' key={i}>
                                                                     <div className="bg-white d-flex border-2 shadow px-3 py-3 h-100 flex-column flex-sm-row">
                                                                         <div className="">
                                                                             <div className="bg-red-600 p-3 text-center text-xs text-white date_freec">
@@ -252,14 +252,7 @@ const MasterCity = () => {
                                                                 </ScrollAnimation>
                                                             </>
                                                         )
-                                                    }) : <div className="row pt-3 alsobenefitthose">
-                                                        <div className="col-lg-12 col-12 d-flex">
-                                                            <i className="bi bi-exclamation-triangle text-danger text-3xl" />
-                                                            <div className="pl-5">
-                                                                <p className="text-lg font-semibold mb-1">No Items Found</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>}
+                                                    }) : ''}
 
                                         </>
                                     )
@@ -297,7 +290,7 @@ const MasterCity = () => {
                                             return (
                                                 <>
 
-                                                    <ScrollAnimation  animateIn='fadeInUpscrl' animateOut='fadeInUpscrlout' delay={6*index} animateOnce={true}  className='col-lg-6 col-12 mb-4' key={index}>
+                                                    <ScrollAnimation animateIn='fadeInUpscrl' animateOut='fadeInUpscrlout' delay={6 * index} animateOnce={true} className='col-lg-6 col-12 mb-4' key={index}>
                                                         <div className="bg-white d-flex border-2 shadow px-3 py-3 h-100 flex-column flex-sm-row">
                                                             <div className="">
                                                                 <div className="bg-red-600 p-3 text-center text-xs text-white date_freec">
@@ -385,14 +378,7 @@ const MasterCity = () => {
                                             )
                                         })}
                                     </>
-                                    : <div className="row pt-3 alsobenefitthose">
-                                        <div className="col-lg-12 col-12 d-flex">
-                                            <i className="bi bi-exclamation-triangle text-danger text-3xl" />
-                                            <div className="pl-5">
-                                                <p className="text-lg font-semibold mb-1">No Items Found</p>
-                                            </div>
-                                        </div>
-                                    </div>}
+                                    : ''}
 
 
 
@@ -424,47 +410,42 @@ const MasterCity = () => {
 
                     <div className="row pt-2 curriculum-mstercoun">
 
-                        <div className="col-12 d-none d-md-block">
-                            <div className="list-group mb-2 shadow-md">
-                                <div className="d-flex list-group-item py-3 flex-column flex-md-row text-white font-semibold bg-snocurri text-lg">
-                                    <div className="text-nowrap pr-3 chapterleft-bx">
-                                        Sl. No.
-                                    </div>
-                                    <div className="flex-grow-1 mt-2 mt-md-0">
-                                        Chapter
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
 
 
                         {Catsts ?
                             Catfinal[0].courseList.filter((items) => items.courseFUllURL == country.id + "/" + country.dats).map((items, i) =>
                                 items.Curriculum.length > 0 ?
-                                    items.Curriculum.map((item, i) =>
-                                        <div className="col-12" key={i}>
-                                            <div className="list-group mb-2 shadow-sm">
-                                                <div className="d-flex list-group-item py-3 flex-column flex-md-row bggrayunit">
-                                                    <div className="text-nowrap pr-3 text-gray-500 chapterleft-bx sno-placeholder">
-                                                        <i className="bi bi-file-earmark-text-fill mr-2 text-blue-400" />
-                                                        {item.Unit_num}
+
+                                    <>
+                                        <div className="col-12 d-none d-md-block">
+                                            <div className="list-group mb-2 shadow-md">
+                                                <div className="d-flex list-group-item py-3 flex-column flex-md-row text-white font-semibold bg-snocurri text-lg">
+                                                    <div className="text-nowrap pr-3 chapterleft-bx">
+                                                        Sl. No.
                                                     </div>
-                                                    <div className="flex-grow-1 font-semibold mt-2 mt-md-0 snochap-placeholder">
-                                                        {item.Unit_Name}
+                                                    <div className="flex-grow-1 mt-2 mt-md-0">
+                                                        Chapter
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    )
-                                    : <div className="row pt-3 alsobenefitthose">
-                                        <div className="col-lg-12 col-12 d-flex">
-                                            <i className="bi bi-exclamation-triangle text-danger text-3xl" />
-                                            <div className="pl-5">
-                                                <p className="text-lg font-semibold mb-1">No Items Found</p>
+                                        {items.Curriculum.map((item, i) =>
+                                            <div className="col-12" key={i}>
+                                                <div className="list-group mb-2 shadow-sm">
+                                                    <div className="d-flex list-group-item py-3 flex-column flex-md-row bggrayunit">
+                                                        <div className="text-nowrap pr-3 text-gray-500 chapterleft-bx sno-placeholder">
+                                                            <i className="bi bi-file-earmark-text-fill mr-2 text-blue-400" />
+                                                            {item.Unit_num}
+                                                        </div>
+                                                        <div className="flex-grow-1 font-semibold mt-2 mt-md-0 snochap-placeholder">
+                                                            {item.Unit_Name}
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>
+                                        )}
+                                    </>
+                                    : ''
 
                             )
 
@@ -489,8 +470,8 @@ const MasterCity = () => {
             <Contactfooter />
 
 
-        
-        </div> : <img src={fun} className="w-screen" alt="careerera-loader-image"/>}
+
+        </div> : <img src={fun} className="w-screen" alt="careerera-loader-image" />}
 
     </>)
 }
