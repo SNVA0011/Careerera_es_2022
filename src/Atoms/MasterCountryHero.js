@@ -116,8 +116,7 @@ export default function MasterCountryHero(props) {
                             <div className="mt-5 mt-lg-4">
                                 <a href={"tel:" + contextcur.title}
                                     target="_blank"
-                                    className="md:h-12 btn-site invert mr-4 no-underline d-inline-flex justify-content-center align-items-center btnlg-learn"
-                                >
+                                    className="md:h-12 btn-site invert mr-4 no-underline d-inline-flex justify-content-center align-items-center btnlg-learn">
                                     <span><i className="fa mr-1 fa-phone"></i> {contextcur.title}</span>
                                 </a>
 

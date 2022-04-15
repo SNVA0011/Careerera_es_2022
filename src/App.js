@@ -75,10 +75,9 @@ const App = () => {
     const [mobmenuclose, setMobmenuclose] = useState();
 
     const [contextcur, setContextCur] = useState({
-        currency: 'Asia/Kolkata',
-        title: '+91-92-5000-4000',
+        currency: 'America/New_York',
+        title: '+1-844-889-4054',
     })
-
 
     return (
         <div className='d-flex flex-column minh-100'>

@@ -15,7 +15,7 @@ const DataScience = (props) => {
                                                 <div className="full-w"> 
                                                         <div className="sec_title">
                                                                 <h2 className="text-2xl md:text-3xl font-bold mt-0" dangerouslySetInnerHTML={{ __html: props.title }} />
-                                                                <p className="text-gray-500 text-base md:text-lg fw-medium" dangerouslySetInnerHTML={{ __html: 'Conozca su camino alrededor del ' + props.title }} />
+                                                                <p className="text-gray-500 text-base md:text-lg fw-medium" dangerouslySetInnerHTML={{ __html: 'Conozca su camino alrededor del ' + props.title+'.' }} />
                                                                 <hr className="w-20 hr mb-4 bg-blue-400 sepfoll-hr" />
                                                         </div>
 

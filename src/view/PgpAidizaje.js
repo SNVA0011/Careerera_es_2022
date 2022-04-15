@@ -423,7 +423,7 @@ const PgpAidizaje = () => {
                 box1='Acceso a oportunidades con empresas líderes'
                 box2='Talleres sobre revisión de currículum y preparación de entrevistas'
                 box3='Orientación profesional y tutoría por parte de Careerera y líderes de la industria' />
-
+ 
 
             <Light
                 image={IayMl_3}
@@ -435,10 +435,10 @@ const PgpAidizaje = () => {
                 seguridadtitle1='200+'
                 seguridadpara1='empresas participantes'
 
-                seguridadtitle2='$122K PA'
+                seguridadtitle2='6.9 LPA'
                 seguridadpara2='PROMEDIO CTC'
 
-                seguridadtitle3='$250K'
+                seguridadtitle3='25 LPA'
                 seguridadpara3='CTC más alto'
 
                 seguridadtitle4='87%'

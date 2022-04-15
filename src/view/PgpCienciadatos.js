@@ -20,6 +20,8 @@ import CareerAssistance from '../Atoms/CareerAssistance';
 import { Helmet } from "react-helmet";
 import PopUp from "../Atoms/PopUp";
 import { Link } from 'react-router-dom'
+import aiMlimg from '../Images/data_science.png'
+
 
 const PgpCienciadatos = () => {
     useEffect(() => {
@@ -41,13 +43,14 @@ const PgpCienciadatos = () => {
             <Hero
                 categoryUrl="PROGRAMA DE POSTGRADO EN CIENCIA DE DATOS"
                 duration="12 meses"
-                point2="Programa en línea de 12 meses "
+                point2="100% Job Guaranteed* "
                 point3="Asistencia profesional "
                 point4="Proyectos Capstone"
                 point1="Entrenadores de renombre mundial"
                 point5="Múltiples proyectos en vivo"
                 point6="Pasantía de la industria"
                 title="PROGRAMA DE POSTGRADO EN CIENCIA DE DATOS"
+                ConsultaAhora='Consulta ahora'
             />
 
 
@@ -109,14 +112,19 @@ const PgpCienciadatos = () => {
             />
 
 
-            <Completition title1={<>
-                <p><i className="fa fa-check-circle" aria-hidden="true"></i> Esté bien versado en herramientas y tecnologías de análisis como  <strong>Python, Tableau, SQL </strong></p>
-                <p><i className="fa fa-check-circle" aria-hidden="true"></i> Aplicar técnicas de aprendizaje automático relevantes para la industria, como <strong>regresión, modelado predictivo, clustering, pronóstico de series temporales, clasificación, etc.</strong></p>
-                <p><i className="fa fa-check-circle" aria-hidden="true"></i> Estructurar un problema empresarial en un marco de análisis mediante <strong>estadísticas y modelado de datos  </strong> </p>
-                <p><i className="fa fa-check-circle" aria-hidden="true"></i> Performar operaciones de limpieza y <strong>transformación de datos utilizando </strong>varias herramientas y técnicas</p>
-                <p><i className="fa fa-check-circle" aria-hidden="true"></i> Estar bien versado en <strong>aprendizaje profundo, procesamiento del lenguaje natural (PNL). </strong></p>
-                <p><i className="fa fa-check-circle" aria-hidden="true"></i>Presentarse como un candidato ideal para los <strong>roles de analista, ingeniero de datos</strong> y científico de datos dentro de las principales empresas de análisis</p>
-            </>} />
+            <Completition
+                compcurso1='Al finalizar este programa,'
+                compcurso2='usted:'
+                capacidadaiml={aiMlimg}
+
+                title1={<>
+                    <p><i className="fa fa-check-circle" aria-hidden="true"></i> Esté bien versado en herramientas y tecnologías de análisis como  <strong>Python, Tableau, SQL </strong></p>
+                    <p><i className="fa fa-check-circle" aria-hidden="true"></i> Aplicar técnicas de aprendizaje automático relevantes para la industria, como <strong>regresión, modelado predictivo, clustering, pronóstico de series temporales, clasificación, etc.</strong></p>
+                    <p><i className="fa fa-check-circle" aria-hidden="true"></i> Estructurar un problema empresarial en un marco de análisis mediante <strong>estadísticas y modelado de datos  </strong> </p>
+                    <p><i className="fa fa-check-circle" aria-hidden="true"></i> Performar operaciones de limpieza y <strong>transformación de datos utilizando </strong>varias herramientas y técnicas</p>
+                    <p><i className="fa fa-check-circle" aria-hidden="true"></i> Estar bien versado en <strong>aprendizaje profundo, procesamiento del lenguaje natural (PNL). </strong></p>
+                    <p><i className="fa fa-check-circle" aria-hidden="true"></i>Presentarse como un candidato ideal para los <strong>roles de analista, ingeniero de datos</strong> y científico de datos dentro de las principales empresas de análisis</p>
+                </>} />
 
 
             <Highlight
@@ -648,15 +656,15 @@ const PgpCienciadatos = () => {
             />
 
             <div className="why-pgpedu">
-                <Careerera curso="empty" cursoval="500" 
-                incluyen="empty" 
-                incluyen1='USUARIAS'
-                incluyenpara1='250000+'
-                incluyen2='PROGRAMAS MEJOR CLASIFICADOS'
-                incluyenpara2='10'
-                cursotitle3='EXPERTAS EN LA INDUSTRIA' 
-                cursotitle4="LAS MEJORES FACULTADES DE LA INDIA"
-                incluyenpara4='1000+' />
+                <Careerera curso="empty" cursoval="500"
+                    incluyen="empty"
+                    incluyen1='USUARIAS'
+                    incluyenpara1='250000+'
+                    incluyen2='PROGRAMAS MEJOR CLASIFICADOS'
+                    incluyenpara2='10'
+                    cursotitle3='EXPERTAS EN LA INDUSTRIA'
+                    cursotitle4="LAS MEJORES FACULTADES DE LA INDIA"
+                    incluyenpara4='1000+' />
             </div>
 
 
@@ -664,15 +672,32 @@ const PgpCienciadatos = () => {
             />
 
             <CareerAssistance
-                title='Asistencia'
-                titlesub='profesional'
+                title='Placement'
+                titlesub='Assistance*'
                 titleheading='Aproveche las asociaciones de Careerera con las principales empresas de TI de la India.'
                 box1='Acceso a oportunidades con empresas líderes'
                 box2='Talleres sobre revisión de currículum vitae y preparación de entrevistas'
                 box3='Orientación profesional y tutoría de Careerera y líderes de la industria' />
 
+ 
+            <Light image={rolesoffer}
+                lightprofcurso="empty"
+                lightseguridad="empty"
+                ltitle='Resaltado'
+                ltitlesub='de ubicación'
 
-            <Light image={rolesoffer} lightprofcurso="empty" ltitle='Contratación' ltitlesub='destacada' />
+                seguridadtitle1='200+'
+                seguridadpara1='Empresas participantes'
+
+                seguridadtitle2='6.9 LPA'
+                seguridadpara2='CTC promedio'
+
+                seguridadtitle3='25 LPA'
+                seguridadpara3='CTC más alto'
+
+                seguridadtitle4='87%'
+                seguridadpara4='Aumento del salario promedio'
+            />
 
 
             <UserformsApplication

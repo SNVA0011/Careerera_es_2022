@@ -20,6 +20,8 @@ import CareerAssistance from '../Atoms/CareerAssistance';
 import { Helmet } from "react-helmet";
 import PopUp from "../Atoms/PopUp";
 import { Link } from 'react-router-dom'
+import aiMlimg from '../Images/data_science.png'
+
 
 const PgpGradociber = () => {
 
@@ -49,6 +51,7 @@ const PgpGradociber = () => {
                 point5="Certificado de finalización del curso"
                 point6="Base sólida"
                 title="PROGRAMA DE POSTGRADO EN SEGURIDAD CIBERNÉTICA"
+                ConsultaAhora='Consulta ahora'
             />
 
 
@@ -199,6 +202,8 @@ const PgpGradociber = () => {
                 compcurso="empty"
                 compcurso1='Al completar este programa,'
                 compcurso2=' usted:'
+
+                capacidadaiml={aiMlimg}
 
                 title1={<>
                     <p><i className="fa fa-check-circle" aria-hidden="true"></i>Capacidad para proteger la seguridad de los datos y la información mediante el uso de estrategias, técnicas y herramientas avanzadas</p>
@@ -1377,7 +1382,8 @@ const PgpGradociber = () => {
             />
 
             <div className="why-pgpedu">
-                <Careerera curso="empty" cursoval="500" lomejores='Inscríbase en el proveedor de cursos educativos en línea número uno de la India.' cursotitle3='EXPERTO EN LA INDUSTRIA' cursotitle4="FACULTADES EXPERTAS" />
+                <Careerera 
+                curso="empty" cursoval="500" lomejores='Inscríbase en el proveedor de cursos educativos en línea número uno de la India.' cursotitle3='EXPERTO EN LA INDUSTRIA' cursotitle4="FACULTADES EXPERTAS" />
             </div>
 
 
@@ -1386,7 +1392,7 @@ const PgpGradociber = () => {
 
             <CareerAssistance
                 title='Asistencia'
-                titlesub='profesional'
+                titlesub='Profesional'
                 titleheading='Aproveche las asociaciones de Careerera con las principales empresas de TI de la India.'
                 box1='Acceso a oportunidades con empresas líderes'
                 box2='Talleres sobre revisión de currículum y preparación de entrevistas'
