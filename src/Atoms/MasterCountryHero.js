@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button'
 import InputGroup from 'react-bootstrap/InputGroup'
 import FormControl from 'react-bootstrap/FormControl'
 import { Context, Provider } from "../Api";
+import { CurrencyContxt } from './Contextcurrency';
 
 export default function MasterCountryHero(props) {
     // Country List Api
@@ -27,6 +28,10 @@ export default function MasterCountryHero(props) {
     // phoneSetvalue
     const [phoneSetvalue, Updatephonevalue] = useState();
 
+    // currency inr/usd
+    const [contextcur, setContextCur] = useContext(CurrencyContxt)
+
+
 
     return (
         <div style={{ background: 'rgba(0, 0, 0, 0.5)' }} className='partner-marketing-affiliates would full-w'>
@@ -37,10 +42,10 @@ export default function MasterCountryHero(props) {
 
                 <div className="container py-16">
                     <div className='row align-items-center'>
- 
+
                         <div className="col-xl-7 col-12 pb-16 pb-xl-0">
                             <h1 className="text-2xl md:text-3xl text-white font-bold mt-1 mb-4 uppercase maintitle mastercnhero">
-                               {props.title}
+                                {props.title}
                             </h1>
                             <span className="heading-border-line d-block left-0 mt-2 mb-4 mx-auto mx-lg-0 d"></span>
                             <div className="row mt-1 mb-4 text-white">
@@ -49,12 +54,12 @@ export default function MasterCountryHero(props) {
                                         <li className="sm:text-lg mb-3 font-semibold tracking-wide d-flex">
                                             <div className="mr-2">
                                                 <i className="shadow bi bi-check2 text-dark text-lg mr-1 bg-yellow-400 rounded px-1" />
-                                            </div>{" "}  
+                                            </div>{" "}
                                             {props.durationasitis ?
                                                 props.durationasitis
                                                 :
                                                 <>
-                                                     36 horas
+                                                    36 horas
                                                 </>
                                             }
                                         </li>
@@ -90,13 +95,13 @@ export default function MasterCountryHero(props) {
                                             <div className="mr-2">
                                                 <i className="shadow bi bi-check2 text-dark text-lg mr-1 bg-yellow-400 rounded px-1" />
                                             </div>{" "}
-                                            Vídeo grabado 
+                                            Vídeo grabado
                                         </li>
                                         <li className="sm:text-lg mb-3 font-semibold tracking-wide d-flex">
                                             <div className="mr-2">
                                                 <i className="shadow bi bi-check2 text-dark text-lg mr-1 bg-yellow-400 rounded px-1" />
                                             </div>{" "}
-                                            Simulacros de examen 
+                                            Simulacros de examen
                                         </li>
                                         <li className="sm:text-lg mb-3 font-semibold tracking-wide d-flex">
                                             <div className="mr-2">
@@ -109,20 +114,96 @@ export default function MasterCountryHero(props) {
                             </div>
 
                             <div className="mt-5 mt-lg-4">
-                                <a
-                                    href="tel:+1-844-889-4054"
+                                <a href={"tel:" + contextcur.title}
                                     target="_blank"
                                     className="md:h-12 btn-site invert mr-4 no-underline d-inline-flex justify-content-center align-items-center btnlg-learn"
                                 >
-                                    <span><i className="fa mr-1 fa-phone"></i> +1-844-889-4054</span>
+                                    <span><i className="fa mr-1 fa-phone"></i> {contextcur.title}</span>
                                 </a>
-                                <a
-                                    className="md:h-12 btn-site gray no-underline d-inline-flex justify-content-center align-items-center btnlg-learn"
-                                    href="mailto:info@careerera.com"
-                                    target="_blank"
-                                >
-                                    <span className='lowercase'><i className="fa mr-1 fa-envelope"></i> info@careerera.com</span>
-                                </a>
+
+                                {contextcur.currency === 'Asia/Kolkata' ?
+                                    <a href="mailto:support@careerera.com"
+                                        target='_blank'
+                                        className="md:h-12 btn-site gray no-underline d-inline-flex justify-content-center align-items-center btnlg-learn">
+
+                                        <span className='lowercase'>
+                                            <i className="fa mr-1 fa-envelope"></i>
+                                            support@careerera.com
+                                        </span>
+                                    </a>
+                                    : ''}
+
+                                {contextcur.currency === 'Asia/Singapore' ?
+                                    <a href="mailto:support@careerera.com"
+                                        target='_blank'
+                                        className="md:h-12 btn-site gray no-underline d-inline-flex justify-content-center align-items-center btnlg-learn">
+
+                                        <span className='lowercase'>
+                                            <i className="fa mr-1 fa-envelope"></i>
+                                            support@careerera.com
+                                        </span>
+                                    </a>
+                                    : ''}
+
+                                {contextcur.currency === 'America/New_York' ?
+                                    <a href="mailto:info@careerera.com"
+                                        target='_blank'
+                                        className="md:h-12 btn-site gray no-underline d-inline-flex justify-content-center align-items-center btnlg-learn">
+
+                                        <span className='lowercase'>
+                                            <i className="fa mr-1 fa-envelope"></i>
+                                            info@careerera.com
+                                        </span>
+                                    </a>
+                                    : ''}
+
+                                {contextcur.currency === 'SGT' ?
+                                    <a href="mailto:support@careerera.com"
+                                        target='_blank'
+                                        className="md:h-12 btn-site gray no-underline d-inline-flex justify-content-center align-items-center btnlg-learn">
+
+                                        <span className='lowercase'>
+                                            <i className="fa mr-1 fa-envelope"></i>
+                                            support@careerera.com
+                                        </span>
+                                    </a>
+                                    : ''}
+
+                                {contextcur.currency === 'Europe/London' ?
+                                    <a href="mailto:info@careerera.com"
+                                        target='_blank'
+                                        className="md:h-12 btn-site gray no-underline d-inline-flex justify-content-center align-items-center btnlg-learn">
+
+                                        <span className='lowercase'>
+                                            <i className="fa mr-1 fa-envelope"></i>
+                                            info@careerera.com
+                                        </span>
+                                    </a>
+                                    : ''}
+
+                                {contextcur.currency === 'Asia/Dubai' ?
+                                    <a href="mailto:info@careerera.com"
+                                        target='_blank'
+                                        className="md:h-12 btn-site gray no-underline d-inline-flex justify-content-center align-items-center btnlg-learn">
+
+                                        <span className='lowercase'>
+                                            <i className="fa mr-1 fa-envelope"></i>
+                                            info@careerera.com
+                                        </span>
+                                    </a>
+                                    : ''}
+
+                                {contextcur.currency === 'Asia/Dhaka' ?
+                                    <a href="mailto:support@careerera.com"
+                                        target='_blank'
+                                        className="md:h-12 btn-site gray no-underline d-inline-flex justify-content-center align-items-center btnlg-learn">
+
+                                        <span className='lowercase'>
+                                            <i className="fa mr-1 fa-envelope"></i>
+                                            support@careerera.com
+                                        </span>
+                                    </a>
+                                    : ''}
                             </div>
 
 

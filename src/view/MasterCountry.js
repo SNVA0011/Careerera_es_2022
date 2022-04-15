@@ -29,7 +29,7 @@ const MasterCountry = () => {
 
     const [contextcur, setContextCur] = useContext(CurrencyContxt);
 
- 
+
 
 
     const [Catfinal, Catsetfinal] = useState([]);
@@ -134,11 +134,11 @@ const MasterCountry = () => {
                                 <title data-react-helmet="true">{items.CourseTitel} Course in {countrycaptial} - Careerera</title>
                                 <meta name="description" data-react-helmet="true" content={"Enroll for the " + items.CourseTitel + "course online in " + countrycaptial + ". Get E-learning Live online training session at Careerera. It helps you to achieve your career goals."} />
                                 <meta name="keywords" data-react-helmet="true" content={"" + items.CourseTitel + " " + countrycaptial + ",  " + countrycaptial + " " + items.CourseTitel + ", " + countrycaptial + " " + items.CourseTitel + " online, online " + countrycaptial + " " + items.CourseTitel + ",  " + items.CourseTitel + " in " + countrycaptial + ""} />
-                                <link rel="canonical" href={"https://www.careerera.com/"+country.id+"/"+country.dats+"/"+country.country}/>
+                                <link rel="canonical" href={"https://www.careerera.com/" + country.id + "/" + country.dats + "/" + country.country} />
 
                             </Helmet>
 
-                            <MasterCountryHero title={items.CourseTitel + " in " + countrycaptial}  durationasitis={items.Duration}/>
+                            <MasterCountryHero title={items.CourseTitel + " in " + countrycaptial} durationasitis={items.Duration} />
 
                         </>
                     )
@@ -161,8 +161,25 @@ const MasterCountry = () => {
                         </div>
 
 
-                        <h3 className='font-semibold text-2xl mb-3'>Aprendizaje electrónico</h3>
-                        <hr></hr>
+                        {Catsts ? <>
+                            {Catfinal[0].courseList.filter((items) => items.courseFUllURL == country.id + "/" + country.dats).map((items, i) => {
+                                return (
+                                    <>
+                                        {
+                                            items.CourseBatchList.Elearning.length > 0 ?
+                                                <>
+                                                    <h3 className='font-semibold text-2xl mb-3'>Aprendizaje electrónico</h3>
+                                                    <hr></hr>
+                                                </>
+                                                : ''}
+
+                                    </>
+                                )
+                            })}
+                        </>
+                            : ''
+                        }
+
                         {Catsts ? <>
 
                             <div className="row">
@@ -175,7 +192,7 @@ const MasterCountry = () => {
                                                     items.CourseBatchList.Elearning.map((item, i) => {
                                                         return (
                                                             <>
-                                                                <ScrollAnimation  animateIn='fadeInUpscrl' animateOut='fadeInUpscrlout' delay={6*i} animateOnce={true} className='col-lg-6 col-12 mb-4' key={i}>
+                                                                <ScrollAnimation animateIn='fadeInUpscrl' animateOut='fadeInUpscrlout' delay={6 * i} animateOnce={true} className='col-lg-6 col-12 mb-4' key={i}>
                                                                     <div className="bg-white d-flex border-2 shadow px-3 py-3 h-100 flex-column flex-sm-row">
                                                                         <div className="">
                                                                             <div className="bg-red-600 p-3 text-center text-xs text-white date_freec">
@@ -283,7 +300,7 @@ const MasterCountry = () => {
                                             return (
                                                 <>
 
-                                                    <ScrollAnimation animateIn='fadeInUpscrl' animateOut='fadeInUpscrlout' delay={6*index} animateOnce={true} className='col-lg-6 col-12 mb-4' key={index}>
+                                                    <ScrollAnimation animateIn='fadeInUpscrl' animateOut='fadeInUpscrlout' delay={6 * index} animateOnce={true} className='col-lg-6 col-12 mb-4' key={index}>
                                                         <div className="bg-white d-flex border-2 shadow px-3 py-3 h-100 flex-column flex-sm-row">
                                                             <div className="">
                                                                 <div className="bg-red-600 p-3 text-center text-xs text-white date_freec">
@@ -487,7 +504,7 @@ const MasterCountry = () => {
                 : ''}
 
 
-        </div> : <img src={fun} className="w-screen" alt="careerera-loader-image"/>}
+        </div> : <img src={fun} className="w-screen" alt="careerera-loader-image" />}
 
     </>)
 }

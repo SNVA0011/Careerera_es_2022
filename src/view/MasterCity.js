@@ -156,8 +156,27 @@ const MasterCity = () => {
                         </div>
 
 
-                        <h3 className='font-semibold text-2xl mb-3'>E-Learning</h3>
-                        <hr></hr>
+                        {Catsts ? <>
+                            {Catfinal[0].courseList.filter((items) => items.courseFUllURL == country.id + "/" + country.dats).map((items, i) => {
+                                return (
+                                    <>
+                                        {
+                                            items.CourseBatchList.Elearning.length > 0 ?
+                                                <>
+                                                    <h3 className='font-semibold text-2xl mb-3'>E-Learning</h3>
+                                                    <hr></hr>
+                                                </>
+                                                : ''}
+
+                                    </>
+                                )
+                            })}
+                        </>
+                            : ''
+                        }
+
+
+                        
                         {Catsts ? <>
 
                             <div className="row">

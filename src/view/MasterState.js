@@ -16,7 +16,7 @@ import MasterCountryHero from "../Atoms/MasterCountryHero";
 
 const MasterState = () => {
     let country = useParams()
-   
+
 
     const { value9, value10 } = useContext(Context)
     const [allfreeCour, setallFreeCour] = value9
@@ -57,7 +57,7 @@ const MasterState = () => {
 
     }
 
-  
+
 
 
 
@@ -148,16 +148,16 @@ const MasterState = () => {
                     return (
                         <>
 
-                        <Helmet>
+                            <Helmet>
                                 <title data-react-helmet="true">{items.CourseTitel} Course in {country.state} - Careerera</title>
-                                <meta name="description" data-react-helmet="true" content={"Enroll for the " + items.CourseTitel + " "+"course online in " + country.state + ". Get E-learning Live online training session at Careerera. It helps you to achieve your career goals."} />
+                                <meta name="description" data-react-helmet="true" content={"Enroll for the " + items.CourseTitel + " " + "course online in " + country.state + ". Get E-learning Live online training session at Careerera. It helps you to achieve your career goals."} />
                                 <meta name="keywords" data-react-helmet="true" content={"" + items.CourseTitel + " " + country.state + ",  " + country.state + " " + items.CourseTitel + ", " + country.state + " " + items.CourseTitel + " online, online " + country.state + " " + items.CourseTitel + ",  " + items.CourseTitel + " in " + country.state + ""} />
-                                <link rel="canonical" href={"https://www.careerera.com/"+country.id+"/"+country.dats+"/"+country.country+"/"+country.state}/>
+                                <link rel="canonical" href={"https://www.careerera.com/" + country.id + "/" + country.dats + "/" + country.country + "/" + country.state} />
 
                             </Helmet>
 
 
-                            <MasterCountryHero title={items.CourseTitel + " in " + country.state}  durationasitis={items.Duration}/>
+                            <MasterCountryHero title={items.CourseTitel + " in " + country.state} durationasitis={items.Duration} />
                         </>
                     )
                 })}
@@ -182,8 +182,25 @@ const MasterState = () => {
                         </div>
 
 
-                        <h3 className='font-semibold text-2xl mb-3'>Aprendizaje electrónico</h3>
-                        <hr></hr>
+                        {Catsts ? <>
+                            {Catfinal[0].courseList.filter((items) => items.courseFUllURL == country.id + "/" + country.dats).map((items, i) => {
+                                return (
+                                    <>
+                                        {
+                                            items.CourseBatchList.Elearning.length > 0 ?
+                                                <>
+                                                    <h3 className='font-semibold text-2xl mb-3'>Aprendizaje electrónico</h3>
+                                                    <hr></hr>
+                                                </>
+                                                : ''}
+
+                                    </>
+                                )
+                            })}
+                        </>
+                            : ''
+                        }
+
                         {Catsts ? <>
 
                             <div className="row">
