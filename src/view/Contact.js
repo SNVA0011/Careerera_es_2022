@@ -177,7 +177,7 @@ const Contact = () => {
                       Dirección de Singapur
                     </span>
                     <p className="text-gray-500 font-semibold">
-                      Centennial Tower, Levels 21 & 34, 3 Temasek Avenue, Singapore, 039190
+                    Centennial Tower, Levels 21 & 34, 3 Temasek Avenue, Singapore, 039190
                     </p>
                   </div>
 
@@ -324,16 +324,16 @@ const Contact = () => {
       </div>
 
 
-      <div className="subscribe_news certification-courses full-w staticsyber py-5 text-center w-100 border-top">
+      <div className="subscribe_news certification-courses full-w staticsyber py-5 text-center w-100 border-top nuestrasletter">
         <div className="container my-10">
           <div className="row justify-items-center">
-            <div className="col-12 col-xl-6 col-lg-8 mx-auto">
+            <div className="col-12 col-lg-8 mx-auto">
               <div className="main_heading">
                 <h3 className="uppercase font-bold text-white text-3xl md:text-4xl">Suscríbete a nuestras noticias</h3>
                 <form>
                   <div className="input-group mt-4 flex-column flex-sm-row">
-                    <input type="text" className="form-control rounded flex-grow-1" placeholder="Your email here" />
-                    <div className="input-group-append sm:pl-3">
+                    <input type="text" className="form-control rounded flex-grow-1" placeholder="Tu email aquí" />
+                    <div className="input-group-append pl-sm-4">
                       <button className="btn-site invert h-100 shadow-lg" type="button">
                         <span>Suscribir</span>
                       </button>

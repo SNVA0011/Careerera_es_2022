@@ -26,9 +26,9 @@ const PaidCourse = () => {
                             allbatches != undefined ?
                                 allbatches.map((items, i) => (
                                     <>
-                                        <div className="shadow-md bg-light px-4 py-3 text-2xl border font-semibold mb-4 text-white disclaimer-bx rounded-md">
-                                            {allbatches?.length}, API have the data of all batches
-                                        </div>
+                                        <h4>
+                                            Yes, API have the data of all batches
+                                        </h4>
                                     </>
                                 ))
                                 :

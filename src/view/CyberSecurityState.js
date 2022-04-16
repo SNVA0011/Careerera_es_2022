@@ -90,7 +90,7 @@ export default function CyberSecurityState() {
                     </div>
                 </div>
 
-                <div className="full-w navbar-highcr background1 z-0 sticky top-28 z-10 des-explornav drk">
+                <div className="full-w navbar-highcr background1 z-0 sticky top-28 z-10 des-explornav">
                     <div className="container">
                         <Navbar variant="dark" className="shadow-0">
                             <Nav className="me-auto">

@@ -17,41 +17,41 @@ const Careerera = (props) => {
                         }
                     </div>
                     <hr className="w-20 hr mb-4 bg-blue-400 sepfoll-hr" />
-                    <div className="row pt-1 text-uppercase">
-                        <div className="justify-items-center  col-lg-3 col-md-6 col-12 text-center mb-4">
+                    <div className="row pt-1 px-2 text-uppercase">
+                        <div className="justify-items-center col-xl-3 col-md-6 col-12 text-center bg-blue-100 border-solid border-2 border-white">
                             <i className="fas fa-users fa-2x border-1 border-white rounded-full bg-blue-500 p-4 text-white "></i>
 
                             {props.incluyen ?
-                                <div className="pt-10 px-3 text-white bg-gray-100 bg-blue-100">
+                                <div className="py-10 px-3 text-white bg-blue-100">
                                     <h3 className="text-gray-700 font-bold text-lg">{props.incluyen1}</h3>
                                     <p className="text-blue-500 font-bold font-italic text-3xl xl:text-4xl mb-0 mt-0">{props.incluyenpara1}</p>
                                 </div>
                                 :
-                                <div className="pt-10 px-3 text-white bg-gray-100 bg-blue-100">
+                                <div className="py-10 px-3 text-white bg-blue-100">
                                     <h3 className="text-gray-700 font-bold text-lg">USUARIOS</h3>
                                     <p className="text-blue-500 font-bold font-italic text-3xl xl:text-4xl mb-0 mt-0">250000+</p>
                                 </div>
                             }
                         </div>
-                        <div className="justify-items-center  col-lg-3 col-md-6 col-12 text-center mb-4">
+                        <div className="justify-items-center col-xl-3 col-md-6 col-12 text-center bg-red-100 border-solid border-2 border-white">
                             <i className="fas fa-trophy fa-2x border-1 border-white rounded-full bg-red-500 p-4 text-white "></i>
 
                             {props.incluyen ?
-                                <div className="pt-10 px-3 text-white bg-gray-100 bg-red-100">
+                                <div className="py-10 px-3 text-white bg-red-100">
                                     <h3 className="text-gray-700 font-bold text-lg">{props.incluyen2}</h3>
                                     <p className="text-red-500 font-bold font-italic text-3xl xl:text-4xl mb-0 mt-0">{props.incluyenpara2}</p>
                                 </div>
                                 :
-                                <div className="pt-10 px-3 text-white bg-gray-100 bg-red-100">
+                                <div className="py-10 px-3 text-white bg-red-100">
                                     <h3 className="text-gray-700 font-bold text-lg">PROGRAMAS MEJOR CLASIFICADOS</h3>
                                     <p className="text-red-500 font-bold font-italic text-3xl xl:text-4xl mb-0 mt-0">10</p>
                                 </div>
                             }
                         </div>
-                        <div className="justify-items-center  col-lg-3 col-md-6 col-12 text-center mb-4">
+                        <div className="justify-items-center col-xl-3 col-md-6 col-12 text-center bg-green-100 border-solid border-2 border-white">
                             <i className="fas fa-user-shield fa-2x border-1 border-white rounded-full bg-green-500 p-4 text-white "></i>
 
-                            <div className="pt-10 px-3 text-white bg-gray-100 bg-green-100">
+                            <div className="py-10 px-3 text-white">
                                 {props.cursotitle3 ?
                                     <h3 className="text-gray-700 font-bold text-lg">
                                         {props.cursotitle3}
@@ -68,10 +68,10 @@ const Careerera = (props) => {
                                 }
                             </div>
                         </div>
-                        <div className="justify-items-center  col-lg-3 col-md-6 col-12 text-center mb-4">
+                        <div className="justify-items-center col-xl-3 col-md-6 col-12 text-center bg-purple-100 border-solid border-2 border-white">
                             <i className="fas fa-medal fa-2x border-1 border-white rounded-full bg-purple-500 p-4 text-white "></i>
 
-                            <div className="pt-10 px-3 text-white bg-gray-100 bg-purple-100">
+                            <div className="py-10 px-3 text-white">
                                 {props.curso ?
                                     <h3 className="text-gray-700 font-bold text-lg">
                                         {props.cursotitle4}

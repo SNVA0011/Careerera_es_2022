@@ -67,7 +67,7 @@ const Master = () => {
 
 
 
-    console.log('course_about===>', final);
+    console.log('course_about==>', final);
 
 
     function randomIntFromInterva(min, max) { // min and max included 
