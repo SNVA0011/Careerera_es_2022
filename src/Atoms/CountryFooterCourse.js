@@ -12,7 +12,7 @@ const CountryFooterCourse = (props) => {
   async function CallApi() {
     const dat = await fetch('http://65.0.26.142:9000/apiurl/', {
       method: 'POST',
-      body: JSON.stringify({ "apiurl": "https://my.careerera.com/admin/admins/api/state1.php?service="+props.title }),
+      body: JSON.stringify({ "apiurl": "https://my.careerera.com/admin/admins/api/state1.php?service="+props.title.replace(/\s/g, '-') }),
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
       },

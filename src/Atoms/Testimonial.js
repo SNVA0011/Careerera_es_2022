@@ -11,34 +11,44 @@ import toplayer from '../Images/mocktest/top-layer.png'
 //Owl Carousel Settings
 const options = {
     items: 3,
-    loop: false,
-    rewind: true,
-    video:true,
+    loop: true, 
+    video: true,
     autoplay: true,
-    autoPlaySpeed: 10000,
-    autoPlayTimeout: 10000,
+    autoplayTimeout: 1800,
     autoplayHoverPause: true,
+    smartSpeed: 400,
     center: true,
     dots: true,
     nav: false,
     responsive: {
         0: {
             items: 1,
-            margin: 30,
-            startPosition: 0
+            margin: 0,
+            startPosition: 0,
+            stagePadding: 40,
+        },
+        575: {
+            items: 2,
+            margin: 15,
+            startPosition: 0,
+            stagePadding: 30,
         },
         992: {
-            items: 2,
-            margin: 30,
-            startPosition: 1
+            items: 3,
+            margin: 50,
+            startPosition: 0,
+            stagePadding: 0,
         },
         1200: {
             items: 3,
-            margin: 30,
-            startPosition: 1
+            margin: 50,
+            startPosition: 1,
+            stagePadding: 0,
         },
     },
 }
+
+
 const Testimonial = (props) => {
 
     const [data, setdata] = useState([])
@@ -80,7 +90,7 @@ const Testimonial = (props) => {
                 <div className='indexhome'>
                     <div className='testimonials-areamock'>
                         <div className='partner-spkrat text-center bg-white'>
-                            <div className="container py-20 media-prtslider ">
+                        <div className="container-xxl py-20 media-prtslider ">
 
 
                                 {/* <p className="text-center text-6xl font-bold text-gray-600 mb-6">In The Media</p> */}
@@ -136,8 +146,9 @@ const Testimonial = (props) => {
 
 
                                 {/* Reviews by video */} 
-                                <div className='full-w media-prtslider pt-2'>
-                                    <div className="w-full explore_Data_science ourclient-staffing">
+                                <div className='row'>
+                                        <div className='full-w media-prtslider px-0 pt-2'>
+                                            <div className="w-full explore_Data_science ourclient-staffing">
                                         <OwlCarousel className="slider-items owl-carousel" {...options}>
                                         {You.map((items,i)=>{
                                                 return(
@@ -153,7 +164,8 @@ const Testimonial = (props) => {
                                         </OwlCarousel>
 
                                     </div>
-                                </div>
+                                </div> 
+                                 </div>
 
                                 <div className='mt-6'>
                                     <Link to="/review" className='btn-site invert capitalize no-underline py-3'>
