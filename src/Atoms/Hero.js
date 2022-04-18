@@ -12,8 +12,8 @@ const Hero = (props) => {
                             {props.detail ? <span className="text-blue-500">{props.detail}</span> : ''}
                         </h1>
                         <p className="font-semibold text-white text-sm sm:text-base mb-0 linktitle-batch">
-                            {props.batch ? <span className='text-yellow-400 align-middle d-inline-block mt-3'>{props.batch} </span>  : ''}
-                            {props.detail ? <span className="text-yellow-400 align-middle d-inline-block mt-3">{}</span> : ''}
+                            {props.batch ? <span className='text-blue-200 align-middle d-inline-block mt-3'>{props.batch} </span>  : ''}
+                            {props.detail ? <span className="text-blue-200 align-middle d-inline-block mt-3">{}</span> : ''}
                         </p>
                     </div>
                     {/* <div className="col-md-6 col-12">

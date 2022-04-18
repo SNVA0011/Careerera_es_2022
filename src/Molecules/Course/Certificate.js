@@ -47,7 +47,7 @@ const Certificate = (props) => {
                                 : ''}
                             <hr className="w-20 hr hrcer-cr" />
 
-                            <p className="text-base sm:text-lg text-white my-8 font-semibold">
+                            <p className="text-base sm:text-lg md:text-xl text-white my-8 font-medium  tracking-wide">
                                 {props.data[0].courseList[0].CourseDetails}
                             </p>
                             <p className="font-normal text-white text-base md:text-lg md:text-xl duration">

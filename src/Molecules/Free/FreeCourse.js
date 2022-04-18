@@ -108,13 +108,13 @@ const FreeCourse = () => {
 
 
                                                     {contextcur.currency === 'Asia/Kolkata' ? <a href={
-                                                        'https://my.careerera.com/sign-up.php?batchid' +
+                                                        'https://my.careerera.com/signup.php?batchid=' +
                                                         item.workshop_id + "&currency=Rs"
                                                     }
                                                         className="no-underline btn-site gray">
                                                         <span>ENLÍSTATE AHORA</span>
                                                     </a> : <a href={
-                                                        'https://my.careerera.com/sign-up.php?batchid' +
+                                                        'https://my.careerera.com/signup.php?batchid=' +
                                                         item.workshop_id
                                                     }
                                                         className="no-underline btn-site gray">
@@ -233,7 +233,7 @@ const FreeCourse = () => {
                                                                 </Link>
                                                                 <a
                                                                     href={
-                                                                        'https://my.careerera.com/sign-up.php?batchid' +
+                                                                        'https://my.careerera.com/signup.php?batchid=' +
                                                                         dats.workshop_id
                                                                     }
                                                                     target="_blank"

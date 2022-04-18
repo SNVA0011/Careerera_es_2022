@@ -82,9 +82,7 @@ const Hero = () => {
                         <span className='d-inline-block'>+91 9643-034-607</span>
                       </a>
                     </div>
-                    <div className='col-12 mb-3'>
-                      <hr className='m-0'></hr>
-                    </div>
+                 
 
                     <div className='col-md-6 col-12'>
                       <a className="no-underline text-white d-inline-flex align-items-center font-medium tracking-wide" href="mailto:partnerwithus@careerera.com" target="_blank">

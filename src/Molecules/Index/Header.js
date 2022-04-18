@@ -46,7 +46,7 @@ const Header = () => {
                                 </span>
                             </Link>
 
-                            <a href="https://my.careerera.com/sign-up.php"
+                            <a href="https://my.careerera.com/signup.php"
                                 target="_blank"
                                 className="no-underline">
                                 <span className=" text-sm xl:text-xs font-semibold text-gray-600 capitalize">

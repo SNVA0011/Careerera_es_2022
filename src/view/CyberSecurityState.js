@@ -76,9 +76,10 @@ export default function CyberSecurityState() {
                                 <h1 className="text-2xl sm:text-3xl xl:text-4xl font-bold text-white uppercase">
                                     Cyber Security <span className="orange-lgclr d-inline-block"> CERTIFICATION COURSE IN {cyberstate.cyberstate}</span>
                                 </h1>
-                                <hr className="w-20 hr hrcer-cr" />
+                                <span class="heading-border-line d-block left-0  mt-3 mb-4"></span>
 
-                                <p className="text-base sm:text-lg text-white my-8 font-semibold">
+
+                                <p className="text-base sm:text-lg md:text-xl text-white my-8 font-medium  tracking-wide">
                                     Align your skills and interest with an impactful comprehensive Careerera's Cyber security course in {cyberstate.cyberstate}. Careerera presents immersive training by industry professionals available through course packages that are carefully crafted to expose students to hands-on practical and real-world projects. Delve in-depth into investigating the influence of information security on our lives, individual citizens' privacy concerns, business, and government security hazards, and the impact of laws and public policies. Get into a personalized catalog of cyber security certification programs in {cyberstate.cyberstate}, suitable to your aspirations and eligibility. Fast-track your information security career with a holistic pedagogy designed to meet the industry demands, making you job-ready with excellence. Master the art of securing systems and applications and get a thorough grasp of the legal requirements for cyber security. Become a pro in leading, managing, and contributing to the development of robust cyber security solutions upon completion of a Cyber security course in {cyberstate.cyberstate}.
                                 </p>
 

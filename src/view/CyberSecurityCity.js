@@ -73,9 +73,9 @@ export default function CyberSecurityCity() {
                                 <h1 className="text-2xl sm:text-3xl xl:text-4xl font-bold text-white uppercase">
                                     La seguridad cibernética <span className="orange-lgclr d-inline-block"> CURSO DE CERTIFICACIÓN EN {cybercity.cybercity} </span>
                                 </h1>
-                                <hr className="w-20 hr hrcer-cr" />
-
-                                <p className="text-base sm:text-lg text-white my-8 font-semibold">
+                                <span class="heading-border-line d-block left-0  mt-3 mb-4"></span>
+                                
+                                <p className="text-base sm:text-lg md:text-xl text-white my-8 font-medium  tracking-wide">
                                     Avance en el campo de la Ciberseguridad con un curso holístico de Ciberseguridad que incluye seguridad de la información, tecnologías, procedimientos éticos y legales, privacidad de datos y reducción de riesgos cibernéticos. Obtenga un aprendizaje profundo sobre los procesos de análisis y respuesta a incidentes. Conviértase en un jugador líder en el campo de la seguridad cibernética y garantice la privacidad, confiabilidad e integridad de la seguridad de la información a través de este curso de Seguridad cibernética. tenga ventaja al aprender los principios, el estado de la práctica y las estrategias futuras con esta mejor certificación de seguridad cibernética.
                                 </p>
 

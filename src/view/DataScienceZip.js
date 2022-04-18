@@ -45,9 +45,10 @@ export default function DataScienceZip() {
               <h2 className="text-2xl sm:text-3xl xl:text-4xl font-bold text-white uppercase">
                 Data Science <span className="orange-lgclr d-inline-block"> CERTIFICATION COURSE IN {statecourse.statecourse}</span>
               </h2>
-              <hr className="w-20 hr hrcer-cr" />
+              <span class="heading-border-line d-block left-0  mt-3 mb-4"></span>
 
-              <p className="text-base sm:text-lg text-white my-8 font-semibold">
+
+              <p className="text-base sm:text-lg md:text-xl text-white my-8 font-medium  tracking-wide">
                 Prepare your data science career launching pad with the Industry's best trainers. From Masterclass to hands-on projects, doubt clearing sessions, the immersive world-class data science course will prepare you to be the finest Data scientist in the industry. Get into comprehensive learning of Hadoop, SQL, Python, Machine Learning, Data Visualization, and Artificial Intelligence to accelerate and gain optimum growth in your Data science career.
               </p>
 

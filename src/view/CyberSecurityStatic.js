@@ -60,9 +60,9 @@ export default function CyberSecurityStatic() {
                             <h1 className="text-2xl sm:text-3xl xl:text-4xl font-bold text-white uppercase">
                                 Cyber Security <span className="orange-lgclr d-inline-block"> CERTIFICATION COURSE </span>
                             </h1>
-                            <hr className="w-20 hr hrcer-cr" />
+                            <span class="heading-border-line d-block left-0  mt-3 mb-4"></span>
 
-                            <p className="text-base sm:text-lg text-white my-8 font-semibold">
+                            <p className="text-base sm:text-lg md:text-xl text-white my-8 font-medium  tracking-wide">
                                 Make headway in the Cybersecurity field with a holistic Cyber security course that includes information security, technologies, ethical and legal procedures, data privacy, and reducing cyber risks. Get into deep learning about the incident response and analysis processes. Become a leading player in the field of cybersecurity and ensure privacy, reliability, and integrity of the information security through this Cyber security course. have the upper hand by learning the principles, the state of the practice, and future strategies with this best cyber security certification.
                             </p>
 

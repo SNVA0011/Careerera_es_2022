@@ -182,9 +182,9 @@ const BatchDetail = (props) => {
                 <p className="text-red-500 font-semibold text-sm sm:text-base mt-3">Nota: la fecha y la hora de la clase pueden cambiar debido a circunstancias inevitables</p>
               </div>
 
-              {contextcur.currency === 'Asia/Kolkata' ? <a href={"https://my.careerera.com/sign-up.php?batchid=" + workid.workid + "&currency=Rs"} target="_blank" className='mt-2 no-underline btn-site gray md:h-12 d-inline-flex justify-content-center align-items-center'>
+              {contextcur.currency === 'Asia/Kolkata' ? <a href={"https://my.careerera.com/signup.php?batchid=" + workid.workid + "&currency=Rs"} target="_blank" className='mt-2 no-underline btn-site gray md:h-12 d-inline-flex justify-content-center align-items-center'>
                 <span> Enlístate ahora</span>
-              </a> : <a href={"https://my.careerera.com/sign-up.php?batchid=" + workid.workid} target="_blank" className='mt-2 no-underline btn-site gray md:h-12 d-inline-flex justify-content-center align-items-center'>
+              </a> : <a href={"https://my.careerera.com/signup.php?batchid=" + workid.workid} target="_blank" className='mt-2 no-underline btn-site gray md:h-12 d-inline-flex justify-content-center align-items-center'>
                 <span> Enlístate ahora</span>
               </a>}
 

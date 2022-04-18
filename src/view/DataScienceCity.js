@@ -70,9 +70,10 @@ export default function DataScienceCity() {
                 <h1 className="text-2xl sm:text-3xl xl:text-4xl font-bold text-white uppercase">
                   Data Science <span className="orange-lgclr d-inline-block"> CERTIFICATION COURSE IN {citycourse.citycourse} </span>
                 </h1>
-                <hr className="w-20 hr hrcer-cr" />
+                <span class="heading-border-line d-block left-0  mt-3 mb-4"></span>
 
-                <p className="text-base sm:text-lg text-white my-8 font-semibold">
+
+                <p className="text-base sm:text-lg md:text-xl text-white my-8 font-medium  tracking-wide">
                   Go beyond the basics and leverage your decision-making abilities while you navigate through the vast metrics and visualizations with Careerera's Data Science certification
                   course in {citycourse.citycourse}. Get into immersive training by industry experts with course programs curated conscientiously giving students exposure to
                   hands-on practical projects and key technologies. Unriddle the data ecosystem and foster actionable recommendations by creating a data-driven framework for your
