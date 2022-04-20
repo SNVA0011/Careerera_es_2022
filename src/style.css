@@ -264,8 +264,16 @@ a.mailto-footer:hover{color:rgb(0, 159, 225)}
  
 .full-w.des-explornav .navbar-dark .navbar-nav .nav-link{padding-left:0px;margin-right:30px;color:rgb(255 255 255 / 80%);position:relative;}
 .full-w.des-explornav .navbar-dark .navbar-nav .nav-link.active{color:#fbbf24;font-weight:800;text-shadow:-2px 1px 3px rgb(0 0 0 / 40%);}
-.full-w.des-explornav .navbar-dark .navbar-nav .nav-link.active:before{content:"";width:94%;height:5px;position:absolute;bottom:-11px;background:#f7be26;left:0;transition:all 700ms ease 0s;margin-left:0;border-radius:40px;box-shadow:0 -2px 17px rgb(0 0 0 / 39%);}
-.full-w.des-explornav .navbar-dark .navbar-nav .nav-link.active:after{content:"";width:12px;height:12px;border-radius:50%;background:#ffffff;position:absolute;bottom:-15px;left:0;transition:all 700ms ease 0s;border:3px solid #e9ba2d;margin-left:0;}
+.full-w.des-explornav .navbar-dark .navbar-nav .nav-link:before{content:"";width:0%;height:5px;position:absolute;bottom:-11px;background:#f7be26;left:0;transition:all 700ms ease 0s;margin-left:0;border-radius:40px;box-shadow:0 -2px 11px rgb(0 0 0 / 60%), 0 5px 19px rgb(0 0 0 / 20%);}
+.full-w.des-explornav .navbar-dark .navbar-nav .nav-link.active:before{
+width: 94%;
+}
+.full-w.des-explornav .navbar-dark .navbar-nav .nav-link:before,
+.full-w.des-explornav .navbar-dark .navbar-nav .nav-link.active:before{
+    -webkit-transition: all 0.4s; -o-transition: all 0.4s; -ms-transition: all 0.4s; -moz-transition: all 0.4s; transition: all 0.4s;
+}
+
+
 .brand-courseslist a:hover{color:#17233c;}
 .brand-courseslist a, .footer-bottom .hoveff a{position:relative;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s;}
 .footer-bottom .hoveff a:hover{color:#0078f6 !important}
@@ -573,7 +581,7 @@ img.dotstp{margin-bottom:-50px;position:relative;left:-34px;}
 .which-benefits-derive .content p, .completion-program ul p{padding-left:28px;position:relative;margin-bottom:16px;}
 .which-benefits-derive .content p i, .completion-program ul p i{position:absolute;left:0px;color:#0060ac;font-size:18px;top:-2px;}
 .which-benefits-derive .content p:last-child, .completion-program ul p:last-child{margin-bottom:0;}
-.me-auto.text-base.navstick{position:relative;left:10px;}
+/* .me-auto.text-base.navstick{position:relative;left:10px;} */
 .which-benefits-derive .full-w.start-yourcareer.relatedcr{background:transparent;}
 .which-benefits-derive{background:rgb(242 247 251)}
 .which-benefits-derive .sepfoll-hr::before{box-shadow:0 0 0 3px #ebf2fb}

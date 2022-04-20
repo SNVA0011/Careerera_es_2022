@@ -12,7 +12,7 @@ const Hero = (props) => {
     const pagelocation = useLocation();
 
     return (
-        <div className={"certification-courseslight full-w master "
+        <div className={"certification-courseslight full-w master overflow-hidden "
             + (pagelocation.pathname === "/data-science/post-graduate-program-in-data-science" ? 'datascience' : '')
             + (pagelocation.pathname === "/software-development/post-graduate-program-in-ui-and-ux-design" ? 'uiux' : '')
             + (pagelocation.pathname === "/internet-marketing/post-graduate-program-in-digital-marketing" ? 'digitalmrk' : '')
